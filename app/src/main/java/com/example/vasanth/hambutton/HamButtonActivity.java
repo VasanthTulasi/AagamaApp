@@ -32,7 +32,7 @@ public class HamButtonActivity extends AppCompatActivity {
    BoomMenuButton bmb;
    ArrayList<Integer> images;
    ArrayList<String> textInfo;
-   
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
