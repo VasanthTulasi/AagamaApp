@@ -15,9 +15,11 @@
    <TextView
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
-       android:text="HomeScreen"
+       android:text="@string/home_screen"
        android:textSize="25sp"
        android:layout_centerInParent="true" />
+
+
    </RelativeLayout>
 
 
@@ -26,13 +28,14 @@
         android:layout_width="wrap_content"
        android:layout_height="wrap_content"
        android:id="@+id/boom"
-       android:layout_alignParentRight="true"
+       android:layout_alignParentEnd="true"
        android:layout_alignParentBottom="true"
        android:layout_marginBottom="15dp"
-       android:layout_marginRight="15dp"
+       android:layout_marginEnd="15dp"
        app:bmb_buttonEnum="textOutsideCircle"
        app:bmb_piecePlaceEnum="piecePlace_dot_9_1"
        app:bmb_buttonPlaceEnum="buttonPlace_sc_9_1"
-       />
+       android:layout_marginRight="15dp"
+       android:layout_alignParentRight="true" />
 
 </RelativeLayout>

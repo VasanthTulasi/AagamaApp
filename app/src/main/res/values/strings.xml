@@ -1,5 +1,10 @@
 <resources>
     <string name="app_name">BoomMenu</string>
+    <string name="welcome_in_splash">WELCOME</string>
+    <string name="changing_text_in_splash">Generating the fun..</string>
+    <string name="changed_text">Loading the energy..</string>
+    <string name="final_text">All Set to Go..!</string>
+    <string name="home_screen">HomeScreen</string>
 
 
 </resources>
