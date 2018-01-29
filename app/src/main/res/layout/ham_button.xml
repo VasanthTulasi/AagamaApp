@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.vasanth.hambutton.HamButtonActivity">
 
+
+
    <RelativeLayout
        android:layout_width="match_parent"
        android:layout_height="match_parent"
        android:id="@+id/main_screen"
        >
+
+      <!--
+          1. Remove the TextView below.
+          2. Put the new layout code inside this RelativeLayout.
+          3. Copy and paste that new layout code in home_fragment.xml
+       -->
 
    <TextView
        android:layout_width="wrap_content"
@@ -30,8 +39,8 @@
        android:id="@+id/boom"
        android:layout_alignParentEnd="true"
        android:layout_alignParentBottom="true"
-       android:layout_marginBottom="15dp"
-       android:layout_marginEnd="15dp"
+       android:layout_marginBottom="20dp"
+       android:layout_marginEnd="20dp"
        app:bmb_buttonEnum="textOutsideCircle"
        app:bmb_piecePlaceEnum="piecePlace_dot_9_1"
        app:bmb_buttonPlaceEnum="buttonPlace_sc_9_1"
