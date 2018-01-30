@@ -5,6 +5,7 @@
     <string name="changed_text">Loading the energy..</string>
     <string name="final_text">All Set to Go..!</string>
     <string name="home_screen">HomeScreen</string>
+    <string name="nothing"/>
 
 
 </resources>

@@ -33,12 +33,16 @@ public class HamButtonActivity extends AppCompatActivity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.ham_button);
 
-     //   getSupportActionBar().setDisplayShowHomeEnabled(true);
-      //  getSupportActionBar().setIcon(R.drawable.launch1);
-       //   getSupportActionBar().setDisplayUseLogoEnabled(true);
+        Toolbar toolbar = findViewById(R.id.app_bar);
+        setSupportActionBar(toolbar);
+
+          //getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+          getSupportActionBar().setTitle(R.string.nothing);
+         // getSupportActionBar().setIcon(R.drawable.launch1);
+          // toolbar.setLogo(R.drawable.home_icon);
+
 
 
        bmb = findViewById(R.id.boom);

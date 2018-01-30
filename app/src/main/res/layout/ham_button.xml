@@ -7,6 +7,12 @@
     android:layout_height="match_parent"
     tools:context="com.example.vasanth.hambutton.HamButtonActivity">
 
+   <include
+      layout="@layout/app_bar"
+      android:id="@+id/app_bar">
+
+   </include>
+
 
    <RelativeLayout
        android:layout_width="match_parent"
@@ -40,8 +46,8 @@
        android:id="@+id/boom"
        android:layout_alignParentEnd="true"
        android:layout_alignParentBottom="true"
-       android:layout_marginBottom="15dp"
-       android:layout_marginEnd="15dp"
+       android:layout_marginBottom="30dp"
+       android:layout_marginEnd="18dp"
        app:bmb_buttonEnum="textOutsideCircle"
        app:bmb_piecePlaceEnum="piecePlace_dot_9_1"
        app:bmb_buttonPlaceEnum="buttonPlace_sc_9_1"
