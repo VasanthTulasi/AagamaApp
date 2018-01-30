@@ -26,7 +26,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="35dp"
         android:background="@drawable/styling_for_splash_logo"
-        android:src="@drawable/logo"
+        android:src="@drawable/logo_for_splash"
         android:contentDescription="@null"/>
 
     <TextView

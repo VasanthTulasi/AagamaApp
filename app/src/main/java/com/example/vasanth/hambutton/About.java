@@ -7,16 +7,14 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-/**
- * Created by Vasanth on 26-Jan-18.
- */
 
-public class SecondFragment extends Fragment {
+
+public class About extends Fragment {
     View myView;
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
-        myView = inflater.inflate(R.layout.second_fragment,container,false);
+        myView = inflater.inflate(R.layout.about,container,false);
         return myView;
     }
 }

@@ -8,12 +8,13 @@
     tools:context="com.example.vasanth.hambutton.HamButtonActivity">
 
 
-
    <RelativeLayout
        android:layout_width="match_parent"
        android:layout_height="match_parent"
        android:id="@+id/main_screen"
        >
+
+
 
       <!--
           1. Remove the TextView below.
@@ -39,12 +40,13 @@
        android:id="@+id/boom"
        android:layout_alignParentEnd="true"
        android:layout_alignParentBottom="true"
-       android:layout_marginBottom="20dp"
-       android:layout_marginEnd="20dp"
+       android:layout_marginBottom="15dp"
+       android:layout_marginEnd="15dp"
        app:bmb_buttonEnum="textOutsideCircle"
        app:bmb_piecePlaceEnum="piecePlace_dot_9_1"
        app:bmb_buttonPlaceEnum="buttonPlace_sc_9_1"
        android:layout_marginRight="15dp"
-       android:layout_alignParentRight="true" />
+       android:layout_alignParentRight="true"
+       />
 
 </RelativeLayout>
