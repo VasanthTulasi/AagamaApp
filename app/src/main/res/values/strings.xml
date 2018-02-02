@@ -1,11 +1,14 @@
 <resources>
-    <string name="app_name">Aagama2k18</string>
+    <string name="app_name">Aagama 2k18</string>
     <string name="welcome_in_splash">WELCOME</string>
     <string name="changing_text_in_splash">Generating the fun..</string>
     <string name="changed_text">Loading the energy..</string>
     <string name="final_text">All Set to Go..!</string>
     <string name="home_screen">HomeScreen</string>
     <string name="nothing"/>
-
+    <string name="department">CSE Department</string>
+    <string name="countdown">There are only</string>
+    <string name="countdownleft">To start the exciting Event!!!</string>
+    <string name="about">I\'d recommed this one, mostly because its based in the original textview from the android official sdk, which in my personal opinion it is a way more lighter than the webviews technique many people is posting regarding this common topic. If you building a app that needs to be memory wise, using listview objects for example, you might consider using something like this. Ï allready try it out, and works as expected. If you people know another one better o like this 1, please you might share you experience with me.</string>
 
 </resources>

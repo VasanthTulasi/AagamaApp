@@ -7,37 +7,23 @@
     android:layout_height="match_parent"
     tools:context="com.example.vasanth.hambutton.HamButtonActivity">
 
-   <include
-      layout="@layout/app_bar"
-      android:id="@+id/app_bar">
-
-   </include>
-
-
    <RelativeLayout
        android:layout_width="match_parent"
        android:layout_height="match_parent"
        android:id="@+id/main_screen"
        >
+   <include
+      layout="@layout/app_bar"
+      android:id="@+id/app_bar">
+   </include>
 
-
-
-      <!--
-          1. Remove the TextView below.
-          2. Put the new layout code inside this RelativeLayout.
-          3. Copy and paste that new layout code in home_fragment.xml
-       -->
-
-   <TextView
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-       android:text="@string/home_screen"
-       android:textSize="25sp"
-       android:layout_centerInParent="true" />
+      <include layout="@layout/activity_main"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_below="@id/app_bar"> </include>
 
 
    </RelativeLayout>
-
 
 
    <com.nightonke.boommenu.BoomMenuButton
@@ -53,6 +39,8 @@
        app:bmb_buttonPlaceEnum="buttonPlace_sc_9_1"
        android:layout_marginRight="15dp"
        android:layout_alignParentRight="true"
-       />
+       app:bmb_normalColor="@color/colorAccent"
+       app:bmb_boomEnum="boomHorizontalThrow_1"
+            />
 
 </RelativeLayout>

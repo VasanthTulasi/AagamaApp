@@ -5,17 +5,27 @@
     android:layout_height="match_parent"
     android:background="#ffffff"
     >
+
     <include
         layout="@layout/app_bar"
         android:id="@+id/app_bar">
-
     </include>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="AboutFragment"
-        android:textSize="25sp"
-        android:layout_centerInParent="true"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/app_bar"
+        android:background="@color/colorAccent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:background="@drawable/styling_for_splash_logo"
+            android:text="@string/about"
+            android:textSize="20sp"
+            android:textColor="@color/colorAccent"/>
+
+    </RelativeLayout>
 
 </RelativeLayout>
