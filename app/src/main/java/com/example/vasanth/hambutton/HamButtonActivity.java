@@ -15,6 +15,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Gravity;
 import android.view.View;
 import android.view.Window;
+import android.webkit.WebView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -55,6 +56,7 @@ public class HamButtonActivity extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.ham_button);
 
+
         txtTimerDay = (TextView) findViewById(R.id.txtTimerDay);
         txtTimerHour = (TextView) findViewById(R.id.txtTimerHour);
         txtTimerMinute = (TextView) findViewById(R.id.txtTimerMinute);
@@ -82,73 +84,62 @@ public class HamButtonActivity extends AppCompatActivity{
 
 
         for (int i = 0; i < bmb.getPiecePlaceEnum().pieceNumber(); i++) {
-            TextOutsideCircleButton.Builder builder = new TextOutsideCircleButton.Builder()
-                   //  .isRound(false)
-                    // .shadowCornerRadius(Util.dp2px(10))
-                    // .buttonCornerRadius(Util.dp2px(10))
-                    .normalImageRes(images.get(i))
-                    .normalText(textInfo.get(i))
-                    .normalColor(R.color.colorPrimary)
-                    .pieceColor(Color.WHITE)
-                    //.subNormalText(" ")
-                    .listener(new OnBMClickListener() {
+            TextOutsideCircleButton.Builder builder = new TextOutsideCircleButton.Builder();
+            builder.normalImageRes(images.get(i));
+            builder.normalText(textInfo.get(i));
+            builder.normalColor(R.color.colorPrimary);
+            builder.pieceColor(Color.WHITE);
+            builder.listener(new OnBMClickListener() {
 
-                        android.app.FragmentManager fm = getFragmentManager();
-                        @Override
-                        public void onBoomButtonClick(int index) {
-                            if(index == 6) {
-                                fm.beginTransaction()
-                                        .replace(R.id.main_screen,new HomeFragment())
-                                        .commit();
-                            }
-                            else if(index == 0){
-                                fm.beginTransaction()
-                                        .replace(R.id.main_screen,new About())
-                                        .commit();
-                            }
-                            else if(index == 1){
-                                fm.beginTransaction()
-                                        .replace(R.id.main_screen,new Gallery())
-                                        .commit();
-                            }
-                            else if(index == 2){
-                                fm.beginTransaction()
-                                        .replace(R.id.main_screen,new Team())
-                                        .commit();
-                            }
-                            else if(index == 3){
-                                fm.beginTransaction()
-                                        .replace(R.id.main_screen,new Sponsor())
-                                        .commit();
-                            }
-                            else if(index == 4){
-                                fm.beginTransaction()
-                                        .replace(R.id.main_screen,new Contact())
-                                        .commit();
-                            }
-                            else if(index == 5) {
+                android.app.FragmentManager fm = getFragmentManager();
 
-                                if (appInstalledOrNot("com.google.android.apps.maps")) {
+                @Override
+                public void onBoomButtonClick(int index) {
+                    if (index == 6) {
+                        fm.beginTransaction()
+                                .replace(R.id.main_screen,new HomeFragment())
+                                .commit();
 
-                                    String strUri = "http://maps.google.com/maps?q=Anurag Group of Institutions, Venkatapur, Telangana";
-                                    Intent intent = new Intent(android.content.Intent.ACTION_VIEW, Uri.parse(strUri));
-                                    intent.setClassName("com.google.android.apps.maps", "com.google.android.maps.MapsActivity");
-                                    startActivity(intent);
+                    } else if (index == 0) {
+                        fm.beginTransaction()
+                                .replace(R.id.main_screen, new About())
+                                .commit();
+                    } else if (index == 1) {
+                        fm.beginTransaction()
+                                .replace(R.id.main_screen, new Gallery())
+                                .commit();
+                    } else if (index == 2) {
+                        fm.beginTransaction()
+                                .replace(R.id.main_screen, new Team())
+                                .commit();
+                    } else if (index == 3) {
+                        fm.beginTransaction()
+                                .replace(R.id.main_screen, new Sponsor())
+                                .commit();
+                    } else if (index == 4) {
+                        fm.beginTransaction()
+                                .replace(R.id.main_screen, new Contact())
+                                .commit();
+                    } else if (index == 5) {
 
-                                }
-                                else{
-                                    fm.beginTransaction()
-                                            .replace(R.id.main_screen,new Location())
-                                            .commit();
-                                }
-                            }
+                        if (appInstalledOrNot("com.google.android.apps.maps")) {
 
+                            String strUri = "http://maps.google.com/maps?q=Anurag Group of Institutions, Venkatapur, Telangana";
+                            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(strUri));
+                            intent.setClassName("com.google.android.apps.maps", "com.google.android.maps.MapsActivity");
+                            startActivity(intent);
+
+                        } else {
+                            fm.beginTransaction()
+                                    .replace(R.id.main_screen, new Location())
+                                    .commit();
                         }
-                    });
+                    }
+
+                }
+            });
             bmb.addBuilder(builder);
         }
-
-
 
     }
 
@@ -169,7 +160,6 @@ public class HamButtonActivity extends AppCompatActivity{
         textInfo.add("Contact");
         textInfo.add("Location");
         textInfo.add("Home");
-
     }
 
     private boolean appInstalledOrNot(String uri)
@@ -187,6 +177,8 @@ public class HamButtonActivity extends AppCompatActivity{
         }
         return app_installed ;
     }
+
+
     public void countDownStart() {
         handler = new Handler();
         runnable = new Runnable() {
@@ -234,6 +226,11 @@ public class HamButtonActivity extends AppCompatActivity{
         findViewById(R.id.LinearLayout13).setVisibility(View.GONE);
         findViewById(R.id.textView1).setVisibility(View.GONE);
         findViewById(R.id.textView2).setVisibility(View.GONE);
+    }
+
+    public void clicked(View v){
+        Intent i = new Intent(HamButtonActivity.this,MainActivityDept.class);
+        startActivity(i);
     }
 
 

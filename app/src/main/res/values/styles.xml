@@ -15,4 +15,11 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="AppThemeForDep" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryForDep</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkForDep</item>
+        <item name="colorAccent">@color/colorAccentForDep</item>
+    </style>
+
 </resources>
