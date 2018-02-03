@@ -229,7 +229,7 @@ public class HamButtonActivity extends AppCompatActivity{
     }
 
     public void clicked(View v){
-        Intent i = new Intent(HamButtonActivity.this,MainActivityDept.class);
+        Intent i = new Intent(HamButtonActivity.this,MainActivityForZones.class);
         startActivity(i);
     }
 

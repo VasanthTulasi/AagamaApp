@@ -12,7 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name=".HamButtonActivity">
+        <activity android:name=".SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -20,10 +20,11 @@
             </intent-filter>
         </activity>
         <activity android:name=".Walkthrough"/>
-        <activity android:name=".SplashScreen"/>
+        <activity android:name=".HamButtonActivity"/>
         <activity android:name=".MainActivityDept"/>
         <activity android:name=".branch.CseActivity"/>
         <activity android:name=".branch.EceActivity"/>
+        <activity android:name=".MainActivityForZones"/>
 
 
     </application>
