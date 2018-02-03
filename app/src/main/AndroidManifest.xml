@@ -11,20 +11,22 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name=".SplashScreen">
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        >
+        <activity android:name=".SplashScreen"
+                  android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
                 <action android:name="android.intent.action.VIEW" />
             </intent-filter>
         </activity>
-        <activity android:name=".Walkthrough"/>
-        <activity android:name=".HamButtonActivity"/>
-        <activity android:name=".MainActivityDept"/>
-        <activity android:name=".branch.CseActivity"/>
-        <activity android:name=".branch.EceActivity"/>
-        <activity android:name=".MainActivityForZones"/>
+        <activity android:name=".Walkthrough" android:screenOrientation="portrait"/>
+        <activity android:name=".HamButtonActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".MainActivityDept" android:screenOrientation="portrait"/>
+        <activity android:name=".branch.CseActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".branch.EceActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".MainActivityForZones" android:screenOrientation="portrait"/>
 
 
     </application>

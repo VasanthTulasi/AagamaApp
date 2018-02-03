@@ -7,6 +7,8 @@ import android.os.Bundle;
 import com.hololo.tutorial.library.Step;
 import com.hololo.tutorial.library.TutorialActivity;
 
+import me.biubiubiu.justifytext.library.JustifyTextView;
+
 public class Walkthrough extends TutorialActivity {
 
     @Override
@@ -14,20 +16,12 @@ public class Walkthrough extends TutorialActivity {
     {
         super.onCreate(savedInstanceState);
 
+
         addFragment(new Step.Builder().setTitle("This is first header")
-                .setContent("This is the content")
+                .setContent("")
                 .setBackgroundColor(Color.parseColor("#1C2833")) // int background color
                 .build());
 
-        addFragment(new Step.Builder().setTitle("This is second header")
-                .setContent("This is the content")
-                .setBackgroundColor(Color.parseColor("#1C2833")) // int background color
-                .build());
-
-        addFragment(new Step.Builder().setTitle("This is third header")
-                .setContent("This is the content")
-                .setBackgroundColor(Color.parseColor("#1C2833")) // int background color
-                .build());
 
     }
 
