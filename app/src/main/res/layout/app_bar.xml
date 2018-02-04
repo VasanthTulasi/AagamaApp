@@ -4,7 +4,7 @@
     android:layout_height="?attr/actionBarSize"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     app:theme="@style/CustomTheme"
-    android:background="@color/colorPrimary">
+    android:background="#000000">
 
     <ImageView
         android:layout_width="?attr/actionBarSize"

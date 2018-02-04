@@ -25,7 +25,8 @@
         app:srcCompat="@drawable/img" />
 
     <include layout="@layout/app_bar"
-        android:id="@+id/app_bar"/>
+        android:id="@+id/app_bar"
+        />
 
     <Button
         android:id="@+id/b1"
@@ -146,7 +147,7 @@
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.829" />
+        app:layout_constraintVertical_bias="0.810" />
 
     <TextView
         android:id="@+id/textView5"
@@ -165,6 +166,7 @@
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.900" />
+        app:layout_constraintVertical_bias="0.869" />
+
 
 </android.support.constraint.ConstraintLayout>

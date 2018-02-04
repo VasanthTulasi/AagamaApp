@@ -26,7 +26,7 @@ private static final String TAG="CseActivity";
         setContentView(R.layout.listview_layout);
 
         mListView=(ListView)findViewById(R.id.listView);
-//text
+
         TextView v=(TextView) mListView.findViewById(R.id.cardTitle);
 
         ArrayList<Card> list=new ArrayList<>();
@@ -50,13 +50,6 @@ private static final String TAG="CseActivity";
          TextView v=(TextView)view.findViewById(R.id.cardTitle);
          Toast.makeText(CseActivity.this, "kjfldkfjakldfjlajfalkfjal"+v.getText(), Toast.LENGTH_SHORT).show();
      }
- });
-
-
-
-
+     });
     }
-
-
-
 }

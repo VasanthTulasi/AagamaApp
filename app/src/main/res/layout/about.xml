@@ -33,8 +33,13 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="20dp"
                 android:textSize="20dp"
-                android:textColor="@color/colorPrimaryDarkForDep"
+                android:textColor="#FFA500"
                 />
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="16"
+                >
 
             <me.biubiubiu.justifytext.library.JustifyTextView
                 android:id="@+id/webView"
@@ -43,12 +48,13 @@
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
                 android:layout_marginBottom="15dp"
-                android:layout_marginTop="1dp"
+                android:layout_marginTop="4dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="18sp"
                 android:textColor="@color/colorAccent"
                 />
+            </ScrollView>
 
         </LinearLayout>
 

@@ -1,7 +1,9 @@
 package com.example.vasanth.hambutton;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.Window;
@@ -15,6 +17,8 @@ public class SplashScreen extends Activity {
 
     ImageView aagamaLogo;
     TextView aagamaText;
+    private Boolean firstTime = null;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -60,13 +64,29 @@ public class SplashScreen extends Activity {
                     e.printStackTrace();
                 }
                 finally {
-                    startActivity(new Intent(SplashScreen.this, Walkthrough.class));
-                    finish();
+                    if(isFirstTime()) {
+                        startActivity(new Intent(SplashScreen.this, Walkthrough.class));
+                        finish();
+                    }else{
+                        startActivity(new Intent(SplashScreen.this, HamButtonActivity.class));
+                        finish();
+                    }
                 }
             }
         };
         timer.start();
     }
 
-
+    private boolean isFirstTime() {
+        if (firstTime == null) {
+            SharedPreferences mPreferences = this.getSharedPreferences("first_time", Context.MODE_PRIVATE);
+            firstTime = mPreferences.getBoolean("firstTime", true);
+            if (firstTime) {
+                SharedPreferences.Editor editor = mPreferences.edit();
+                editor.putBoolean("firstTime", false);
+                editor.commit();
+            }
+        }
+        return firstTime;
+    }
     }

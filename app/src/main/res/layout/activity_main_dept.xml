@@ -7,7 +7,7 @@
     tools:context="com.example.vasanth.hambutton.MainActivityDept"
     android:orientation="vertical"
 
-    android:background="@android:color/black"
+    android:background="@drawable/bgg"
     >
     <!--collapse toolbar-->
     <!-- in the main linear layout android:padding="10dp"-->
@@ -19,23 +19,26 @@
         android:theme="@style/AppThemeForDep"
 
         >
+
         <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/colappsingtoolbar"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:id="@+id/colappsingtoolbar"
-            app:layout_scrollFlags="exitUntilCollapsed|scroll"
+            android:background="@drawable/mm"
             app:contentScrim="?attr/colorPrimary"
-            app:title="Departments"
-            app:expandedTitleMarginStart="48dp"
+            app:expandedTitleMargin="20dp"
             app:expandedTitleMarginEnd="64dp"
-            android:background="@drawable/materialbackground"
+            app:expandedTitleMarginStart="48dp"
+            app:layout_scrollFlags="exitUntilCollapsed|scroll"
+            app:title="@string/departments_string"
+
 
             >
 
             <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbarid"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
-                android:id="@+id/toolbarid"
                 android:popupTheme="@style/AppThemeForDep"
                 app:layout_collapseMode="pin"
                 >
@@ -66,71 +69,72 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
 
             >
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="center"
                 android:clipToPadding="false"
-
-
-
+                android:gravity="center"
                 >
 
                 <android.support.v7.widget.CardView
-                    android:layout_width="160dp"
-                    android:layout_height="190dp"
-                    android:layout_margin="10dp"
-                    android:foreground="?android:attr/selectableItemBackground"
-                    android:clickable="true"
                     android:id="@+id/bank_card"
-                    android:onClick="go"
+                    android:layout_width="160dp"
+                    android:layout_height="175dp"
+                    android:layout_margin="10dp"
                     android:background="@drawable/computer"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:onClick="go"
+                    app:cardCornerRadius="12dp"
                     >
+
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:orientation="vertical"
+                        android:alpha="0.7"
                         android:gravity="center"
-                        android:background="@drawable/computer"
-                        android:alpha="0.6"
+                        android:background="#a8c5da"
+                        android:orientation="vertical"
+
                         >
+
                         <ImageView
                             android:layout_width="64dp"
                             android:layout_height="64dp"
-                            android:background="@drawable/cerclebackgroundpurple"
-                            android:src="@drawable/ic_code_black_24dp"
+                            android:background="@drawable/cseb"
                             android:padding="10dp"
                             />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:textStyle="bold"
                             android:layout_marginTop="10dp"
                             android:text="CSE"
                             android:textColor="@android:color/black"
+                            android:textStyle="bold"
 
                             />
 
                         <View
                             android:layout_width="match_parent"
                             android:layout_height="1dp"
-                            android:background="@color/lightgray"
                             android:layout_margin="10dp"
+                            android:background="@color/lightgray"
 
                             />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-
                             android:gravity="center"
-                            android:text="Check CSE activities "
                             android:padding="5dp"
-                            android:textColor="@android:color/black"
+                            android:text="Choose Events "
+                            android:textColor="#000000"
 
 
                             />
@@ -142,46 +146,46 @@
                 </android.support.v7.widget.CardView>
 
 
-
-
-
                 <android.support.v7.widget.CardView
-                    android:layout_width="160dp"
-                    android:layout_height="190dp"
-                    android:layout_margin="10dp"
-                    android:foreground="?android:attr/selectableItemBackground"
-                    android:clickable="true"
                     android:id="@+id/ideas_card"
-                    >
+                    android:layout_width="160dp"
+                    android:layout_height="175dp"
+                    android:layout_margin="10dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    app:cardCornerRadius="12dp">
+
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:orientation="vertical"
                         android:gravity="center"
-
+                        android:alpha="0.6"
+                        android:orientation="vertical"
+                        android:background="#a8c5da"
                         >
+
                         <ImageView
                             android:layout_width="64dp"
                             android:layout_height="64dp"
                             android:background="@drawable/cerclebackgroundpink"
-                            android:src="@drawable/ic_lightbulb_outline_black_24dp"
                             android:padding="10dp"
-                            />
+                            android:src="@drawable/ic_lightbulb_outline_black_24dp" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:textStyle="bold"
                             android:layout_marginTop="10dp"
                             android:text="ECE"
+                            android:textStyle="bold"
+                            android:textColor="@android:color/black"
 
                             />
 
                         <View
                             android:layout_width="match_parent"
                             android:layout_height="1dp"
-                            android:background="@color/lightgray"
                             android:layout_margin="10dp"
+                            android:background="@color/lightgray"
 
                             />
 
@@ -190,9 +194,9 @@
                             android:layout_height="wrap_content"
 
                             android:gravity="center"
-                            android:text="Check ECE activities "
                             android:padding="5dp"
-                            android:textColor="@android:color/darker_gray"
+                            android:text="Choose Events "
+                            android:textColor="@android:color/black"
 
 
                             />
@@ -213,14 +217,16 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:clipToPadding="false"
+
                 >
 
                 <android.support.v7.widget.CardView
                     android:layout_width="160dp"
-                    android:layout_height="190dp"
+                    android:layout_height="175dp"
                     android:layout_margin="10dp"
                     android:foreground="?android:attr/selectableItemBackground"
                     android:clickable="true"
+                    app:cardCornerRadius="12dp"
                     android:id="@+id/add_card"
                     >
                     <LinearLayout
@@ -228,6 +234,8 @@
                         android:layout_height="match_parent"
                         android:orientation="vertical"
                         android:gravity="center"
+                        android:background="#a8c5da"
+                        android:alpha="0.6"
                         >
                         <ImageView
                             android:layout_width="64dp"
@@ -243,6 +251,7 @@
                             android:textStyle="bold"
                             android:layout_marginTop="10dp"
                             android:text="EEE"
+                            android:textColor="@android:color/black"
 
                             />
 
@@ -259,9 +268,9 @@
                             android:layout_height="wrap_content"
 
                             android:gravity="center"
-                            android:text="Check EEE activities "
+                            android:text="Choose Events "
                             android:padding="5dp"
-                            android:textColor="@android:color/darker_gray"
+                            android:textColor="@android:color/black"
 
 
                             />
@@ -278,10 +287,11 @@
 
                 <android.support.v7.widget.CardView
                     android:layout_width="160dp"
-                    android:layout_height="190dp"
+                    android:layout_height="175dp"
                     android:layout_margin="10dp"
                     android:foreground="?android:attr/selectableItemBackground"
                     android:clickable="true"
+                    app:cardCornerRadius="12dp"
                     android:background="@android:color/white"
                     android:id="@+id/links_card"
                     >
@@ -289,7 +299,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:orientation="vertical"
+                        android:background="#a8c5da"
                         android:gravity="center"
+                        android:alpha="0.6"
                         >
                         <ImageView
                             android:layout_width="64dp"
@@ -305,6 +317,8 @@
                             android:textStyle="bold"
                             android:layout_marginTop="10dp"
                             android:text="CHEMICAl"
+                            android:textColor="@android:color/black"
+
 
                             />
 
@@ -321,9 +335,9 @@
                             android:layout_height="wrap_content"
 
                             android:gravity="center"
-                            android:text="Check CHEM activities "
+                            android:text="Choose Events"
                             android:padding="5dp"
-                            android:textColor="@android:color/darker_gray"
+                            android:textColor="@android:color/black"
 
 
                             />
@@ -348,10 +362,11 @@
 
                 <android.support.v7.widget.CardView
                     android:layout_width="160dp"
-                    android:layout_height="190dp"
+                    android:layout_height="175dp"
                     android:layout_margin="10dp"
                     android:foreground="?android:attr/selectableItemBackground"
                     android:clickable="true"
+                    app:cardCornerRadius="12dp"
                     android:id="@+id/wifi_card"
                     >
                     <LinearLayout
@@ -359,6 +374,8 @@
                         android:layout_height="match_parent"
                         android:orientation="vertical"
                         android:gravity="center"
+                        android:alpha="0.6"
+                        android:background="#a8c5da"
                         >
                         <ImageView
                             android:layout_width="64dp"
@@ -374,6 +391,8 @@
                             android:textStyle="bold"
                             android:layout_marginTop="10dp"
                             android:text="MECH"
+                            android:textColor="@android:color/black"
+
 
                             />
 
@@ -390,10 +409,9 @@
                             android:layout_height="wrap_content"
 
                             android:gravity="center"
-                            android:text="Check MECH activities "
+                            android:text="Choose Events"
                             android:padding="5dp"
-                            android:textColor="@android:color/darker_gray"
-
+                            android:textColor="@android:color/black"
 
                             />
 
@@ -405,10 +423,11 @@
 
                 <android.support.v7.widget.CardView
                     android:layout_width="160dp"
-                    android:layout_height="190dp"
+                    android:layout_height="175dp"
                     android:layout_margin="10dp"
                     android:foreground="?android:attr/selectableItemBackground"
                     android:clickable="true"
+                    app:cardCornerRadius="12dp"
                     android:id="@+id/it_card"
                     >
                     <LinearLayout
@@ -416,6 +435,8 @@
                         android:layout_height="match_parent"
                         android:orientation="vertical"
                         android:gravity="center"
+                        android:alpha="0.6"
+                        android:background="#a8c5da"
                         >
                         <ImageView
                             android:layout_width="64dp"
@@ -431,6 +452,8 @@
                             android:textStyle="bold"
                             android:layout_marginTop="10dp"
                             android:text="IT"
+                            android:textColor="@android:color/black"
+
 
                             />
 
@@ -447,10 +470,9 @@
                             android:layout_height="wrap_content"
 
                             android:gravity="center"
-                            android:text="Check IT activities "
+                            android:text="Choose Events"
                             android:padding="5dp"
-                            android:textColor="@android:color/darker_gray"
-
+                            android:textColor="@android:color/black"
 
                             />
 

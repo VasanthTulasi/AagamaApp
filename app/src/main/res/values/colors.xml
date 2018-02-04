@@ -3,7 +3,7 @@
     <color name="colorPrimary">#1F1A38</color>
     <color name="colorPrimaryDark">#B0FE76</color>
     <color name="colorAccent">#44BBA4</color>
-    <color name="colorAagama">#44BBA4</color>
+    <color name="colorAagama">#e2dfdf</color>
 
     <color name="backgroundcolor">#fcfcfc</color>
     <color name="lightgray">#ededed</color>
@@ -12,8 +12,8 @@
     <color name="green">#00bfa5</color>
 
 
-    <color name="colorPrimaryForDep">#FFC107</color>
-    <color name="colorPrimaryDarkForDep">#FFA000</color>
+    <color name="colorPrimaryForDep">#06182b</color>
+    <color name="colorPrimaryDarkForDep">#0c222e</color>
     <color name="colorAccentForDep">#FF4081</color>
 
 

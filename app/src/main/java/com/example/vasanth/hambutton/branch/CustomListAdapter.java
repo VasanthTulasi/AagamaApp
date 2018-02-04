@@ -86,10 +86,10 @@ public class CustomListAdapter   extends ArrayAdapter<Card> {
         }
 
 
-        Animation animation = AnimationUtils.loadAnimation(mContext,
-                (position > lastPosition) ? R.anim.load_down_anim : R.anim.load_up_anim);
-        result.startAnimation(animation);
-        lastPosition = position;
+    //    Animation animation = AnimationUtils.loadAnimation(mContext,
+     //           (position > lastPosition) ? R.anim.load_down_anim : R.anim.load_up_anim);
+      //  result.startAnimation(animation);
+       // lastPosition = position;
 
         holder.title.setText(title);
 
