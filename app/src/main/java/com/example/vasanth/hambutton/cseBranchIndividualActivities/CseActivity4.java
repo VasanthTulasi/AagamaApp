@@ -1,4 +1,4 @@
-package com.example.vasanth.hambutton.branchIndividualActivities;
+package com.example.vasanth.hambutton.cseBranchIndividualActivities;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;

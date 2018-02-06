@@ -2,11 +2,8 @@ package com.example.vasanth.hambutton.branch;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.view.View;
-import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 
 import com.example.vasanth.hambutton.R;
@@ -27,6 +24,7 @@ private static final String TAG="CseActivity";
 
         mListView=(ListView)findViewById(R.id.listView);
 
+
         TextView v=(TextView) mListView.findViewById(R.id.cardTitle);
 
         ArrayList<Card> list=new ArrayList<>();
@@ -42,14 +40,6 @@ private static final String TAG="CseActivity";
         CustomListAdapter adapter=new CustomListAdapter(this,R.layout.cselist_layout,list);
         mListView.setAdapter(adapter);
 
-
- mListView.setOnItemClickListener(
-         new AdapterView.OnItemClickListener() {
-     @Override
-     public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-         TextView v=(TextView)view.findViewById(R.id.cardTitle);
-         Toast.makeText(CseActivity.this, "kjfldkfjakldfjlajfalkfjal"+v.getText(), Toast.LENGTH_SHORT).show();
-     }
-     });
     }
+
 }

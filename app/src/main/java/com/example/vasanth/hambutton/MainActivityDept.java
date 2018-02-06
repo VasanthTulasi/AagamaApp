@@ -25,8 +25,6 @@ public class MainActivityDept extends AppCompatActivity implements View.OnClickL
     }
 
     public void go(View view){
-        Toast.makeText(this, "hello clicked", Toast.LENGTH_SHORT).show();
-
         Intent i=new Intent(MainActivityDept.this,CseActivity.class);
         startActivity(i);
     }

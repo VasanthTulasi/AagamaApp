@@ -8,6 +8,8 @@ import android.graphics.Point;
 import android.graphics.PointF;
 import android.net.Uri;
 import android.os.Handler;
+import android.support.design.widget.TabLayout;
+import android.support.v4.view.ViewPager;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -19,6 +21,9 @@ import android.webkit.WebView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.support.v4.view.ViewPager;
+import android.support.design.widget.TabLayout;
+
 
 
 import com.nightonke.boommenu.Animation.BoomEnum;
@@ -109,9 +114,10 @@ public class HamButtonActivity extends AppCompatActivity{
                                 .replace(R.id.main_screen, new Gallery())
                                 .commit();
                     } else if (index == 2) {
-                        fm.beginTransaction()
-                                .replace(R.id.main_screen, new Team())
-                                .commit();
+                        startActivity(new Intent(HamButtonActivity.this,MainActivityForDev.class));
+                        //fm.beginTransaction()
+                          //      .replace(R.id.main_screen, new Team())
+                            //    .commit();
                     } else if (index == 3) {
                         fm.beginTransaction()
                                 .replace(R.id.main_screen, new Sponsor())
@@ -140,6 +146,8 @@ public class HamButtonActivity extends AppCompatActivity{
             });
             bmb.addBuilder(builder);
         }
+
+
 
     }
 

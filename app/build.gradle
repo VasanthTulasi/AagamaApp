@@ -37,6 +37,8 @@ dependencies {
     compile 'com.github.msayan:tutorial-view:v1.0.3'
     compile 'me.biubiubiu.justifytext:library:1.1'
 
+    implementation 'de.hdodenhof:circleimageview:2.2.0'
+
 
     testCompile 'junit:junit:4.12'
 

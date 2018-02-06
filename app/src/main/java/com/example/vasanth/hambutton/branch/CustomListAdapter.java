@@ -1,17 +1,20 @@
 package com.example.vasanth.hambutton.branch;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.vasanth.hambutton.R;
+import com.example.vasanth.hambutton.cseBranchIndividualActivities.CseActivity1;
+import com.example.vasanth.hambutton.cseBranchIndividualActivities.CseActivity2;
 import com.nostra13.universalimageloader.cache.memory.impl.WeakMemoryCache;
 import com.nostra13.universalimageloader.core.DisplayImageOptions;
 import com.nostra13.universalimageloader.core.ImageLoader;
@@ -51,13 +54,13 @@ public class CustomListAdapter   extends ArrayAdapter<Card> {
 
     @NonNull
     @Override
-    public View getView(int position, View convertView, ViewGroup parent) {
+    public View getView(final int position, View convertView, ViewGroup parent) {
 
         //sets up the image loader library
         setupImageLoader();
 
         //get the persons information
-        String title= getItem(position).getTitle();
+        final String title= getItem(position).getTitle();
 
         String imgUrl = getItem(position).getImgUrl();
 
@@ -68,25 +71,47 @@ public class CustomListAdapter   extends ArrayAdapter<Card> {
         ViewHolder holder;
 
 
+
         if(convertView == null){
             LayoutInflater inflater = LayoutInflater.from(mContext);
             convertView = inflater.inflate(mResource, parent, false);
             holder= new ViewHolder();
             holder.title= (TextView) convertView.findViewById(R.id.cardTitle);
-
             holder.image = (ImageView) convertView.findViewById(R.id.cardImage);
-
             result = convertView;
 
             convertView.setTag(holder);
-        }
-        else{
+        } else{
             holder = (ViewHolder) convertView.getTag();
             result = convertView;
         }
 
+        Button readMore = (Button)convertView.findViewById(R.id.readmore);
+        readMore.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(position == 0)
+                   mContext.startActivity(new Intent(mContext, CseActivity1.class));
+                else if (position == 1)
+                    mContext.startActivity(new Intent(mContext, CseActivity2.class));
 
-    //    Animation animation = AnimationUtils.loadAnimation(mContext,
+            }
+        });
+        Button register = (Button)convertView.findViewById(R.id.register);
+        register.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(position == 0)
+                    Toast.makeText(mContext,"Register for "+ title,Toast.LENGTH_SHORT).show();
+                else if (position == 1)
+                    Toast.makeText(mContext,"Register for "+ title,Toast.LENGTH_SHORT).show();
+
+            }
+        });
+
+
+
+        //    Animation animation = AnimationUtils.loadAnimation(mContext,
      //           (position > lastPosition) ? R.anim.load_down_anim : R.anim.load_up_anim);
       //  result.startAnimation(animation);
        // lastPosition = position;
@@ -110,6 +135,8 @@ public class CustomListAdapter   extends ArrayAdapter<Card> {
         imageLoader.displayImage(imgUrl, holder.image, options);
 
         return convertView;
+
+
     }
 
     /**

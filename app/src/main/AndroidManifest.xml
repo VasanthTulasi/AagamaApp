@@ -14,7 +14,7 @@
         android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         >
 
-        <activity android:name=".SplashScreen"
+        <activity android:name=".HamButtonActivity"
                   android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,11 +23,15 @@
             </intent-filter>
         </activity>
         <activity android:name=".Walkthrough" android:screenOrientation="portrait"/>
-        <activity android:name=".HamButtonActivity" android:screenOrientation="portrait"/>
-        <activity android:name=".MainActivityDept" android:screenOrientation="portrait"/>
         <activity android:name=".branch.CseActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".MainActivityDept" android:screenOrientation="portrait"/>
+        <activity android:name=".MainActivityForDev" android:screenOrientation="portrait"/>
+        <activity android:name=".SplashScreen" android:screenOrientation="portrait"/>
         <activity android:name=".branch.EceActivity" android:screenOrientation="portrait"/>
         <activity android:name=".MainActivityForZones" android:screenOrientation="portrait"/>
+        <activity android:name=".cseBranchIndividualActivities.CseActivity1" android:screenOrientation="portrait"/>
+        <activity android:name=".cseBranchIndividualActivities.CseActivity2" android:screenOrientation="portrait"/>
+        <activity android:name=".cseBranchIndividualActivities.CseActivity3" android:screenOrientation="portrait"/>
 
 
     </application>

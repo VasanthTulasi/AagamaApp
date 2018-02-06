@@ -9,6 +9,7 @@ public class Card {
     private String imgUrl;
     private String title;
 
+
     public String getImgUrl() {
         return imgUrl;
     }

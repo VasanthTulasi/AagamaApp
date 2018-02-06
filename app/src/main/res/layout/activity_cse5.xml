@@ -36,7 +36,7 @@
 
 
             <ImageView
-                android:id="@+id/cardImage"
+                android:id="@+id/cardImageInC5"
                 android:src="@drawable/computer"
                 android:layout_width="110dp"
                 android:layout_height="120dp"
@@ -54,6 +54,7 @@
                 android:text="activity 1"
                 android:textSize="40sp"
                 android:textColor="@color/colorPrimary"
+                android:id="@+id/textActivityInC5"
 
 
                 />
@@ -70,7 +71,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:id="@+id/cardTitle"
+                android:id="@+id/cardTitleInC5"
                 android:gravity="center_vertical"
                 android:text="Activity 5"
                 android:textColor="@android:color/black"
