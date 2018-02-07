@@ -5,12 +5,16 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.CardView;
 import android.view.View;
-import android.widget.Toast;
 
+import com.example.vasanth.hambutton.branch.CHEMActivity;
 import com.example.vasanth.hambutton.branch.CseActivity;
+import com.example.vasanth.hambutton.branch.EVEActivity;
+import com.example.vasanth.hambutton.branch.EEEActivity;
+import com.example.vasanth.hambutton.branch.ITActivity;
+import com.example.vasanth.hambutton.branch.MECHActivity;
 
 
-public class MainActivityDept extends AppCompatActivity implements View.OnClickListener{
+public class MainActivityDept extends AppCompatActivity{
 
 
     private CardView bankCard,ideasCard,addCard,linksCard,wifiCard;
@@ -24,14 +28,33 @@ public class MainActivityDept extends AppCompatActivity implements View.OnClickL
 
     }
 
-    public void go(View view){
+    public void cse(View view){
         Intent i=new Intent(MainActivityDept.this,CseActivity.class);
+        startActivity(i);
+    }
+    public void ece(View view){
+        Intent i=new Intent(MainActivityDept.this,EVEActivity.class);
+        startActivity(i);
+    }
+    public void eee(View view){
+        Intent i=new Intent(MainActivityDept.this,EEEActivity.class);
+        startActivity(i);
+    }
+    public void chemical(View view){
+        Intent i=new Intent(MainActivityDept.this,CHEMActivity.class);
+        startActivity(i);
+    }
+    public void mech(View view){
+        Intent i=new Intent(MainActivityDept.this,MECHActivity.class);
+        startActivity(i);
+    }
+    public void it(View view){
+        Intent i=new Intent(MainActivityDept.this,ITActivity.class);
         startActivity(i);
     }
 
 
-    @Override
-    public void onClick(View view) {
 
-    }
+
+
 }

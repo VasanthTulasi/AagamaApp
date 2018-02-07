@@ -89,7 +89,7 @@
                     android:background="@drawable/computer"
                     android:clickable="true"
                     android:foreground="?android:attr/selectableItemBackground"
-                    android:onClick="go"
+                    android:onClick="cse"
                     app:cardCornerRadius="12dp"
                     >
 
@@ -153,7 +153,8 @@
                     android:layout_margin="10dp"
                     android:clickable="true"
                     android:foreground="?android:attr/selectableItemBackground"
-                    app:cardCornerRadius="12dp">
+                    app:cardCornerRadius="12dp"
+                    android:onClick="ece">
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -228,6 +229,7 @@
                     android:clickable="true"
                     app:cardCornerRadius="12dp"
                     android:id="@+id/add_card"
+                    android:onClick="eee"
                     >
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -294,6 +296,7 @@
                     app:cardCornerRadius="12dp"
                     android:background="@android:color/white"
                     android:id="@+id/links_card"
+                    android:onClick="chemical"
                     >
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -316,7 +319,7 @@
                             android:layout_height="wrap_content"
                             android:textStyle="bold"
                             android:layout_marginTop="10dp"
-                            android:text="CHEMICAl"
+                            android:text="CIVIL"
                             android:textColor="@android:color/black"
 
 
@@ -368,6 +371,7 @@
                     android:clickable="true"
                     app:cardCornerRadius="12dp"
                     android:id="@+id/wifi_card"
+                    android:onClick="mech"
                     >
                     <LinearLayout
                         android:layout_width="match_parent"

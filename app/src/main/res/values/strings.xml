@@ -5,7 +5,7 @@
     <string name="changed_text">Loading the energy..</string>
     <string name="final_text">All Set to Go..!</string>
     <string name="home_screen">HomeScreen</string>
-    <string name="nothing"/>
+    <string name="nothing" />
     <string name="department">CSE Department</string>
     <string name="departments_string">Departments</string>
     <string name="countdown">There are only</string>
@@ -20,5 +20,13 @@
         the country. All the papers will be peer reviewed. Many events like Tech Quiz, Poster presentation, Project
         presentation, Robotrix, Circruitrix, Velocity, Invasion, Lazer Trap and many more.
     </string>
+    <string name="paperpresentation"> An investment in knowledge pays you best interest. Do you have good knowledge? Are you good at presentation? Then come and show us. This is also an opportunity to win certificate and cash prizes. Do not miss it.</string>
+    <string name="poster">This is a platform where you can express your thoughts that you have but couldn’t express, you can expose your talent and in depth knowledge on interested ares in posters.</string>
+    <string name="idea">This is a platform to pitch the ideas which can turn upinto startups. Idea can be technical or non technical . this is the best platform to sow your ideas and grow into startups.</string>
+    <string name="web">This event is about designing a website. CSE,IT are eligible.</string>
+    <string name="expo">This event is about giving a ppt regarding the project the students have done. They can participate as an individual or a team. CSE and IT are eligible.</string>
+    <string name="bug">This is a stage to step on and prove your testing skills where you can feel the urge to play with game of codes and bug fixes.</string>
+    <string name="title_activity_technical_quiz">technical_quiz</string>
+
 
 </resources>

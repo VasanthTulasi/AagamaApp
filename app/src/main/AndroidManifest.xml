@@ -4,36 +4,113 @@
     package="com.example.vasanth.hambutton">
 
     <application
-        tools:replace="android:allowBackup"
         android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
-        android:logo="@drawable/launch1"
         android:label="@string/app_name"
+        android:logo="@drawable/launch1"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar"
-        >
-
-        <activity android:name=".HamButtonActivity"
-                  android:screenOrientation="portrait">
+        tools:replace="android:allowBackup">
+        <activity
+            android:name=".SplashScreen"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
+
                 <action android:name="android.intent.action.VIEW" />
             </intent-filter>
         </activity>
-        <activity android:name=".Walkthrough" android:screenOrientation="portrait"/>
-        <activity android:name=".branch.CseActivity" android:screenOrientation="portrait"/>
-        <activity android:name=".MainActivityDept" android:screenOrientation="portrait"/>
-        <activity android:name=".MainActivityForDev" android:screenOrientation="portrait"/>
-        <activity android:name=".SplashScreen" android:screenOrientation="portrait"/>
-        <activity android:name=".branch.EceActivity" android:screenOrientation="portrait"/>
-        <activity android:name=".MainActivityForZones" android:screenOrientation="portrait"/>
-        <activity android:name=".cseBranchIndividualActivities.CseActivity1" android:screenOrientation="portrait"/>
-        <activity android:name=".cseBranchIndividualActivities.CseActivity2" android:screenOrientation="portrait"/>
-        <activity android:name=".cseBranchIndividualActivities.CseActivity3" android:screenOrientation="portrait"/>
-
-
+        <activity
+            android:name=".Walkthrough"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".branch.CseActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HamButtonActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivityForDev"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivityForZones"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SkillZone"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cseBranchIndividualActivities.CseActivity1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cseBranchIndividualActivities.CseActivity2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cseBranchIndividualActivities.CseActivity3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cseBranchIndividualActivities.CseActivity4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cseBranchIndividualActivities.CseActivity5"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cseBranchIndividualActivities.CseActivity6"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivityDept"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".OpenZone"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FunZone"
+            android:screenOrientation="portrait" />
+        <activity android:name=".branch.EVEActivity" />
+        <activity android:name=".branch.EEEActivity" />
+        <activity android:name=".branch.CHEMActivity" />
+        <activity android:name=".branch.MECHActivity" />
+        <activity android:name=".branch.ITActivity" />
+        <activity android:name=".eceBranchIndividualActivities.TechnicalQuizECE" />
+        <activity android:name=".eceBranchIndividualActivities.CircuitrixECE" />
+        <activity android:name=".eceBranchIndividualActivities.RamAndRomECE" />
+        <activity android:name=".eeeBranchIndividualActivities.PaperPresentationEEE" />
+        <activity android:name=".eeeBranchIndividualActivities.PosterPresentationEEE" />
+        <activity android:name=".eeeBranchIndividualActivities.ProjectExpoEEE" />
+        <activity android:name=".eeeBranchIndividualActivities.TechnicalQuizEEE" />
+        <activity android:name=".civilBranchIndividualActivities.ProjectPresentationCIV" />
+        <activity android:name=".civilBranchIndividualActivities.InnovativeIdeaPresentationCIV" />
+        <activity android:name=".civilBranchIndividualActivities.PosterPresentationCIV" />
+        <activity android:name=".mechBranchIndividualActivities.MekboltMECH" />
+        <activity android:name=".mechBranchIndividualActivities.MindsparkMECH" />
+        <activity android:name=".mechBranchIndividualActivities.PaperPresentationMECH" />
+        <activity android:name=".openZone.ClayMoulding" />
+        <activity android:name=".openZone.Painting" />
+        <activity android:name=".openZone.Rangoli" />
+        <activity android:name=".openZone.Dandiya" />
+        <activity android:name=".openZone.MatlabMania" />
+        <activity android:name=".openZone.Fabulous" />
+        <activity android:name=".openZone.BrickChallenge" />
+        <activity android:name=".openZone.CreativeSelfie" />
+        <activity android:name=".openZone.KingOfDice" />
+        <activity android:name=".openZone.MockCID" />
+        <activity android:name=".openZone.MirrorWalk" />
+        <activity android:name=".skillZone.CodeCup" />
+        <activity android:name=".skillZone.LANGaming" />
+        <activity android:name=".skillZone.TechnicalThambola" />
+        <activity android:name=".skillZone.JigsawPuzzle" />
+        <activity android:name=".skillZone.PlayZone" />
+        <activity android:name=".skillZone.Circuitrix" />
+        <activity android:name=".skillZone.ThreeDChallenge" />
+        <activity android:name=".skillZone.ModelMaking" />
+        <activity android:name=".skillZone.TechPowerHunt" />
+        <activity android:name=".funZone.DumbShellElectronics" />
+        <activity android:name=".funZone.CodeBreakers" />
+        <activity android:name=".funZone.DevilFollows" />
+        <activity android:name=".funZone.BreakItIfYouCan" />
+        <activity android:name=".funZone.Inversion"></activity>
     </application>
 
 </manifest>

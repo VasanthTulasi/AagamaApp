@@ -27,4 +27,18 @@ public class MainActivityForZones extends AppCompatActivity {
         Intent i = new Intent(MainActivityForZones.this,MainActivityDept.class);
         startActivity(i);
     }
+    public void openzone(View view){
+        Intent i = new Intent(MainActivityForZones.this,OpenZone.class);
+        startActivity(i);
+    }
+    public void skillzone(View view){
+        Intent i = new Intent(MainActivityForZones.this,SkillZone.class);
+        startActivity(i);
+    }
+    public void funzone(View view){
+        Intent i = new Intent(MainActivityForZones.this,FunZone.class);
+        startActivity(i);
+    }
+
+
 }

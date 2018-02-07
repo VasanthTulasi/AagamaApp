@@ -20,24 +20,23 @@ private static final String TAG="CseActivity";
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.listview_layout);
+        setContentView(R.layout.listview_layout_cse);
 
         mListView=(ListView)findViewById(R.id.listView);
 
 
-        TextView v=(TextView) mListView.findViewById(R.id.cardTitle);
+        TextView v=(TextView) mListView.findViewById(R.id.cardTitleInCSE);
 
         ArrayList<Card> list=new ArrayList<>();
 
-        list.add(new Card("drawable://"+R.drawable.creative1,"Activity1"));
-        list.add(new Card("drawable://"+R.drawable.creative1,"Activity2"));
-        list.add(new Card("drawable://"+R.drawable.creative1,"Activity3"));
-        list.add(new Card("drawable://"+R.drawable.creative1,"Activity4"));
-        list.add(new Card("drawable://"+R.drawable.creative1,"Activity5"));
-        list.add(new Card("drawable://"+R.drawable.creative1,"Activity6"));
-        list.add(new Card("drawable://"+R.drawable.creative1,"Activity7"));
+        list.add(new Card("drawable://"+R.drawable.creative1,"Paper Presentation"));
+        list.add(new Card("drawable://"+R.drawable.creative1,"Poster Presentation"));
+        list.add(new Card("drawable://"+R.drawable.creative1,"Idea Presentation"));
+        list.add(new Card("drawable://"+R.drawable.creative1,"Web Design"));
+        list.add(new Card("drawable://"+R.drawable.creative1,"Project Expo"));
+        list.add(new Card("drawable://"+R.drawable.creative1,"Bugsmash"));
 
-        CustomListAdapter adapter=new CustomListAdapter(this,R.layout.cselist_layout,list);
+        CSECustomListAdapter adapter=new CSECustomListAdapter(this,R.layout.cse_card,list);
         mListView.setAdapter(adapter);
 
     }

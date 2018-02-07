@@ -65,7 +65,9 @@
         app:layout_constraintHorizontal_bias="0.321"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.592" />
+        app:layout_constraintVertical_bias="0.592"
+        android:onClick="openzone"
+        tools:ignore="OnClick" />
 
     <Button
         android:id="@+id/button4"
@@ -84,7 +86,9 @@
         app:layout_constraintHorizontal_bias="0.671"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.592" />
+        app:layout_constraintVertical_bias="0.592"
+        android:onClick="skillzone"
+        tools:ignore="OnClick" />
 
     <Button
         android:id="@+id/button5"
@@ -102,7 +106,9 @@
         app:layout_constraintHorizontal_bias="0.934"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.451" />
+        app:layout_constraintVertical_bias="0.451"
+        android:onClick="funzone"
+        tools:ignore="OnClick" />
 
     <android.support.constraint.Guideline
         android:id="@+id/guideline"
