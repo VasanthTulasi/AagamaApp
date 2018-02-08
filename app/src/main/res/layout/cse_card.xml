@@ -34,7 +34,6 @@
                 android:layout_height="170dp"
                 app:cardCornerRadius="5dp"
                 >
-
             <ImageView
                 android:id="@+id/cardImageInCSE"
                 android:layout_width="match_parent"

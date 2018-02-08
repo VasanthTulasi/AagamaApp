@@ -2,6 +2,7 @@ package com.example.vasanth.hambutton.branch;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -20,6 +21,12 @@ private static final String TAG="MechActivity";
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.listview_layout_mech);
+
+        Toolbar toolbar = findViewById(R.id.app_bar);
+        setSupportActionBar(toolbar);
+
+        //getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setTitle(R.string.nothing);
 
         mListViewInMECH=(ListView)findViewById(R.id.listViewInMECH);
 
