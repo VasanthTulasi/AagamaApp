@@ -87,7 +87,7 @@
                             android:layout_height="wrap_content"
                             android:id="@+id/cardTitleInC1"
                             android:gravity="center_vertical"
-                            android:text="The participant will be provided with a mirror of normal size by looking into the mirror the person must walk reverse in the path provided the person who completes the task with the least time will be announced as a winner."
+                            android:text="@string/mirror_walk"
                             android:textSize="19sp"
                             android:textColor="@android:color/black"
                             android:layout_marginLeft="10dp"

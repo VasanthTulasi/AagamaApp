@@ -87,7 +87,7 @@
                             android:layout_height="wrap_content"
                             android:id="@+id/cardTitleInC1"
                             android:gravity="center_vertical"
-                            android:text="@string/idea"
+                            android:text="@string/idea_presentation_cse"
                             android:textSize="19sp"
                             android:textColor="@android:color/black"
                             android:layout_marginLeft="10dp"

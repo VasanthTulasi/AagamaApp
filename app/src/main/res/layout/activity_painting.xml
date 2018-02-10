@@ -87,8 +87,7 @@
                             android:layout_height="wrap_content"
                             android:id="@+id/cardTitleInC1"
                             android:gravity="center_vertical"
-                            android:text="Description:\nThis is a platform where you can expose your talent on art . To participate in this event you need not be an artist, your interest to make a painting is enough. You can explore your creative ideas here. In this event we are going to teach you mernakari painting,coffee painting and glass painting.\n\nRules:\nkjhflksajhfdlkashfdlkghflas\n\nCoordinators:\n1.njkjsdngfsdkjnsgd
-2.fsdgfdgsdgf"
+                            android:text="@string/painting"
                             android:textSize="19sp"
                             android:textColor="@android:color/black"
                             android:layout_marginLeft="10dp"

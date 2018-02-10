@@ -14,6 +14,7 @@ import android.widget.TextView;
 import com.example.vasanth.hambutton.R;
 import com.example.vasanth.hambutton.cseBranchIndividualActivities.CseActivity1;
 import com.example.vasanth.hambutton.cseBranchIndividualActivities.CseActivity2;
+import com.example.vasanth.hambutton.itIndividualActivities.CodeMazeIT;
 import com.nostra13.universalimageloader.cache.memory.impl.WeakMemoryCache;
 import com.nostra13.universalimageloader.core.DisplayImageOptions;
 import com.nostra13.universalimageloader.core.ImageLoader;
@@ -90,9 +91,7 @@ public class ITCustomListAdapter extends ArrayAdapter<Card> {
             @Override
             public void onClick(View view) {
                 if(position == 0)
-                   mContextIT.startActivity(new Intent(mContextIT, CseActivity1.class));
-                else if (position == 1)
-                    mContextIT.startActivity(new Intent(mContextIT, CseActivity2.class));
+                   mContextIT.startActivity(new Intent(mContextIT, CodeMazeIT.class));
 
             }
         });

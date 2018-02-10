@@ -87,7 +87,7 @@
                             android:layout_height="wrap_content"
                             android:id="@+id/cardTitleInC1"
                             android:gravity="center_vertical"
-                            android:text="Expose your creativity levels in taking selfies send us your best Selfie and be FB KING and FB QUEEN The participant will post their selfie to social media(FB) with mentioning the page name (or) with #aagamaselfiee2K18."
+                            android:text="@string/creative_selfie"
                             android:textSize="19sp"
                             android:textColor="@android:color/black"
                             android:layout_marginLeft="10dp"

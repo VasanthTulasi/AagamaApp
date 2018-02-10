@@ -87,7 +87,7 @@
                             android:layout_height="wrap_content"
                             android:id="@+id/cardTitleInC1"
                             android:gravity="center_vertical"
-                            android:text="This is an event to show your technical skills in Electronics and Communication, and also to enhance your knowledge. A team should consist minimum of one student and maximum of three students. Registration fee will Rs.50/-"
+                            android:text="@string/technical_quiz_ece"
                             android:textSize="19sp"
                             android:textColor="@android:color/black"
                             android:layout_marginLeft="10dp"

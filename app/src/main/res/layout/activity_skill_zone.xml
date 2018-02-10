@@ -578,18 +578,44 @@
                         android:layout_margin="10dp"
                         android:foreground="?android:attr/selectableItemBackground"
                         android:clickable="true"
-                        app:cardBackgroundColor="#000000"
+                        app:cardBackgroundColor="#78909C"
                         android:id="@+id/ideas_card6_in_open"
-                        android:onClick="cid"
+                        android:onClick="wordWrap"
 
                         >
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:orientation="vertical"
-                            android:gravity="center"
+                            android:gravity="center">
+                            <ImageView
+                                android:layout_width="64dp"
+                                android:layout_height="64dp"
+                                android:background="@drawable/cerclebackgroundpink"
+                                android:src="@drawable/ic_comment_black_24dp"
+                                android:padding="10dp"
+                                />
 
-                            >
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@color/lightgray"
+                                android:layout_margin="10dp"
+
+
+                                />
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textStyle="bold"
+                                android:layout_marginTop="10dp"
+                                android:text="Word Wrap"
+                                android:textColor="#ffffff"
+                                android:textSize="15dp"
+
+                                />
 
 
                         </LinearLayout>

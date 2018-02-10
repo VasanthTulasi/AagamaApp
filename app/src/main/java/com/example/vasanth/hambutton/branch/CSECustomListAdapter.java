@@ -1,14 +1,18 @@
 package com.example.vasanth.hambutton.branch;
 
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.provider.ContactsContract;
 import android.support.annotation.NonNull;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -40,6 +44,7 @@ public class CSECustomListAdapter extends ArrayAdapter<Card> {
     private int mResource;
     private int lastPosition = -1;
 
+
     /**
      * Holds variables in a View
      */
@@ -54,11 +59,13 @@ public class CSECustomListAdapter extends ArrayAdapter<Card> {
         super(context, resource, objects);
         mContext = context;
         mResource = resource;
-    }
+        }
 
     @NonNull
     @Override
     public View getView(final int position, View convertView, ViewGroup parent) {
+
+
 
         //sets up the image loader library
         setupImageLoader();
@@ -89,7 +96,6 @@ public class CSECustomListAdapter extends ArrayAdapter<Card> {
             holder = (ViewHolder) convertView.getTag();
             result = convertView;
         }
-
         Button readMoreInCSE = (Button)convertView.findViewById(R.id.readMoreInCSE);
         readMoreInCSE.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -120,15 +126,12 @@ public class CSECustomListAdapter extends ArrayAdapter<Card> {
             }
         });
 
-
-
-        //    Animation animation = AnimationUtils.loadAnimation(mContext,
-     //           (position > lastPosition) ? R.anim.load_down_anim : R.anim.load_up_anim);
-      //  result.startAnimation(animation);
-       // lastPosition = position;
+        // Animation animation = AnimationUtils.loadAnimation(mContext,
+        // (position > lastPosition) ? R.anim.load_down_anim : R.anim.load_up_anim);
+        // result.startAnimation(animation);
+        // lastPosition = position;
 
         holder.title.setText(title);
-
 
         //create the imageloader object
         ImageLoader imageLoader = ImageLoader.getInstance();

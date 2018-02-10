@@ -87,7 +87,7 @@
                             android:layout_height="wrap_content"
                             android:id="@+id/cardTitleInC1"
                             android:gravity="center_vertical"
-                            android:text="About:most popular in Gujarat. It is a special feature of the navaratri festival. It is usually done in a group both by men and women. The special feature of the dance is the colorful attire worn by the dancers and the colourful sticks carried by them."
+                            android:text="@string/dandiya"
                             android:textSize="19sp"
                             android:textColor="@android:color/black"
                             android:layout_marginLeft="10dp"

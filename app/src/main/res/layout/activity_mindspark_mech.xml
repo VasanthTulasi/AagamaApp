@@ -87,7 +87,7 @@
                             android:layout_height="wrap_content"
                             android:id="@+id/cardTitleInC1"
                             android:gravity="center_vertical"
-                            android:text="An event wherein participants will be quizzed on topics from the engineering world and more! The quiz involves pictures, words, descriptions and choosing correct options all revolving around technology. The difficulty increases with each level and it is the survival of the SMARTEST!"
+                            android:text="@string/mind_spark_mech"
                             android:textSize="19sp"
                             android:textColor="@android:color/black"
                             android:layout_marginLeft="10dp"

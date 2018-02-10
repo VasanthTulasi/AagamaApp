@@ -38,6 +38,13 @@ private static final String TAG="MechActivity";
         listMECH.add(new Card("drawable://"+R.drawable.creative1,"Mekbolt"));
         listMECH.add(new Card("drawable://"+R.drawable.creative1,"Mind Spark"));
         listMECH.add(new Card("drawable://"+R.drawable.creative1,"Paper Presentation"));
+        listMECH.add(new Card("drawable://"+R.drawable.creative1,"Prayog"));
+        listMECH.add(new Card("drawable://"+R.drawable.creative1,"Dessin Xecute"));
+        listMECH.add(new Card("drawable://"+R.drawable.creative1,"Meet Your Thoughts"));
+
+
+
+
 
 
         MECHCustomListAdapter adapterMECH=new MECHCustomListAdapter(this,R.layout.mech_card,listMECH);

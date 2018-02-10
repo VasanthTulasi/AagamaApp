@@ -87,7 +87,7 @@
                             android:layout_height="wrap_content"
                             android:id="@+id/cardTitleInC1"
                             android:gravity="center_vertical"
-                            android:text="Circuit will be shown on a paper for a particular amount of time. The participant should remember all the values of the components present in the given circuit. Then, A circuit with no values will be given and the parcipant should write down all the correct values as shown in the previous circuit. Participant writing maximum correct values in minimum time will be rewarded. A team should consist minimum of one student and maximum of two students. Registration fee will be Rs.50/-"
+                            android:text="@string/ram_and_rom_ece"
                             android:textSize="19sp"
                             android:textColor="@android:color/black"
                             android:layout_marginLeft="10dp"

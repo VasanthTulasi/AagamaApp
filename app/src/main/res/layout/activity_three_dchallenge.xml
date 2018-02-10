@@ -87,7 +87,7 @@
                             android:layout_height="wrap_content"
                             android:id="@+id/cardTitleInC1"
                             android:gravity="center_vertical"
-                            android:text="About the event:we will be giving a 3d view of isometric view in which the participant should analyse the top view front view and side view of the 3d diagram. Open to all the department's students."
+                            android:text="@string/three_d_challenge"
                             android:textSize="19sp"
                             android:textColor="@android:color/black"
                             android:layout_marginLeft="10dp"

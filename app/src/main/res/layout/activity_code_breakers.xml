@@ -87,7 +87,7 @@
                             android:layout_height="wrap_content"
                             android:id="@+id/cardTitleInC1"
                             android:gravity="center_vertical"
-                            android:text="Some hints will be given about a word and the participant should guess the word. A team should consist minimum of one student and maximum of three students. Registration fee will be Rs.50/-."
+                            android:text="@string/code_breakers"
                             android:textSize="19sp"
                             android:textColor="@android:color/black"
                             android:layout_marginLeft="10dp"

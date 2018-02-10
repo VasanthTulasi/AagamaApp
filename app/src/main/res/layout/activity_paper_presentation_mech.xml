@@ -87,7 +87,7 @@
                             android:layout_height="wrap_content"
                             android:id="@+id/cardTitleInC1"
                             android:gravity="center_vertical"
-                            android:text="“Perfection is not attainable, but if we chase perfection we can catch excellence”. These best phrases by Vince Lombardi has lighten up our minds! It’s all about how you put your topic or present your topic infront of the audience. They see the way you present your topic, the way you put your point, your presentation style, your language and how promptly and effectively you answer their questions. Come up with innovative ideas!"
+                            android:text="@string/paper_presentation_mech"
                             android:textSize="19sp"
                             android:textColor="@android:color/black"
                             android:layout_marginLeft="10dp"

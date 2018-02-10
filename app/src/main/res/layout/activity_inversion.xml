@@ -87,7 +87,7 @@
                             android:layout_height="wrap_content"
                             android:id="@+id/cardTitleInC1"
                             android:gravity="center_vertical"
-                            android:text="About the event: It is completely a fun based non technical event. As the name itself says that it is inversion type. Explore your world in the mirror world. It has several tasks should be completed in a limited period of time. You can have a lot of fun and improve your creativity."
+                            android:text="@string/inversion"
                             android:textSize="19sp"
                             android:textColor="@android:color/black"
                             android:layout_marginLeft="10dp"

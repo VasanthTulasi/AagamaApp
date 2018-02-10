@@ -87,7 +87,7 @@
                             android:layout_height="wrap_content"
                             android:id="@+id/cardTitleInC1"
                             android:gravity="center_vertical"
-                            android:text="About the event: we will give soaked bricked to them and they should catch the brick with 2 fingers .There will be 5 members in the group. Who will catch the brick for highest limit they will selected ."
+                            android:text="@string/brick_challenge"
                             android:textSize="19sp"
                             android:textColor="@android:color/black"
                             android:layout_marginLeft="10dp"

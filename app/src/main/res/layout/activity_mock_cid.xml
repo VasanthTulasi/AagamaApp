@@ -87,7 +87,7 @@
                             android:layout_height="wrap_content"
                             android:id="@+id/cardTitleInC1"
                             android:gravity="center_vertical"
-                            android:text="About the event: Be a detective and chase the case, The mystery room brings you the ultimate excitement in the process investigation. Im the mystery room the participants have to suspect the things and they have to narrate the mystery in given time given for each group or person.lastly,prizes will be awarded according to the best narration of chasing the mystery case. prizes will be awarded according to the best narration of the mystery."
+                            android:text="@string/mock_cid"
                             android:textSize="19sp"
                             android:textColor="@android:color/black"
                             android:layout_marginLeft="10dp"

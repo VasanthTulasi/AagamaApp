@@ -16,6 +16,7 @@ import com.example.vasanth.hambutton.skillZone.PlayZone;
 import com.example.vasanth.hambutton.skillZone.TechPowerHunt;
 import com.example.vasanth.hambutton.skillZone.TechnicalThambola;
 import com.example.vasanth.hambutton.skillZone.ThreeDChallenge;
+import com.example.vasanth.hambutton.skillZone.WordWrap;
 
 public class SkillZone extends AppCompatActivity {
 
@@ -58,5 +59,9 @@ public class SkillZone extends AppCompatActivity {
     public void model(View v){
         startActivity(new Intent(SkillZone.this, ModelMaking.class));
     }
+    public void wordWrap(View v){
+        startActivity(new Intent(SkillZone.this, WordWrap.class));
+    }
+
 
 }

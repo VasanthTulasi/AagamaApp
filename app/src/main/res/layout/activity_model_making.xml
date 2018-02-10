@@ -87,7 +87,7 @@
                             android:layout_height="wrap_content"
                             android:id="@+id/cardTitleInC1"
                             android:gravity="center_vertical"
-                            android:text="About the event: The participants have to prepare any civil structure using the material provided by us. It is an ultimate opportunity for everyone to exhibit their architectural skills."
+                            android:text="@string/model_making"
                             android:textSize="19sp"
                             android:textColor="@android:color/black"
                             android:layout_marginLeft="10dp"

@@ -10,6 +10,7 @@ import com.example.vasanth.hambutton.funZone.BreakItIfYouCan;
 import com.example.vasanth.hambutton.funZone.CodeBreakers;
 import com.example.vasanth.hambutton.funZone.DevilFollows;
 import com.example.vasanth.hambutton.funZone.DumbShellElectronics;
+import com.example.vasanth.hambutton.funZone.FunCarnival;
 import com.example.vasanth.hambutton.funZone.Inversion;
 import com.example.vasanth.hambutton.openZone.Fabulous;
 
@@ -42,5 +43,9 @@ public class FunZone extends AppCompatActivity {
     public void inversion(View v){
         startActivity(new Intent(FunZone.this, Inversion.class));
     }
+    public void carnival(View v){
+        startActivity(new Intent(FunZone.this, FunCarnival.class));
+    }
+
 
 }

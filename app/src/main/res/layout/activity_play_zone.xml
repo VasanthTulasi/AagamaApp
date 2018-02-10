@@ -87,7 +87,7 @@
                             android:layout_height="wrap_content"
                             android:id="@+id/cardTitleInC1"
                             android:gravity="center_vertical"
-                            android:text="As the title indicates the event is a non-technical event which includes games with mechanical components. It is a fun event where you can gain knowledge by playing games. It is a time based event. participants will enjoy a lot in this event."
+                            android:text="@string/play_zone"
                             android:textSize="19sp"
                             android:textColor="@android:color/black"
                             android:layout_marginLeft="10dp"

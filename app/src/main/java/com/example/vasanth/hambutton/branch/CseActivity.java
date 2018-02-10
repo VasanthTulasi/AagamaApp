@@ -37,11 +37,11 @@ private static final String TAG="CseActivity";
 
         ArrayList<Card> list=new ArrayList<>();
 
-        list.add(new Card("drawable://"+R.drawable.creative1,"Paper Presentation"));
-        list.add(new Card("drawable://"+R.drawable.creative1,"Poster Presentation"));
-        list.add(new Card("drawable://"+R.drawable.creative1,"Idea Presentation"));
-        list.add(new Card("drawable://"+R.drawable.creative1,"Web Design"));
-        list.add(new Card("drawable://"+R.drawable.creative1,"Project Expo"));
+        list.add(new Card("drawable://"+R.drawable.paper_presentation,"Paper Presentation"));
+        list.add(new Card("drawable://"+R.drawable.it_posterpresentation,"Poster Presentation"));
+        list.add(new Card("drawable://"+R.drawable.idea_presentation,"Idea Presentation"));
+        list.add(new Card("drawable://"+R.drawable.web_design,"Web Design"));
+        list.add(new Card("drawable://"+R.drawable.project_expo,"Project Expo"));
         list.add(new Card("drawable://"+R.drawable.creative1,"Bugsmash"));
 
         CSECustomListAdapter adapter=new CSECustomListAdapter(this,R.layout.cse_card,list);

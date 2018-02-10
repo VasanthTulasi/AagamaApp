@@ -434,6 +434,7 @@
                     android:clickable="true"
                     app:cardCornerRadius="12dp"
                     android:id="@+id/it_card"
+                    android:onClick="it"
                     >
                     <LinearLayout
                         android:layout_width="match_parent"

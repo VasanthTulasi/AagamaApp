@@ -35,7 +35,7 @@ private static final String TAG="ItActivity";
 
         ArrayList<Card> listIT=new ArrayList<>();
 
-        listIT.add(new Card("drawable://"+R.drawable.creative1,"IT"));
+        listIT.add(new Card("drawable://"+R.drawable.creative1,"Code Maze"));
 
 
         ITCustomListAdapter adapterIT=new ITCustomListAdapter(this,R.layout.it_card,listIT);

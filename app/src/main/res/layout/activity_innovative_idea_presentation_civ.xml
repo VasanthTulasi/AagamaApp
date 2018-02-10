@@ -87,7 +87,7 @@
                             android:layout_height="wrap_content"
                             android:id="@+id/cardTitleInC1"
                             android:gravity="center_vertical"
-                            android:text="Only 5 minutes of time will be given to participants, He/She should be able to complete the presentation within the time limit."
+                            android:text="@string/innovative_idea_presentation_civ"
                             android:textSize="19sp"
                             android:textColor="@android:color/black"
                             android:layout_marginLeft="10dp"

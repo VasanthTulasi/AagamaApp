@@ -14,9 +14,12 @@ import android.widget.TextView;
 import com.example.vasanth.hambutton.R;
 import com.example.vasanth.hambutton.cseBranchIndividualActivities.CseActivity1;
 import com.example.vasanth.hambutton.cseBranchIndividualActivities.CseActivity2;
+import com.example.vasanth.hambutton.mechBranchIndividualActivities.DesignExecuteMECH;
+import com.example.vasanth.hambutton.mechBranchIndividualActivities.MeetYourThoughtsMECH;
 import com.example.vasanth.hambutton.mechBranchIndividualActivities.MekboltMECH;
 import com.example.vasanth.hambutton.mechBranchIndividualActivities.MindsparkMECH;
 import com.example.vasanth.hambutton.mechBranchIndividualActivities.PaperPresentationMECH;
+import com.example.vasanth.hambutton.mechBranchIndividualActivities.PrayogMECH;
 import com.nostra13.universalimageloader.cache.memory.impl.WeakMemoryCache;
 import com.nostra13.universalimageloader.core.DisplayImageOptions;
 import com.nostra13.universalimageloader.core.ImageLoader;
@@ -98,6 +101,12 @@ public class MECHCustomListAdapter extends ArrayAdapter<Card> {
                     mContextMECH.startActivity(new Intent(mContextMECH, MindsparkMECH.class));
                 else if (position == 2)
                     mContextMECH.startActivity(new Intent(mContextMECH, PaperPresentationMECH.class));
+                else if (position == 3)
+                    mContextMECH.startActivity(new Intent(mContextMECH, PrayogMECH.class));
+                else if (position == 4)
+                    mContextMECH.startActivity(new Intent(mContextMECH, DesignExecuteMECH.class));
+                else if (position == 5)
+                    mContextMECH.startActivity(new Intent(mContextMECH, MeetYourThoughtsMECH.class));
 
             }
         });

@@ -36,7 +36,7 @@
             android:name=".MainActivityForDev"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".MainActivityForZones"
+            android:name=".MainActivityDept"
             android:screenOrientation="portrait" />
         <activity
             android:name=".SkillZone"
@@ -60,7 +60,7 @@
             android:name=".cseBranchIndividualActivities.CseActivity6"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".MainActivityDept"
+            android:name=".MainActivityForZones"
             android:screenOrientation="portrait" />
         <activity
             android:name=".OpenZone"
@@ -110,7 +110,13 @@
         <activity android:name=".funZone.CodeBreakers" />
         <activity android:name=".funZone.DevilFollows" />
         <activity android:name=".funZone.BreakItIfYouCan" />
-        <activity android:name=".funZone.Inversion"></activity>
+        <activity android:name=".funZone.Inversion" />
+        <activity android:name=".skillZone.WordWrap" />
+        <activity android:name=".itIndividualActivities.CodeMazeIT" />
+        <activity android:name=".funZone.FunCarnival" />
+        <activity android:name=".mechBranchIndividualActivities.PrayogMECH" />
+        <activity android:name=".mechBranchIndividualActivities.DesignExecuteMECH" />
+        <activity android:name=".mechBranchIndividualActivities.MeetYourThoughtsMECH"></activity>
     </application>
 
 </manifest>
