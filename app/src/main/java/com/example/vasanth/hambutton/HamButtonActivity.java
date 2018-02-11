@@ -1,5 +1,6 @@
 package com.example.vasanth.hambutton;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageManager;
@@ -9,8 +10,10 @@ import android.graphics.PointF;
 import android.net.Uri;
 import android.os.Handler;
 import android.support.design.widget.TabLayout;
+import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.ActionBar;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
@@ -55,6 +58,8 @@ public class HamButtonActivity extends AppCompatActivity{
    BoomMenuButton bmb;
    ArrayList<Integer> images;
    ArrayList<String> textInfo;
+   android.app.FragmentManager fm = getFragmentManager();
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -102,16 +107,17 @@ public class HamButtonActivity extends AppCompatActivity{
                 public void onBoomButtonClick(int index) {
                     if (index == 6) {
                         fm.beginTransaction()
-                                .replace(R.id.main_screen,new HomeFragment())
+                                .replace(R.id.main_screen,new HomeFragment(),"HomeFragment")
+                                .addToBackStack("HomeFragment")
                                 .commit();
 
                     } else if (index == 0) {
                         fm.beginTransaction()
-                                .replace(R.id.main_screen, new About())
+                                .replace(R.id.main_screen, new About(),"About")
                                 .commit();
                     } else if (index == 1) {
                         fm.beginTransaction()
-                                .replace(R.id.main_screen, new Gallery())
+                                .replace(R.id.main_screen, new Gallery(),"Gallery")
                                 .commit();
                     } else if (index == 2) {
                         startActivity(new Intent(HamButtonActivity.this,MainActivityForDev.class));
@@ -120,11 +126,11 @@ public class HamButtonActivity extends AppCompatActivity{
                             //    .commit();
                     } else if (index == 3) {
                         fm.beginTransaction()
-                                .replace(R.id.main_screen, new Sponsor())
+                                .replace(R.id.main_screen, new Sponsor(),"Sponsor")
                                 .commit();
                     } else if (index == 4) {
                         fm.beginTransaction()
-                                .replace(R.id.main_screen, new Contact())
+                                .replace(R.id.main_screen, new Contact(),"Contact")
                                 .commit();
                     } else if (index == 5) {
 
@@ -146,8 +152,6 @@ public class HamButtonActivity extends AppCompatActivity{
             });
             bmb.addBuilder(builder);
         }
-
-
 
     }
 
@@ -240,6 +244,7 @@ public class HamButtonActivity extends AppCompatActivity{
         Intent i = new Intent(HamButtonActivity.this,MainActivityForZones.class);
         startActivity(i);
     }
+
 
 
 }

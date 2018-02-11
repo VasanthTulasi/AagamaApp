@@ -12,8 +12,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_centerVertical="true"
-        android:scaleType="fitStart"
-        android:src="@drawable/launch1" />
+        android:src="@drawable/aagama" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
