@@ -36,7 +36,7 @@ private static final String TAG="EeeActivity";
         ArrayList<Card> listEEE=new ArrayList<>();
 
         listEEE.add(new Card("drawable://"+R.drawable.it_posterpresentation,"Paper Presentation"));
-        listEEE.add(new Card("drawable://"+R.drawable.it_posterpresentation,"Poster Presentation"));
+        listEEE.add(new Card("drawable://"+R.drawable.poster_presentation_eee,"Poster Presentation"));
         listEEE.add(new Card("drawable://"+R.drawable.project_expo,"Project Expo"));
         listEEE.add(new Card("drawable://"+R.drawable.sample_tech_quiz,"Techinical Quiz"));
 

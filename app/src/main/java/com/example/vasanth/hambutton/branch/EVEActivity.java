@@ -35,9 +35,9 @@ private static final String TAG="EceActivity";
 
         ArrayList<Card> listECE=new ArrayList<>();
 
-        listECE.add(new Card("drawable://"+R.drawable.sample_tech_quiz,"Technical Quiz"));
-        listECE.add(new Card("drawable://"+R.drawable.ece_circuitrix,"Circuitrix"));
-        listECE.add(new Card("drawable://"+R.drawable.ece_ramandrom,"RAM and ROM"));
+        listECE.add(new Card("drawable://"+R.drawable.ece_techquiz2,"Technical Quiz"));
+        listECE.add(new Card("drawable://"+R.drawable.circuitrix_ece,"Circuitrix"));
+        listECE.add(new Card("drawable://"+R.drawable.ramandrom_ece,"RAM and ROM"));
 
 
         ECECustomListAdapter adapterECE=new ECECustomListAdapter(this,R.layout.ece_card,listECE);

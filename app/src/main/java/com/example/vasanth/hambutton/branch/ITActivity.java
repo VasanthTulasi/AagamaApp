@@ -36,12 +36,12 @@ private static final String TAG="ItActivity";
         ArrayList<Card> listIT=new ArrayList<>();
 
         listIT.add(new Card("drawable://"+R.drawable.creative1,"Code Maze"));
-        listIT.add(new Card("drawable://"+R.drawable.creative1,"Paper Presentation"));
-        listIT.add(new Card("drawable://"+R.drawable.creative1,"Poster Presentation"));
-        listIT.add(new Card("drawable://"+R.drawable.creative1,"Mobile App Mock Up"));
-        listIT.add(new Card("drawable://"+R.drawable.creative1,"CPU collab"));
-        listIT.add(new Card("drawable://"+R.drawable.creative1,"Cascading Code "));
-        listIT.add(new Card("drawable://"+R.drawable.creative1,"Code Sink"));
+        listIT.add(new Card("drawable://"+R.drawable.it_paperpresentation,"Paper Presentation"));
+        listIT.add(new Card("drawable://"+R.drawable.it_posterpresentation,"Poster Presentation"));
+        listIT.add(new Card("drawable://"+R.drawable.it_mobileappmockup,"Mobile App Mock Up"));
+        listIT.add(new Card("drawable://"+R.drawable.it_cpucollab,"CPU collab"));
+        listIT.add(new Card("drawable://"+R.drawable.cascadingcoding_it,"Cascading Code "));
+        listIT.add(new Card("drawable://"+R.drawable.codesink_it,"Code Sink"));
 
 
 

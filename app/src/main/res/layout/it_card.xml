@@ -18,7 +18,7 @@
         android:layout_height="280dp"
         app:cardCornerRadius="5dp"
         app:cardElevation="15dp"
-        app:cardBackgroundColor="@android:color/white"
+        app:cardBackgroundColor="#F4F6F6"
         app:contentPadding="10dp"
         app:cardMaxElevation="15dp"
         android:clickable="true"
@@ -31,15 +31,18 @@
             >
             <android.support.v7.widget.CardView
                 android:layout_width="match_parent"
+                android:layout_gravity="center_horizontal"
                 android:layout_height="170dp"
+                app:cardElevation="0dp"
                 app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="#F4F6F6"
                 >
 
             <ImageView
                 android:id="@+id/cardImageInIT"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:scaleType="centerCrop"
+                android:scaleType="fitCenter"
                 />
 
             </android.support.v7.widget.CardView>

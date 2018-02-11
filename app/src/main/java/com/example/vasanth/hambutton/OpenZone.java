@@ -65,18 +65,12 @@ public class OpenZone extends AppCompatActivity {
     public void king(View v){
         startActivity(new Intent(OpenZone.this, KingOfDice.class));
     }
-    public void cid(View v){
-        startActivity(new Intent(OpenZone.this, MockCID.class));
-    }
+    public void cid(View v){startActivity(new Intent(OpenZone.this, MockCID.class));}
     public void mirror(View v){
         startActivity(new Intent(OpenZone.this, MirrorWalk.class));
     }
-    public void wordsWorth(View v){
-        startActivity(new Intent(OpenZone.this, WordsWorth.class));
-    }
-    public void virtual(View v){
-        startActivity(new Intent(OpenZone.this, VirtualJobFair.class));
-    }
+    public void wordsWorth(View v){startActivity(new Intent(OpenZone.this, WordsWorth.class));}
+    public void virtual(View v){startActivity(new Intent(OpenZone.this, VirtualJobFair.class));}
     public void deadly(View v){
         startActivity(new Intent(OpenZone.this, DeadlyHunt.class));
     }
