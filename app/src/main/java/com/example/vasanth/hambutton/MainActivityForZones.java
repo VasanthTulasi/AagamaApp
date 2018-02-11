@@ -1,14 +1,23 @@
 package com.example.vasanth.hambutton;
 
 import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.graphics.Color;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
 
+
+import java.util.ArrayList;
+
 public class MainActivityForZones extends AppCompatActivity {
-       public Button bt;
+    public Button bt;
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,6 +48,7 @@ public class MainActivityForZones extends AppCompatActivity {
         Intent i = new Intent(MainActivityForZones.this,FunZone.class);
         startActivity(i);
     }
+
 
 
 }

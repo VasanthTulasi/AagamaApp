@@ -116,7 +116,16 @@
         <activity android:name=".funZone.FunCarnival" />
         <activity android:name=".mechBranchIndividualActivities.PrayogMECH" />
         <activity android:name=".mechBranchIndividualActivities.DesignExecuteMECH" />
-        <activity android:name=".mechBranchIndividualActivities.MeetYourThoughtsMECH"></activity>
+        <activity android:name=".mechBranchIndividualActivities.MeetYourThoughtsMECH" />
+        <activity android:name=".itIndividualActivities.PosterPresentationIT" />
+        <activity android:name=".itIndividualActivities.MobileAppMockUpIT" />
+        <activity android:name=".itIndividualActivities.PaperPresentationIT" />
+        <activity android:name=".itIndividualActivities.CPUCollabIT" />
+        <activity android:name=".itIndividualActivities.CodeSinkIT" />
+        <activity android:name=".itIndividualActivities.CascadingCodeIt" />
+        <activity android:name=".openZone.DeadlyHunt" />
+        <activity android:name=".openZone.WordsWorth" />
+        <activity android:name=".openZone.VirtualJobFair"></activity>
     </application>
 
 </manifest>

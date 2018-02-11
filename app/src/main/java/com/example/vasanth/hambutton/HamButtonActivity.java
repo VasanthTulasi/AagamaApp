@@ -58,7 +58,6 @@ public class HamButtonActivity extends AppCompatActivity{
    BoomMenuButton bmb;
    ArrayList<Integer> images;
    ArrayList<String> textInfo;
-   android.app.FragmentManager fm = getFragmentManager();
 
 
     @Override

@@ -37,7 +37,7 @@ private static final String TAG="CseActivity";
 
         ArrayList<Card> list=new ArrayList<>();
 
-        list.add(new Card("drawable://"+R.drawable.paper_presentation,"Paper Presentation"));
+        list.add(new Card("drawable://"+R.drawable.image_cse_paper,"Paper Presentation"));
         list.add(new Card("drawable://"+R.drawable.it_posterpresentation,"Poster Presentation"));
         list.add(new Card("drawable://"+R.drawable.idea_presentation,"Idea Presentation"));
         list.add(new Card("drawable://"+R.drawable.web_design,"Web Design"));

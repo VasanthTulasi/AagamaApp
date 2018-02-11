@@ -14,7 +14,13 @@ import android.widget.TextView;
 import com.example.vasanth.hambutton.R;
 import com.example.vasanth.hambutton.cseBranchIndividualActivities.CseActivity1;
 import com.example.vasanth.hambutton.cseBranchIndividualActivities.CseActivity2;
+import com.example.vasanth.hambutton.itIndividualActivities.CPUCollabIT;
+import com.example.vasanth.hambutton.itIndividualActivities.CascadingCodeIt;
 import com.example.vasanth.hambutton.itIndividualActivities.CodeMazeIT;
+import com.example.vasanth.hambutton.itIndividualActivities.CodeSinkIT;
+import com.example.vasanth.hambutton.itIndividualActivities.MobileAppMockUpIT;
+import com.example.vasanth.hambutton.itIndividualActivities.PaperPresentationIT;
+import com.example.vasanth.hambutton.itIndividualActivities.PosterPresentationIT;
 import com.nostra13.universalimageloader.cache.memory.impl.WeakMemoryCache;
 import com.nostra13.universalimageloader.core.DisplayImageOptions;
 import com.nostra13.universalimageloader.core.ImageLoader;
@@ -92,8 +98,22 @@ public class ITCustomListAdapter extends ArrayAdapter<Card> {
             public void onClick(View view) {
                 if(position == 0)
                    mContextIT.startActivity(new Intent(mContextIT, CodeMazeIT.class));
-
+                else if(position == 1)
+                    mContextIT.startActivity(new Intent(mContextIT, PaperPresentationIT.class));
+                else if(position == 2)
+                    mContextIT.startActivity(new Intent(mContextIT, PosterPresentationIT.class));
+                else if(position == 3)
+                    mContextIT.startActivity(new Intent(mContextIT, MobileAppMockUpIT.class));
+                else if(position == 4)
+                    mContextIT.startActivity(new Intent(mContextIT, CPUCollabIT.class));
+                else if(position == 5)
+                    mContextIT.startActivity(new Intent(mContextIT, CascadingCodeIt.class));
+                else if(position == 6)
+                    mContextIT.startActivity(new Intent(mContextIT, CodeSinkIT.class));
             }
+
+
+
         });
 
 

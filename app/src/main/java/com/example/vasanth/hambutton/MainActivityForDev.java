@@ -24,7 +24,7 @@ public class MainActivityForDev extends AppCompatActivity {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
 
         // Add Fragments to adapter one by one
-        adapter.addFragment(new PatronFragment(), "Patron");
+     //   adapter.addFragment(new PatronFragment(), "Patron");
         adapter.addFragment(new DevFragment(), "Dev Team");
         viewPager.setAdapter(adapter);
 

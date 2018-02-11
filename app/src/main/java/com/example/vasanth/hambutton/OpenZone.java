@@ -12,6 +12,7 @@ import com.example.vasanth.hambutton.openZone.BrickChallenge;
 import com.example.vasanth.hambutton.openZone.ClayMoulding;
 import com.example.vasanth.hambutton.openZone.CreativeSelfie;
 import com.example.vasanth.hambutton.openZone.Dandiya;
+import com.example.vasanth.hambutton.openZone.DeadlyHunt;
 import com.example.vasanth.hambutton.openZone.Fabulous;
 import com.example.vasanth.hambutton.openZone.KingOfDice;
 import com.example.vasanth.hambutton.openZone.MatlabMania;
@@ -19,6 +20,8 @@ import com.example.vasanth.hambutton.openZone.MirrorWalk;
 import com.example.vasanth.hambutton.openZone.MockCID;
 import com.example.vasanth.hambutton.openZone.Painting;
 import com.example.vasanth.hambutton.openZone.Rangoli;
+import com.example.vasanth.hambutton.openZone.VirtualJobFair;
+import com.example.vasanth.hambutton.openZone.WordsWorth;
 
 public class OpenZone extends AppCompatActivity {
 
@@ -64,9 +67,20 @@ public class OpenZone extends AppCompatActivity {
     }
     public void cid(View v){
         startActivity(new Intent(OpenZone.this, MockCID.class));
-    }public void mirror(View v){
+    }
+    public void mirror(View v){
         startActivity(new Intent(OpenZone.this, MirrorWalk.class));
     }
+    public void wordsWorth(View v){
+        startActivity(new Intent(OpenZone.this, WordsWorth.class));
+    }
+    public void virtual(View v){
+        startActivity(new Intent(OpenZone.this, VirtualJobFair.class));
+    }
+    public void deadly(View v){
+        startActivity(new Intent(OpenZone.this, DeadlyHunt.class));
+    }
+
 
 
 
