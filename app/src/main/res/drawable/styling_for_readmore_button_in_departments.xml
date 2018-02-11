@@ -3,7 +3,7 @@
 
 
     <solid
-        android:color="@color/deeppurple">
+        android:color="#4e342e">
     </solid>
 
     <corners

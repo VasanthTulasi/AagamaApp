@@ -134,6 +134,7 @@
                             android:layout_height="wrap_content"
                             android:gravity="center"
                             android:padding="5dp"
+                            android:textStyle="bold"
                             android:text="Choose Events "
                             android:textColor="#000000"
 
@@ -197,6 +198,7 @@
 
                             android:gravity="center"
                             android:padding="5dp"
+                            android:textStyle="bold"
                             android:text="Choose Events "
                             android:textColor="@android:color/black"
 
@@ -254,6 +256,7 @@
                             android:textStyle="bold"
                             android:layout_marginTop="10dp"
                             android:text="EEE"
+
                             android:textColor="@android:color/black"
 
                             />
@@ -321,6 +324,7 @@
                             android:textStyle="bold"
                             android:layout_marginTop="10dp"
                             android:text="CIVIL"
+
                             android:textColor="@android:color/black"
 
 
@@ -337,7 +341,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-
+                            android:textStyle="bold"
                             android:gravity="center"
                             android:text="Choose Events"
                             android:padding="5dp"
@@ -416,6 +420,7 @@
                             android:gravity="center"
                             android:text="Choose Events"
                             android:padding="5dp"
+                            android:textStyle="bold"
                             android:textColor="@android:color/black"
 
                             />
@@ -474,7 +479,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-
+                            android:textStyle="bold"
                             android:gravity="center"
                             android:text="Choose Events"
                             android:padding="5dp"
