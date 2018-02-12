@@ -87,7 +87,6 @@
                     android:layout_width="160dp"
                     android:layout_height="175dp"
                     android:layout_margin="10dp"
-                    android:background="@drawable/computer"
                     android:clickable="true"
                     android:foreground="?android:attr/selectableItemBackground"
                     android:onClick="cse"

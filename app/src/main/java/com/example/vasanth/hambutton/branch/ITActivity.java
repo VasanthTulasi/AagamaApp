@@ -35,7 +35,7 @@ private static final String TAG="ItActivity";
 
         ArrayList<Card> listIT=new ArrayList<>();
 
-        listIT.add(new Card("drawable://"+R.drawable.creative1,"Code Maze"));
+        listIT.add(new Card("drawable://"+R.drawable.code_maze_it,"Code Maze"));
         listIT.add(new Card("drawable://"+R.drawable.it_paperpresentation,"Paper Presentation"));
         listIT.add(new Card("drawable://"+R.drawable.it_posterpresentation,"Poster Presentation"));
         listIT.add(new Card("drawable://"+R.drawable.it_mobileappmockup,"Mobile App Mock Up"));

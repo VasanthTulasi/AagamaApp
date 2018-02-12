@@ -78,7 +78,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@drawable/styling_for_readmore_button_in_departments"
-                    android:text="Read More"
+                    android:text="Details"
                     android:textColor="@color/colorPrimary"
                     android:layout_alignParentStart="true"
                     android:layout_alignParentLeft="true"

@@ -35,10 +35,10 @@ private static final String TAG="EeeActivity";
 
         ArrayList<Card> listEEE=new ArrayList<>();
 
-        listEEE.add(new Card("drawable://"+R.drawable.it_posterpresentation,"Paper Presentation"));
-        listEEE.add(new Card("drawable://"+R.drawable.poster_presentation_eee,"Poster Presentation"));
-        listEEE.add(new Card("drawable://"+R.drawable.project_expo,"Project Expo"));
-        listEEE.add(new Card("drawable://"+R.drawable.sample_tech_quiz,"Techinical Quiz"));
+        listEEE.add(new Card("drawable://"+R.drawable.paper_presentation_eee,"Paper Presentation"));
+        listEEE.add(new Card("drawable://"+R.drawable.cse_poster_presentation,"Poster Presentation"));
+        listEEE.add(new Card("drawable://"+R.drawable.project_expo_eee,"Project Expo"));
+        listEEE.add(new Card("drawable://"+R.drawable.ece_techquiz2,"Techinical Quiz"));
 
 
         EEECustomListAdapter adapterEEE=new EEECustomListAdapter(this,R.layout.eee_card,listEEE);

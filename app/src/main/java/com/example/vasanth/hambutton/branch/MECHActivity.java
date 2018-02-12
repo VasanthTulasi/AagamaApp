@@ -35,12 +35,12 @@ private static final String TAG="MechActivity";
 
         ArrayList<Card> listMECH=new ArrayList<>();
 
-        listMECH.add(new Card("drawable://"+R.drawable.creative1,"Mekbolt"));
-        listMECH.add(new Card("drawable://"+R.drawable.creative1,"Mind Spark"));
-        listMECH.add(new Card("drawable://"+R.drawable.creative1,"Paper Presentation"));
-        listMECH.add(new Card("drawable://"+R.drawable.creative1,"Prayog"));
-        listMECH.add(new Card("drawable://"+R.drawable.creative1,"Dessin Xecute"));
-        listMECH.add(new Card("drawable://"+R.drawable.creative1,"Meet Your Thoughts"));
+        listMECH.add(new Card("drawable://"+R.drawable.mekbolt_mech,"Mekbolt"));
+        listMECH.add(new Card("drawable://"+R.drawable.mind_spark_mech,"Mind Spark"));
+        listMECH.add(new Card("drawable://"+R.drawable.paper_presentation_mech,"Paper Presentation"));
+        listMECH.add(new Card("drawable://"+R.drawable.prayog_mech,"Prayog"));
+        listMECH.add(new Card("drawable://"+R.drawable.design_execute_mech,"Dessin Xecute"));
+        listMECH.add(new Card("drawable://"+R.drawable.meet_your_thoughts_mech,"Meet Your Thoughts"));
 
 
 

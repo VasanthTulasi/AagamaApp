@@ -58,8 +58,8 @@
 
                             >
                             <ImageView
-                                android:layout_width="64dp"
-                                android:layout_height="64dp"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
                                 android:background="@drawable/cerclebackgroundpink"
                                 android:src="@drawable/ic_comment_black_24dp"
                                 android:padding="10dp"
@@ -114,10 +114,9 @@
 
                             >
                             <ImageView
-                                android:layout_width="64dp"
-                                android:layout_height="64dp"
-                                android:background="@drawable/cerclebackgroundpink"
-                                android:src="@drawable/ic_comment_black_24dp"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:background="@drawable/lan_gaming"
                                 android:padding="10dp"
                                 />
 
@@ -180,10 +179,9 @@
 
                             >
                             <ImageView
-                                android:layout_width="64dp"
-                                android:layout_height="64dp"
-                                android:background="@drawable/cerclebackgroundpink"
-                                android:src="@drawable/ic_comment_black_24dp"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:background="@drawable/technical_thambola"
                                 android:padding="10dp"
                                 android:id="@+id/clickinopen"
                                 />
@@ -237,10 +235,9 @@
 
                             >
                             <ImageView
-                                android:layout_width="64dp"
-                                android:layout_height="64dp"
-                                android:background="@drawable/cerclebackgroundpink"
-                                android:src="@drawable/ic_comment_black_24dp"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:background="@drawable/jig_saw_puzzle"
                                 android:padding="10dp"
                                 />
 
@@ -300,8 +297,8 @@
                             >
 
                             <ImageView
-                                android:layout_width="64dp"
-                                android:layout_height="64dp"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
                                 android:background="@drawable/cerclebackgroundpink"
                                 android:src="@drawable/ic_comment_black_24dp"
                                 android:padding="10dp"
@@ -354,10 +351,9 @@
 
                             >
                             <ImageView
-                                android:layout_width="64dp"
-                                android:layout_height="64dp"
-                                android:background="@drawable/cerclebackgroundpink"
-                                android:src="@drawable/ic_comment_black_24dp"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:background="@drawable/circuitrix"
                                 android:padding="10dp"
                                 />
 
@@ -416,10 +412,9 @@
                             >
 
                             <ImageView
-                                android:layout_width="64dp"
-                                android:layout_height="64dp"
-                                android:background="@drawable/cerclebackgroundpink"
-                                android:src="@drawable/ic_comment_black_24dp"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:background="@drawable/techhunt_eee"
                                 android:padding="10dp"
                                 />
 
@@ -470,8 +465,8 @@
 
                             >
                             <ImageView
-                                android:layout_width="64dp"
-                                android:layout_height="64dp"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
                                 android:background="@drawable/cerclebackgroundpink"
                                 android:src="@drawable/ic_comment_black_24dp"
                                 android:padding="10dp"
@@ -535,8 +530,8 @@
                             >
 
                             <ImageView
-                                android:layout_width="64dp"
-                                android:layout_height="64dp"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
                                 android:background="@drawable/cerclebackgroundpink"
                                 android:src="@drawable/ic_comment_black_24dp"
                                 android:padding="10dp"
@@ -589,8 +584,8 @@
                             android:orientation="vertical"
                             android:gravity="center">
                             <ImageView
-                                android:layout_width="64dp"
-                                android:layout_height="64dp"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
                                 android:background="@drawable/cerclebackgroundpink"
                                 android:src="@drawable/ic_comment_black_24dp"
                                 android:padding="10dp"

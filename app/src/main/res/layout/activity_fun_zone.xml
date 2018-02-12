@@ -57,10 +57,9 @@
 
                             >
                             <ImageView
-                                android:layout_width="64dp"
-                                android:layout_height="64dp"
-                                android:background="@drawable/cerclebackgroundpink"
-                                android:src="@drawable/ic_comment_black_24dp"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:background="@drawable/dumbshell_electronics"
                                 android:padding="10dp"
                                 android:id="@+id/clickoneinopen"
                                 />
@@ -113,10 +112,9 @@
 
                             >
                             <ImageView
-                                android:layout_width="64dp"
-                                android:layout_height="64dp"
-                                android:background="@drawable/cerclebackgroundpink"
-                                android:src="@drawable/ic_comment_black_24dp"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:background="@drawable/code_breaker"
                                 android:padding="10dp"
                                 />
 
@@ -179,10 +177,9 @@
 
                             >
                             <ImageView
-                                android:layout_width="64dp"
-                                android:layout_height="64dp"
-                                android:background="@drawable/cerclebackgroundpink"
-                                android:src="@drawable/ic_comment_black_24dp"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:background="@drawable/devil_follows"
                                 android:padding="10dp"
                                 android:id="@+id/clickinopen"
                                 />
@@ -236,8 +233,8 @@
 
                             >
                             <ImageView
-                                android:layout_width="64dp"
-                                android:layout_height="64dp"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
                                 android:background="@drawable/cerclebackgroundpink"
                                 android:src="@drawable/ic_comment_black_24dp"
                                 android:padding="10dp"
@@ -299,8 +296,8 @@
                             >
 
                             <ImageView
-                                android:layout_width="64dp"
-                                android:layout_height="64dp"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
                                 android:background="@drawable/cerclebackgroundpink"
                                 android:src="@drawable/ic_comment_black_24dp"
                                 android:padding="10dp"
@@ -352,10 +349,9 @@
                             android:gravity="center"
                             >
                             <ImageView
-                                android:layout_width="64dp"
-                                android:layout_height="64dp"
-                                android:background="@drawable/cerclebackgroundpink"
-                                android:src="@drawable/ic_comment_black_24dp"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:background="@drawable/fun_carnival_mech"
                                 android:padding="10dp"
                                 />
 

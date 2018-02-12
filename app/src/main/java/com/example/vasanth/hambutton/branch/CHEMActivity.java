@@ -35,8 +35,8 @@ private static final String TAG="ChemActivity";
 
         ArrayList<Card> listCHEM=new ArrayList<>();
 
-        listCHEM.add(new Card("drawable://"+R.drawable.creative1,"Project Presentation"));
-        listCHEM.add(new Card("drawable://"+R.drawable.creative1,"Innovative Idea Presentation"));
+        listCHEM.add(new Card("drawable://"+R.drawable.project_presentation_civ,"Project Presentation"));
+        listCHEM.add(new Card("drawable://"+R.drawable.innovative_idea_presentation_civ,"Innovative Idea Presentation"));
         listCHEM.add(new Card("drawable://"+R.drawable.it_posterpresentation,"Poster Presentation"));
 
 

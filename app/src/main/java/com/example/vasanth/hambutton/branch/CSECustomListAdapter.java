@@ -1,18 +1,14 @@
 package com.example.vasanth.hambutton.branch;
 
 import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
-import android.provider.ContactsContract;
 import android.support.annotation.NonNull;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -96,6 +92,11 @@ public class CSECustomListAdapter extends ArrayAdapter<Card> {
             holder = (ViewHolder) convertView.getTag();
             result = convertView;
         }
+
+            ImageView imageInCSE = (ImageView) convertView.findViewById(R.id.cardImageInCSE);
+            imageInCSE.setImageResource(R.drawable.idea_presentation_cse);
+
+
         Button readMoreInCSE = (Button)convertView.findViewById(R.id.readMoreInCSE);
         readMoreInCSE.setOnClickListener(new View.OnClickListener() {
             @Override
