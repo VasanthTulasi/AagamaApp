@@ -106,17 +106,16 @@ public class HamButtonActivity extends AppCompatActivity{
                 public void onBoomButtonClick(int index) {
                     if (index == 6) {
                         fm.beginTransaction()
-                                .replace(R.id.main_screen,new HomeFragment(),"HomeFragment")
-                                .addToBackStack("HomeFragment")
+                                .replace(R.id.main_screen,new HomeFragment())
                                 .commit();
 
                     } else if (index == 0) {
                         fm.beginTransaction()
-                                .replace(R.id.main_screen, new About(),"About")
+                                .replace(R.id.main_screen, new About())
                                 .commit();
                     } else if (index == 1) {
                         fm.beginTransaction()
-                                .replace(R.id.main_screen, new Gallery(),"Gallery")
+                                .replace(R.id.main_screen, new Gallery())
                                 .commit();
                     } else if (index == 2) {
                         startActivity(new Intent(HamButtonActivity.this,MainActivityForDev.class));
@@ -125,11 +124,11 @@ public class HamButtonActivity extends AppCompatActivity{
                             //    .commit();
                     } else if (index == 3) {
                         fm.beginTransaction()
-                                .replace(R.id.main_screen, new Sponsor(),"Sponsor")
+                                .replace(R.id.main_screen, new Sponsor())
                                 .commit();
                     } else if (index == 4) {
                         fm.beginTransaction()
-                                .replace(R.id.main_screen, new Contact(),"Contact")
+                                .replace(R.id.main_screen, new Contact())
                                 .commit();
                     } else if (index == 5) {
 

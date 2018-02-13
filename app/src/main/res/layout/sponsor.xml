@@ -4,6 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#252523"
+    android:clickable="true"
+
     >
     <include
         layout="@layout/app_bar"
@@ -14,7 +16,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Coming Soon"
+        android:text="Sponsors Info Coming Soon"
         android:textSize="25sp"
         android:textColor="#ffffff"
         android:layout_centerInParent="true"/>

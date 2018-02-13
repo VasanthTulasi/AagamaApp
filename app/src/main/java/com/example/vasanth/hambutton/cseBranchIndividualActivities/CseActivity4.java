@@ -10,6 +10,6 @@ public class CseActivity4 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.web_design_cse);
+        setContentView(R.layout.idea_presentation_cse);
     }
 }

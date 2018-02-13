@@ -40,7 +40,7 @@ public class DevFragment extends Fragment {
 
     String[] phoneno ={
             "9542436509",
-            "9948646868",
+            "8919550773",
             "9063748493",
             "9542355551",
             "8106048493",

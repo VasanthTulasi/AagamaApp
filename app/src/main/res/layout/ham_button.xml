@@ -20,7 +20,8 @@
       <include layout="@layout/activity_main_count_down"
           android:layout_width="match_parent"
           android:layout_height="match_parent"
-          android:layout_below="@id/app_bar"> </include>
+          android:layout_below="@id/app_bar"
+          />
 
 
    </RelativeLayout>

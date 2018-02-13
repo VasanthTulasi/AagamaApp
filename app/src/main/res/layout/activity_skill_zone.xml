@@ -16,8 +16,22 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@id/app_bar">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/skill_zone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Skill Zone"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textSize="18sp"
+            android:gravity="center_horizontal"
+            android:textColor="#ffffff"/>
 
         <LinearLayout
+            android:layout_below="@id/skill_zone"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             app:layout_behavior="@string/appbar_scrolling_view_behavior"
@@ -299,8 +313,7 @@
                             <ImageView
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
-                                android:background="@drawable/cerclebackgroundpink"
-                                android:src="@drawable/ic_comment_black_24dp"
+                                android:background="@drawable/play_zone"
                                 android:padding="10dp"
                                 />
 
@@ -467,8 +480,7 @@
                             <ImageView
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
-                                android:background="@drawable/cerclebackgroundpink"
-                                android:src="@drawable/ic_comment_black_24dp"
+                                android:background="@drawable/three_d_challenge"
                                 android:padding="10dp"
                                 />
 
@@ -532,8 +544,7 @@
                             <ImageView
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
-                                android:background="@drawable/cerclebackgroundpink"
-                                android:src="@drawable/ic_comment_black_24dp"
+                                android:background="@drawable/model_making"
                                 android:padding="10dp"
                                 />
 
@@ -624,5 +635,6 @@
             </LinearLayout>
 
         </LinearLayout>
+        </RelativeLayout>
     </ScrollView>
-</RelativeLayout>
+    </RelativeLayout>

@@ -29,7 +29,7 @@
         android:layout_height="100dp"
         android:layout_centerInParent="true"
         android:layout_gravity="center"
-        android:background="@drawable/aagama"
+        android:background="@drawable/logo"
         android:contentDescription="@null"/>
 
 

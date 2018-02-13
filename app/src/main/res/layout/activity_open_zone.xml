@@ -11,12 +11,29 @@
     <include layout="@layout/app_bar"
         android:id="@+id/app_bar"/>
 
+
+
 <ScrollView
+    android:layout_below="@id/app_bar"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_below="@id/app_bar">
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/open_zone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Zone"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textSize="18sp"
+        android:gravity="center_horizontal"
+        android:textColor="#ffffff"/>
 
     <LinearLayout
+        android:layout_below="@id/open_zone"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
@@ -409,8 +426,7 @@
                         <ImageView
                             android:layout_width="80dp"
                             android:layout_height="80dp"
-                            android:background="@drawable/cerclebackgroundpink"
-                            android:src="@drawable/ic_comment_black_24dp"
+                            android:background="@drawable/brick_challenge"
                             android:padding="10dp"
                             />
 
@@ -463,8 +479,7 @@
                         <ImageView
                             android:layout_width="80dp"
                             android:layout_height="80dp"
-                            android:background="@drawable/cerclebackgroundpink"
-                            android:src="@drawable/ic_comment_black_24dp"
+                            android:background="@drawable/creative_selfie"
                             android:padding="10dp"
                             />
 
@@ -528,8 +543,7 @@
                         <ImageView
                             android:layout_width="80dp"
                             android:layout_height="80dp"
-                            android:background="@drawable/cerclebackgroundpink"
-                            android:src="@drawable/ic_comment_black_24dp"
+                            android:background="@drawable/king_of_dice"
                             android:padding="10dp"
                             />
 
@@ -584,8 +598,7 @@
                         <ImageView
                             android:layout_width="80dp"
                             android:layout_height="80dp"
-                            android:background="@drawable/cerclebackgroundpink"
-                            android:src="@drawable/ic_comment_black_24dp"
+                            android:background="@drawable/mock_cid"
                             android:padding="10dp"
                             />
 
@@ -648,8 +661,7 @@
                         <ImageView
                             android:layout_width="80dp"
                             android:layout_height="80dp"
-                            android:background="@drawable/cerclebackgroundpink"
-                            android:src="@drawable/ic_comment_black_24dp"
+                            android:background="@drawable/mirror_walk"
                             android:padding="10dp"
                             android:id="@+id/clickthreeinopen"
                             />
@@ -858,8 +870,9 @@
 
 
 
-        </LinearLayout>
+          </LinearLayout>
 
-    </LinearLayout>
-</ScrollView>
-</RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+     </ScrollView>
+    </RelativeLayout>
