@@ -74,8 +74,7 @@
                             <ImageView
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
-                                android:background="@drawable/cerclebackgroundpink"
-                                android:src="@drawable/ic_comment_black_24dp"
+                                android:background="@drawable/code_cup"
                                 android:padding="10dp"
                                 android:id="@+id/clickoneinopen"
                                 />
@@ -597,8 +596,7 @@
                             <ImageView
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
-                                android:background="@drawable/cerclebackgroundpink"
-                                android:src="@drawable/ic_comment_black_24dp"
+                                android:background="@drawable/word_wrap"
                                 android:padding="10dp"
                                 />
 

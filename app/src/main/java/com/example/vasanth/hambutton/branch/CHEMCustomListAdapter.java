@@ -1,7 +1,10 @@
 package com.example.vasanth.hambutton.branch;
 
+import android.content.ActivityNotFoundException;
+import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
+import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -101,7 +104,21 @@ public class CHEMCustomListAdapter extends ArrayAdapter<Card> {
 
             }
         });
+        Button registerInCIV = (Button)convertView.findViewById(R.id.registerInCHEM);
+        registerInCIV.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(position == 0)
+                    goToChrome("https://docs.google.com/forms/d/e/1FAIpQLSfMKCf-mE1sumWNcFzZWlv-7FcdPBN6IN8TPFxK7yMgqZ34uA/viewform?usp=sf_link");
+               // else if (position == 1)
+                   // goToChrome("https://docs.google.com/forms/d/e/1FAIpQLSfr3PsEMCwTxJx4ZQlxTU9vETjZ-lRl-o7TJwvo1KHD1wDkRQ/viewform?usp=sf_link");
+               // else if (position == 2)
+                   // goToChrome("https://docs.google.com/forms/d/e/1FAIpQLSfnJ56Ly-wAm07VFzDGMI68q358Da29Hutq4iPI4s71yzIu5g/viewform?usp=sf_link");
+               // else if (position == 3)
+                   // goToChrome("https://docs.google.com/forms/d/e/1FAIpQLScf0eJ_uj_xkJyIiJQzrkiuPcjgpQ3gigyepkDDmat63JFuEA/viewform?usp=sf_link");
 
+            }
+        });
 
 
 
@@ -152,4 +169,18 @@ public class CHEMCustomListAdapter extends ArrayAdapter<Card> {
         ImageLoader.getInstance().init(config);
         // END - UNIVERSAL IMAGE LOADER SETUP
     }
+    public void goToChrome(String docsLink) {
+        try {
+            Intent i = new Intent("android.intent.action.MAIN");
+            i.setComponent(ComponentName.unflattenFromString("com.android.chrome/com.android.chrome.Main"));
+            i.addCategory("android.intent.category.LAUNCHER");
+            i.setData(Uri.parse(docsLink));
+            mContextCHEM.startActivity(i);
+        } catch (ActivityNotFoundException e) {
+            // Chrome is not installed
+            Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse(docsLink));
+            mContextCHEM.startActivity(i);
+        }
+    }
+
 }

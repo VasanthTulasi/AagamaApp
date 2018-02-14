@@ -73,8 +73,7 @@
                         <ImageView
                             android:layout_width="80dp"
                             android:layout_height="80dp"
-                            android:background="@drawable/cerclebackgroundpink"
-                            android:src="@drawable/ic_comment_black_24dp"
+                            android:background="@drawable/clay_moulding"
                             android:padding="10dp"
                             android:id="@+id/clickoneinopen"
                             />
@@ -126,8 +125,7 @@
                         <ImageView
                             android:layout_width="80dp"
                             android:layout_height="80dp"
-                            android:background="@drawable/cerclebackgroundpink"
-                            android:src="@drawable/ic_comment_black_24dp"
+                            android:background="@drawable/painting"
                             android:padding="10dp"
                             />
 
@@ -192,8 +190,7 @@
                         <ImageView
                             android:layout_width="80dp"
                             android:layout_height="80dp"
-                            android:background="@drawable/cerclebackgroundpink"
-                            android:src="@drawable/ic_comment_black_24dp"
+                            android:background="@drawable/rangoli"
                             android:padding="10dp"
                             android:id="@+id/clickinopen"
                             />
@@ -249,8 +246,7 @@
                         <ImageView
                             android:layout_width="80dp"
                             android:layout_height="80dp"
-                            android:background="@drawable/cerclebackgroundpink"
-                            android:src="@drawable/ic_comment_black_24dp"
+                            android:background="@drawable/dandiya"
                             android:padding="10dp"
                             />
 

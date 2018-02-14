@@ -45,7 +45,8 @@
                 <LinearLayout
                     android:orientation="horizontal"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1.9"
                     >
 
                     <ImageView
@@ -74,7 +75,8 @@
                 <LinearLayout
                     android:orientation="horizontal"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="6"
                     android:layout_marginTop="4dp"
                     >
                     <ScrollView
@@ -95,6 +97,26 @@
                     </ScrollView>
 
                 </LinearLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1.2"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:layout_marginTop="3dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/styling_for_register_button_in_zones"
+                        android:textColor="@color/colorAagama"
+                        android:textSize="14.5sp"
+                        android:text="Register"
+                        android:onClick="rdumb"
+                        />
+
+                </RelativeLayout>
 
             </LinearLayout>
 

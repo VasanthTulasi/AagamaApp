@@ -1,7 +1,10 @@
 package com.example.vasanth.hambutton.branch;
 
+import android.content.ActivityNotFoundException;
+import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
+import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -110,7 +113,21 @@ public class MECHCustomListAdapter extends ArrayAdapter<Card> {
 
             }
         });
+        Button registerInMECH = (Button)convertView.findViewById(R.id.registerInMECH);
+        registerInMECH.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(position == 0)
+                    goToChrome("https://docs.google.com/forms/d/e/1FAIpQLSdErYW-h9D50VlnlfXMlcD91uIF5BjaKKI64dLpDC1Y-P5gqA/viewform?usp=sf_link");
+                else if (position == 1)
+                    goToChrome("https://docs.google.com/forms/d/e/1FAIpQLSfYYpZ534qSxtkIX48oo7g2evHSiFuuUOJ6KTgBBCGi6Xx9lg/viewform?usp=sf_link");
+                else if (position == 2)
+                    goToChrome("https://docs.google.com/forms/d/e/1FAIpQLSfPpTlFxFL6LGyK_CQvPPc8I2T-8UoasYNnBi1N38OcCXieXg/viewform?usp=sf_link");
+                else if (position == 3)
+                    goToChrome("https://docs.google.com/forms/d/e/1FAIpQLSdeI23JttyzlX_tGDAbeH45jrkhlJBUbLlS2oXtgf_vVx4beg/viewform?usp=sf_link");
 
+            }
+        });
 
 
 
@@ -161,4 +178,18 @@ public class MECHCustomListAdapter extends ArrayAdapter<Card> {
         ImageLoader.getInstance().init(config);
         // END - UNIVERSAL IMAGE LOADER SETUP
     }
+    public void goToChrome(String docsLink) {
+        try {
+            Intent i = new Intent("android.intent.action.MAIN");
+            i.setComponent(ComponentName.unflattenFromString("com.android.chrome/com.android.chrome.Main"));
+            i.addCategory("android.intent.category.LAUNCHER");
+            i.setData(Uri.parse(docsLink));
+            mContextMECH.startActivity(i);
+        } catch (ActivityNotFoundException e) {
+            // Chrome is not installed
+            Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse(docsLink));
+            mContextMECH.startActivity(i);
+        }
+    }
+
 }

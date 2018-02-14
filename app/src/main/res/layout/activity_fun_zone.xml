@@ -250,8 +250,7 @@
                             <ImageView
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
-                                android:background="@drawable/cerclebackgroundpink"
-                                android:src="@drawable/ic_comment_black_24dp"
+                                android:background="@drawable/break_it_if_you_can"
                                 android:padding="10dp"
                                 />
 

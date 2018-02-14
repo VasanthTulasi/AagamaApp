@@ -1,7 +1,10 @@
 package com.example.vasanth.hambutton.branch;
 
+import android.content.ActivityNotFoundException;
+import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
+import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -119,11 +122,24 @@ public class CSECustomListAdapter extends ArrayAdapter<Card> {
         register.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(position == 0)
-                    Toast.makeText(mContext,"Register for "+ title,Toast.LENGTH_SHORT).show();
-                else if (position == 1)
-                    Toast.makeText(mContext,"Register for "+ title,Toast.LENGTH_SHORT).show();
-
+                if(position == 0) {
+                    goToChrome("https://docs.google.com/forms/d/e/1FAIpQLSeinuKfAdKY4rFNIbj1Htv85WEIqD32yqRNcTRZtTGqJ9IzJQ/viewform?usp=sf_link");
+                }
+                else if(position == 1) {
+                    goToChrome("https://docs.google.com/forms/d/e/1FAIpQLSdbtcdp3DVAQTgyeB20-fUouPCKVdPOxtOEeYFpX-crUAzbrw/viewform?usp=sf_link");
+                }
+                else if(position == 2) {
+                   // goToChrome("https://docs.google.com/forms/d/e/1FAIpQLSfk7GGJBawK7KMxgwxuEyFpdaoRkOQ2_gQYLTEGjvWbYNib_A/viewform?usp=sf_link");
+                }
+                else if(position == 3) {
+                    goToChrome("https://docs.google.com/forms/d/e/1FAIpQLScBvzS38zGTsDSOhbZD4N7d89mEmMCzjIhCiNXijHeUhDqaKA/viewform?usp=sf_link");
+                }
+                else if(position == 4) {
+                    goToChrome("https://docs.google.com/forms/d/e/1FAIpQLSfk7GGJBawK7KMxgwxuEyFpdaoRkOQ2_gQYLTEGjvWbYNib_A/viewform?usp=sf_link");
+                }
+                else if(position == 5) {
+                    goToChrome("https://docs.google.com/forms/d/e/1FAIpQLSdfRjHCLimMpX1MgkL7CcnauNlTYfFYP03Qozl-9Bfjou2vxQ/viewform?usp=sf_link");
+                }
             }
         });
 
@@ -172,5 +188,20 @@ public class CSECustomListAdapter extends ArrayAdapter<Card> {
 
         ImageLoader.getInstance().init(config);
         // END - UNIVERSAL IMAGE LOADER SETUP
+    }
+
+    public void goToChrome(String docsLink){
+        try {
+            Intent i = new Intent("android.intent.action.MAIN");
+            i.setComponent(ComponentName.unflattenFromString("com.android.chrome/com.android.chrome.Main"));
+            i.addCategory("android.intent.category.LAUNCHER");
+            i.setData(Uri.parse(docsLink));
+            mContext.startActivity(i);
+        }
+        catch(ActivityNotFoundException e) {
+            // Chrome is not installed
+            Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse(docsLink));
+            mContext.startActivity(i);
+        }
     }
 }
