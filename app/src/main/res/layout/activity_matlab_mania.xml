@@ -51,7 +51,7 @@
 
                     <ImageView
                         android:id="@+id/cardImageInC1"
-                        android:src="@drawable/matlab_mania"
+                        android:src="@drawable/matlabmania"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
                         android:scaleType="centerCrop"

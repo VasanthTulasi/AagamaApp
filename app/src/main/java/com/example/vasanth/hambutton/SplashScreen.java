@@ -34,9 +34,9 @@ public class SplashScreen extends Activity {
 
         aagamaLogo = findViewById(R.id.iv);
         aagamaText = findViewById(R.id.changingTextView);
-     //   Animation blinkLogo = AnimationUtils.loadAnimation(this, R.anim.blink_for_logo_in_splash);
+        Animation blinkLogo = AnimationUtils.loadAnimation(this, R.anim.blink_for_logo_in_splash);
         Animation blinkText = AnimationUtils.loadAnimation(this, R.anim.blink_for_text_in_splash);
-     //   aagamaLogo.startAnimation(blinkLogo);
+        aagamaLogo.startAnimation(blinkLogo);
         blinkText.setStartOffset(1500);
         aagamaText.startAnimation(blinkText);
 

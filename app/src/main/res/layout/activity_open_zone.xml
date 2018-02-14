@@ -308,7 +308,7 @@
                         <ImageView
                             android:layout_width="80dp"
                             android:layout_height="80dp"
-                            android:background="@drawable/matlab_mania"
+                            android:background="@drawable/matlabmania"
                             android:padding="10dp"
                             />
 

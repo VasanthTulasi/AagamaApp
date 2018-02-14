@@ -54,10 +54,11 @@ public class HamButtonActivity extends AppCompatActivity{
     private Runnable runnable;
 
 
-
+   String currentPage = "home";
    BoomMenuButton bmb;
    ArrayList<Integer> images;
    ArrayList<String> textInfo;
+    android.app.FragmentManager fm2 = getFragmentManager();
 
 
     @Override
@@ -105,32 +106,39 @@ public class HamButtonActivity extends AppCompatActivity{
                 @Override
                 public void onBoomButtonClick(int index) {
                     if (index == 6) {
+                        currentPage = "home";
                         fm.beginTransaction()
                                 .replace(R.id.main_screen,new HomeFragment())
                                 .commit();
 
                     } else if (index == 0) {
+                        currentPage = "nhome";
                         fm.beginTransaction()
                                 .replace(R.id.main_screen, new About())
                                 .commit();
                     } else if (index == 1) {
+                        currentPage = "nhome";
                         fm.beginTransaction()
                                 .replace(R.id.main_screen, new Gallery())
                                 .commit();
                     } else if (index == 2) {
+                        currentPage = "nhome";
                         startActivity(new Intent(HamButtonActivity.this,MainActivityForDev.class));
                         //fm.beginTransaction()
                           //      .replace(R.id.main_screen, new Team())
                             //    .commit();
                     } else if (index == 3) {
+                        currentPage = "nhome";
                         fm.beginTransaction()
                                 .replace(R.id.main_screen, new Sponsor())
                                 .commit();
                     } else if (index == 4) {
+                        currentPage = "nhome";
                         fm.beginTransaction()
                                 .replace(R.id.main_screen, new Contact())
                                 .commit();
                     } else if (index == 5) {
+                        currentPage = "nhome";
 
                         if (appInstalledOrNot("com.google.android.apps.maps")) {
 
@@ -243,6 +251,19 @@ public class HamButtonActivity extends AppCompatActivity{
         startActivity(i);
     }
 
+    @Override
+    public void onBackPressed() {
+        if(currentPage.equals("nhome")){
+            fm2.beginTransaction()
+                    .replace(R.id.main_screen,new HomeFragment())
+                    .commit();
+            currentPage="home";
+        }
+        else if(currentPage.equals("home")) {
+            moveTaskToBack(true);
+            android.os.Process.killProcess(android.os.Process.myPid());
+            System.exit(1);
+        }
 
-
+    }
 }
