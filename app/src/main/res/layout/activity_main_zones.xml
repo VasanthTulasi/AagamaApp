@@ -126,7 +126,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="Grab your opputunity!!"
+        android:text="Grab your opportunity!!"
         android:textColor="#ffc400"
         android:textSize="20sp"
         android:textStyle="bold|italic"
