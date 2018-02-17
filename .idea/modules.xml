@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/HamButton.iml" filepath="$PROJECT_DIR$/HamButton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/AagamaApp.iml" filepath="$PROJECT_DIR$/.idea/AagamaApp.iml" />
+      <module fileurl="file://C:\Users\cvsr\AndroidStudioProjects\AagamaApp\HamButton.iml" filepath="C:\Users\cvsr\AndroidStudioProjects\AagamaApp\HamButton.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\cvsr\AndroidStudioProjects\AagamaApp\app\app.iml" filepath="C:\Users\cvsr\AndroidStudioProjects\AagamaApp\app\app.iml" />
     </modules>
   </component>
 </project>

@@ -4,6 +4,7 @@
     package="com.example.vasanth.hambutton">
 
     <application
+
         android:allowBackup="false"
         android:icon="@drawable/aagama_icon_three"
         android:label="@string/app_name"

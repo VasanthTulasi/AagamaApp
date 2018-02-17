@@ -713,7 +713,7 @@
                             android:layout_height="80dp"
                             android:background="@drawable/words_worth"
                             android:padding="10dp"
-                            android:id="@+id/clickthreeinopen"
+                            android:id="@+id/clickthreeinope"
                             />
 
                         <View
@@ -761,7 +761,7 @@
                     android:foreground="?android:attr/selectableItemBackground"
                     android:clickable="true"
                     app:cardBackgroundColor="#78909C"
-                    android:id="@+id/ideas_card5_in_open"
+                    android:id="@+id/ideas_card5_in_op"
                     android:onClick="virtual"
 
                     >
@@ -777,7 +777,7 @@
                             android:layout_height="80dp"
                             android:background="@drawable/virtual_job_fair"
                             android:padding="10dp"
-                            android:id="@+id/clickthreeinopen"
+                            android:id="@+id/clickthreeino"
                             />
 
                         <View
@@ -831,7 +831,7 @@
                             android:layout_height="80dp"
                             android:background="@drawable/deadly_hunt"
                             android:padding="10dp"
-                            android:id="@+id/clickthreeinopen"
+                            android:id="@+id/clickthreein"
                             />
 
                         <View
