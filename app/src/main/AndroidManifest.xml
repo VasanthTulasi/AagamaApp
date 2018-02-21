@@ -7,7 +7,7 @@
         android:allowBackup="false"
         android:icon="@drawable/aagama_icon_three"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/aagama_icon_three"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         tools:replace="android:allowBackup">
@@ -251,7 +251,23 @@
         <activity android:name=".eceBranchIndividualActivities.PaperPresentationECE" />
         <activity android:name=".eceBranchIndividualActivities.PosterPresentationECE" />
         <activity android:name=".eceBranchIndividualActivities.ProjectPresentationECE" />
-        <activity android:name=".eceBranchIndividualActivities.RoboticsECE"></activity>
+        <activity android:name=".eceBranchIndividualActivities.RoboticsECE" />
+        <activity android:name=".cseBranchIndividualActivities.AndroidClubHackathonCSE" />
+        <activity android:name=".cseBranchIndividualActivities.FirefoxClubHackathonCSE" />
+        <activity android:name=".cseBranchIndividualActivities.CodeKnockoutCSE" />
+        <activity android:name=".cseBranchIndividualActivities.IOTHackathonCSE" />
+        <activity android:name=".cseBranchIndividualActivities.AnimationClubHackathonCSE" />
+        <activity android:name="com.anurag.aagama.aagamaapp.BestOutOfWaste" />
+        <activity android:name="com.anurag.aagama.aagamaapp.PuzzleBreak" />
+        <activity android:name="com.anurag.aagama.aagamaapp.SaveME" />
+        <activity android:name="com.anurag.aagama.aagamaapp.LuckyDraw" />
+        <activity android:name="com.anurag.aagama.aagamaapp.DhamLaga" />
+        <activity android:name="com.anurag.aagama.aagamaapp.FilmyQuiz" />
+        <activity android:name="com.anurag.aagama.aagamaapp.GiftUnwrapping" />
+        <activity android:name="com.anurag.aagama.aagamaapp.GolGappa" />
+        <activity android:name="com.anurag.aagama.aagamaapp.PharmaTreasureHunt" />
+        <activity android:name="com.anurag.aagama.aagamaapp.RopeTieing" />
+        <activity android:name="com.anurag.aagama.aagamaapp.SlowCycling"></activity>
     </application>
 
 </manifest>

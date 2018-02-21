@@ -9,6 +9,7 @@ import android.support.annotation.NonNull;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.Animation;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -16,13 +17,18 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.vasanth.hambutton.R;
+import com.example.vasanth.hambutton.cseBranchIndividualActivities.AndroidClubHackathonCSE;
+import com.example.vasanth.hambutton.cseBranchIndividualActivities.AnimationClubHackathonCSE;
 import com.example.vasanth.hambutton.cseBranchIndividualActivities.CodeCup;
+import com.example.vasanth.hambutton.cseBranchIndividualActivities.CodeKnockoutCSE;
 import com.example.vasanth.hambutton.cseBranchIndividualActivities.CseActivity1;
 import com.example.vasanth.hambutton.cseBranchIndividualActivities.CseActivity2;
 import com.example.vasanth.hambutton.cseBranchIndividualActivities.CseActivity3;
 import com.example.vasanth.hambutton.cseBranchIndividualActivities.CseActivity4;
 import com.example.vasanth.hambutton.cseBranchIndividualActivities.CseActivity5;
 import com.example.vasanth.hambutton.cseBranchIndividualActivities.CseActivity6;
+import com.example.vasanth.hambutton.cseBranchIndividualActivities.FirefoxClubHackathonCSE;
+import com.example.vasanth.hambutton.cseBranchIndividualActivities.IOTHackathonCSE;
 import com.example.vasanth.hambutton.cseBranchIndividualActivities.NullClubHackathonCSE;
 import com.nostra13.universalimageloader.cache.memory.impl.WeakMemoryCache;
 import com.nostra13.universalimageloader.core.DisplayImageOptions;
@@ -107,21 +113,29 @@ public class CSECustomListAdapter extends ArrayAdapter<Card> {
             @Override
             public void onClick(View view) {
                 if(position == 0)
-                   mContext.startActivity(new Intent(mContext, CseActivity1.class));
+                    mContext.startActivity(new Intent(mContext, CseActivity1.class));
                 else if (position == 1)
                     mContext.startActivity(new Intent(mContext, CseActivity2.class));
                 else if (position == 2)
-                    mContext.startActivity(new Intent(mContext, CseActivity3.class));
-                else if (position == 3)
                     mContext.startActivity(new Intent(mContext, CseActivity4.class));
-                else if (position == 4)
+                else if (position == 3)
                     mContext.startActivity(new Intent(mContext, CseActivity5.class));
-                else if (position == 5)
-                    mContext.startActivity(new Intent(mContext, CseActivity6.class));
-                else if (position == 6)
+                else if (position == 4)
                     mContext.startActivity(new Intent(mContext, CodeCup.class));
+                else if (position == 5)
+                    mContext.startActivity(new Intent(mContext, CodeKnockoutCSE.class));
+                else if (position == 6)
+                    mContext.startActivity(new Intent(mContext, CseActivity3.class));
                 else if (position == 7)
                     mContext.startActivity(new Intent(mContext, NullClubHackathonCSE.class));
+                else if (position == 8)
+                    mContext.startActivity(new Intent(mContext, AndroidClubHackathonCSE.class));
+                else if (position == 9)
+                    mContext.startActivity(new Intent(mContext, FirefoxClubHackathonCSE.class));
+                else if (position == 10)
+                    mContext.startActivity(new Intent(mContext, AnimationClubHackathonCSE.class));
+                else if (position == 11)
+                    mContext.startActivity(new Intent(mContext, IOTHackathonCSE.class));
             }
         });
         Button register = (Button)convertView.findViewById(R.id.registerInCSE);

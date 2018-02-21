@@ -39,11 +39,17 @@ private static final String TAG="CseActivity";
 
         list.add(new Card("drawable://"+R.drawable.cse_paper_presentation,"Paper Presentation"));
         list.add(new Card("drawable://"+R.drawable.cse_poster_presentation,"Poster Presentation"));
-        list.add(new Card("drawable://"+R.drawable.cse_web_design,"Web Club Hackathon"));
         list.add(new Card("drawable://"+R.drawable.idea_presentation_cse,"Idea Presentation"));
         list.add(new Card("drawable://"+R.drawable.cse_project_expo,"Project Expo"));
+        list.add(new Card("drawable://"+R.drawable.code_cup,"Code Cup"));
+        list.add(new Card("drawable://"+R.drawable.code_knockout,"Code Knockout"));
+        list.add(new Card("drawable://"+R.drawable.cse_web_design,"Web Club Hackathon"));
         list.add(new Card("drawable://"+R.drawable.null_club_hackathon_cse,"Null Club Hackathon"));
-        list.add(new Card("drawable://"+R.drawable.code_cup,"Code Cup "));
+        list.add(new Card("drawable://"+R.drawable.android_club,"Android Club Hackathon"));
+        list.add(new Card("drawable://"+R.drawable.firefox_club,"Firefox Club Hackathon"));
+        list.add(new Card("drawable://"+R.drawable.animation_club,"Animation Club Hackathon"));
+        list.add(new Card("drawable://"+R.drawable.iot,"Iot Club Hackathon"));
+
 
         CSECustomListAdapter adapter=new CSECustomListAdapter(this,R.layout.cse_card,list);
         mListView.setAdapter(adapter);

@@ -45,15 +45,16 @@
                 <LinearLayout
                     android:orientation="horizontal"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1.9"
                     >
 
                     <ImageView
                         android:id="@+id/cardImageInC1"
-                        android:src="@drawable/deadly_hunt"
+                        android:src="@drawable/giftunwrapping"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:scaleType="fitXY"
+                        android:scaleType="centerCrop"
                         android:layout_marginRight="11dp"
                         android:layout_marginTop="11dp"
                         android:layout_marginLeft="10dp"
@@ -62,7 +63,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
-                        android:text="Poster Presentation"
+                        android:text="Gift Unwrapping"
                         android:textSize="28sp"
                         android:textColor="@color/colorPrimary"
                         android:id="@+id/textActivityInC1"
@@ -74,8 +75,8 @@
                 <LinearLayout
                     android:orientation="horizontal"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginTop="4dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="6"                    android:layout_marginTop="4dp"
                     >
                     <ScrollView
                         android:layout_width="match_parent"
@@ -87,7 +88,7 @@
                             android:layout_height="wrap_content"
                             android:id="@+id/cardTitleInC1"
                             android:gravity="center_vertical"
-                            android:text="@string/poster_presentation_ece"
+                            android:text="@string/gift_unwrapping"
                             android:textSize="19sp"
                             android:textColor="@android:color/black"
                             android:layout_marginLeft="10dp"
@@ -95,6 +96,27 @@
                     </ScrollView>
 
                 </LinearLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1.2"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:layout_marginTop="3dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/styling_for_register_button_in_zones"
+                        android:textColor="@color/colorAagama"
+                        android:textSize="14.5sp"
+                        android:text="Register"
+                        android:onClick="rcreative"
+                        />
+
+                </RelativeLayout>
+
 
             </LinearLayout>
 
