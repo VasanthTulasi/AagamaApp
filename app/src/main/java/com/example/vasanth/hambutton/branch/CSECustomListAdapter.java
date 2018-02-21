@@ -16,12 +16,14 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.vasanth.hambutton.R;
+import com.example.vasanth.hambutton.cseBranchIndividualActivities.CodeCup;
 import com.example.vasanth.hambutton.cseBranchIndividualActivities.CseActivity1;
 import com.example.vasanth.hambutton.cseBranchIndividualActivities.CseActivity2;
 import com.example.vasanth.hambutton.cseBranchIndividualActivities.CseActivity3;
 import com.example.vasanth.hambutton.cseBranchIndividualActivities.CseActivity4;
 import com.example.vasanth.hambutton.cseBranchIndividualActivities.CseActivity5;
 import com.example.vasanth.hambutton.cseBranchIndividualActivities.CseActivity6;
+import com.example.vasanth.hambutton.cseBranchIndividualActivities.NullClubHackathonCSE;
 import com.nostra13.universalimageloader.cache.memory.impl.WeakMemoryCache;
 import com.nostra13.universalimageloader.core.DisplayImageOptions;
 import com.nostra13.universalimageloader.core.ImageLoader;
@@ -116,6 +118,10 @@ public class CSECustomListAdapter extends ArrayAdapter<Card> {
                     mContext.startActivity(new Intent(mContext, CseActivity5.class));
                 else if (position == 5)
                     mContext.startActivity(new Intent(mContext, CseActivity6.class));
+                else if (position == 6)
+                    mContext.startActivity(new Intent(mContext, CodeCup.class));
+                else if (position == 7)
+                    mContext.startActivity(new Intent(mContext, NullClubHackathonCSE.class));
             }
         });
         Button register = (Button)convertView.findViewById(R.id.registerInCSE);

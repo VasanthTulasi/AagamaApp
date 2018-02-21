@@ -4,7 +4,6 @@
     package="com.example.vasanth.hambutton">
 
     <application
-
         android:allowBackup="false"
         android:icon="@drawable/aagama_icon_three"
         android:label="@string/app_name"
@@ -68,64 +67,191 @@
         <activity
             android:name=".FunZone"
             android:screenOrientation="portrait" />
-        <activity android:name=".branch.EVEActivity" android:screenOrientation="portrait"/>
-        <activity android:name=".branch.EEEActivity" android:screenOrientation="portrait"/>
-        <activity android:name=".branch.CHEMActivity" android:screenOrientation="portrait"/>
-        <activity android:name=".branch.MECHActivity" android:screenOrientation="portrait"/>
-        <activity android:name=".branch.ITActivity" android:screenOrientation="portrait"/>
-        <activity android:name=".eceBranchIndividualActivities.TechnicalQuizECE" android:screenOrientation="portrait" />
-        <activity android:name=".eceBranchIndividualActivities.CircuitrixECE" android:screenOrientation="portrait"/>
-        <activity android:name=".eceBranchIndividualActivities.RamAndRomECE" android:screenOrientation="portrait"/>
-        <activity android:name=".eeeBranchIndividualActivities.PaperPresentationEEE" android:screenOrientation="portrait"/>
-        <activity android:name=".eeeBranchIndividualActivities.PosterPresentationEEE" android:screenOrientation="portrait"/>
-        <activity android:name=".eeeBranchIndividualActivities.ProjectExpoEEE" android:screenOrientation="portrait"/>
-        <activity android:name=".eeeBranchIndividualActivities.TechnicalQuizEEE" android:screenOrientation="portrait"/>
-        <activity android:name=".civilBranchIndividualActivities.ProjectPresentationCIV" android:screenOrientation="portrait"/>
-        <activity android:name=".civilBranchIndividualActivities.InnovativeIdeaPresentationCIV" android:screenOrientation="portrait"/>
-        <activity android:name=".civilBranchIndividualActivities.PosterPresentationCIV" android:screenOrientation="portrait"/>
-        <activity android:name=".mechBranchIndividualActivities.MekboltMECH" android:screenOrientation="portrait"/>
-        <activity android:name=".mechBranchIndividualActivities.MindsparkMECH" android:screenOrientation="portrait"/>
-        <activity android:name=".mechBranchIndividualActivities.PaperPresentationMECH" android:screenOrientation="portrait"/>
-        <activity android:name=".openZone.ClayMoulding" android:screenOrientation="portrait"/>
-        <activity android:name=".openZone.Painting" android:screenOrientation="portrait"/>
-        <activity android:name=".openZone.Rangoli" android:screenOrientation="portrait"/>
-        <activity android:name=".openZone.Dandiya" android:screenOrientation="portrait"/>
-        <activity android:name=".openZone.MatlabMania" android:screenOrientation="portrait"/>
-        <activity android:name=".openZone.Fabulous" android:screenOrientation="portrait"/>
-        <activity android:name=".openZone.BrickChallenge" android:screenOrientation="portrait"/>
-        <activity android:name=".openZone.CreativeSelfie" android:screenOrientation="portrait"/>
-        <activity android:name=".openZone.KingOfDice" android:screenOrientation="portrait"/>
-        <activity android:name=".openZone.MockCID" android:screenOrientation="portrait"/>
-        <activity android:name=".openZone.MirrorWalk" android:screenOrientation="portrait"/>
-        <activity android:name=".skillZone.CodeCup" android:screenOrientation="portrait"/>
-        <activity android:name=".skillZone.LANGaming" android:screenOrientation="portrait"/>
-        <activity android:name=".skillZone.TechnicalThambola" android:screenOrientation="portrait"/>
-        <activity android:name=".skillZone.JigsawPuzzle" android:screenOrientation="portrait"/>
-        <activity android:name=".skillZone.PlayZone" android:screenOrientation="portrait"/>
-        <activity android:name=".skillZone.Circuitrix" android:screenOrientation="portrait"/>
-        <activity android:name=".skillZone.ThreeDChallenge" android:screenOrientation="portrait"/>
-        <activity android:name=".skillZone.ModelMaking" android:screenOrientation="portrait" />
-        <activity android:name=".skillZone.TechPowerHunt" android:screenOrientation="portrait"/>
-        <activity android:name=".funZone.DumbShellElectronics" android:screenOrientation="portrait"/>
-        <activity android:name=".funZone.CodeBreakers" android:screenOrientation="portrait"/>
-        <activity android:name=".funZone.DevilFollows" android:screenOrientation="portrait"/>
-        <activity android:name=".funZone.BreakItIfYouCan" android:screenOrientation="portrait"/>
-        <activity android:name=".funZone.Inversion" android:screenOrientation="portrait"/>
-        <activity android:name=".skillZone.WordWrap" android:screenOrientation="portrait"/>
-        <activity android:name=".itIndividualActivities.CodeMazeIT" android:screenOrientation="portrait"/>
-        <activity android:name=".funZone.FunCarnival" android:screenOrientation="portrait"/>
-        <activity android:name=".mechBranchIndividualActivities.PrayogMECH" android:screenOrientation="portrait"/>
-        <activity android:name=".mechBranchIndividualActivities.DesignExecuteMECH" android:screenOrientation="portrait"/>
-        <activity android:name=".mechBranchIndividualActivities.MeetYourThoughtsMECH" android:screenOrientation="portrait"/>
-        <activity android:name=".itIndividualActivities.PosterPresentationIT" android:screenOrientation="portrait"/>
-        <activity android:name=".itIndividualActivities.MobileAppMockUpIT" android:screenOrientation="portrait"/>
-        <activity android:name=".itIndividualActivities.PaperPresentationIT" android:screenOrientation="portrait"/>
-        <activity android:name=".itIndividualActivities.CPUCollabIT" android:screenOrientation="portrait"/>
-        <activity android:name=".itIndividualActivities.CodeSinkIT" android:screenOrientation="portrait"/>
-        <activity android:name=".itIndividualActivities.CascadingCodeIt" android:screenOrientation="portrait"/>
-        <activity android:name=".openZone.DeadlyHunt" android:screenOrientation="portrait"/>
-        <activity android:name=".openZone.WordsWorth" android:screenOrientation="portrait" />
-        <activity android:name=".openZone.VirtualJobFair" android:screenOrientation="portrait"/>
+        <activity
+            android:name=".branch.EVEActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".branch.PHARMActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".branch.EEEActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".branch.CHEMActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".branch.MECHActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".branch.ITActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".eceBranchIndividualActivities.TechnicalQuizECE"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".eceBranchIndividualActivities.CircuitrixECE"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".eceBranchIndividualActivities.RamAndRomECE"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".eeeBranchIndividualActivities.PaperPresentationEEE"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".eeeBranchIndividualActivities.PosterPresentationEEE"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".eeeBranchIndividualActivities.ProjectExpoEEE"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".eeeBranchIndividualActivities.TechnicalQuizEEE"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".civilBranchIndividualActivities.ProjectPresentationCIV"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".civilBranchIndividualActivities.InnovativeIdeaPresentationCIV"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".civilBranchIndividualActivities.PosterPresentationCIV"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mechBranchIndividualActivities.MekboltMECH"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mechBranchIndividualActivities.MindsparkMECH"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mechBranchIndividualActivities.PaperPresentationMECH"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".openZone.ClayMoulding"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".openZone.Painting"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".openZone.Rangoli"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".openZone.Dandiya"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".eceBranchIndividualActivities.MatlabMania"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".openZone.Fabulous"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".openZone.BrickChallenge"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".openZone.CreativeSelfie"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".openZone.KingOfDice"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".openZone.MockCID"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".openZone.MirrorWalk"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cseBranchIndividualActivities.CodeCup"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".skillZone.LANGaming"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".skillZone.TechnicalThambola"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".skillZone.JigsawPuzzle"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".skillZone.PlayZone"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".eeeBranchIndividualActivities.Circuitrix"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".civilBranchIndividualActivities.ThreeDChallenge"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".civilBranchIndividualActivities.ModelMaking"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".skillZone.TechPowerHunt"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".eceBranchIndividualActivities.DumbShellElectronics"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".eceBranchIndividualActivities.CodeBreakers"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".funZone.DevilFollows"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".funZone.BreakItIfYouCan"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".funZone.Inversion"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".skillZone.WordWrap"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".itIndividualActivities.CodeMazeIT"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".funZone.FunCarnival"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mechBranchIndividualActivities.PrayogMECH"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mechBranchIndividualActivities.DesignExecuteMECH"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mechBranchIndividualActivities.MeetYourThoughtsMECH"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".itIndividualActivities.PosterPresentationIT"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".itIndividualActivities.MobileAppMockUpIT"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".itIndividualActivities.PaperPresentationIT"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".itIndividualActivities.CPUCollabIT"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".itIndividualActivities.CodeSinkIT"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".itIndividualActivities.CascadingCodeIt"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".itIndividualActivities.DeadlyHunt"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".openZone.WordsWorth"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".openZone.VirtualJobFair"
+            android:screenOrientation="portrait" />
+        <activity android:name=".pharmaBranchIndividualActivities.OralPresentationPharma" />
+        <activity android:name=".pharmaBranchIndividualActivities.PosterPresentationPharma" />
+        <activity android:name=".pharmaBranchIndividualActivities.PharmaQuizPharma" />
+        <activity android:name=".cseBranchIndividualActivities.NullClubHackathonCSE" />
+        <activity android:name=".eceBranchIndividualActivities.PaperPresentationECE" />
+        <activity android:name=".eceBranchIndividualActivities.PosterPresentationECE" />
+        <activity android:name=".eceBranchIndividualActivities.ProjectPresentationECE" />
+        <activity android:name=".eceBranchIndividualActivities.RoboticsECE"></activity>
     </application>
 
 </manifest>

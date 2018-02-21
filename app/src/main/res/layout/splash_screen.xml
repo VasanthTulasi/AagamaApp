@@ -14,11 +14,8 @@
         android:layout_width="300dp"
         android:layout_height="100dp"
         android:layout_above="@+id/iv"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
         android:layout_marginBottom="70dp"
-        android:layout_marginEnd="29dp"
-        android:layout_marginRight="29dp"
+        android:layout_centerHorizontal="true"
         android:background="@drawable/agilogo" />
 
 
@@ -45,8 +42,8 @@
         android:textColor="#f5f1f1"
         android:textSize="30sp"
         android:fontFamily="cursive"
-        android:textStyle="bold"
-         />
+        android:textStyle="bold"/>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -58,9 +55,16 @@
         android:textSize="20sp"
         android:textStyle="bold"
         android:fontFamily="serif"
-        android:id="@+id/textView6" />
+        android:id="@+id/textView6"/>
 
-
-
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv"
+        android:id="@+id/cse_dep"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:layout_marginTop="160dp"
+        android:textSize="15sp"/>
 
 </RelativeLayout>

@@ -7,12 +7,11 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 
 import com.example.vasanth.hambutton.funZone.BreakItIfYouCan;
-import com.example.vasanth.hambutton.funZone.CodeBreakers;
+import com.example.vasanth.hambutton.eceBranchIndividualActivities.CodeBreakers;
 import com.example.vasanth.hambutton.funZone.DevilFollows;
-import com.example.vasanth.hambutton.funZone.DumbShellElectronics;
+import com.example.vasanth.hambutton.eceBranchIndividualActivities.DumbShellElectronics;
 import com.example.vasanth.hambutton.funZone.FunCarnival;
 import com.example.vasanth.hambutton.funZone.Inversion;
-import com.example.vasanth.hambutton.openZone.Fabulous;
 
 public class FunZone extends AppCompatActivity {
 

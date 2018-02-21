@@ -18,6 +18,7 @@ import com.example.vasanth.hambutton.itIndividualActivities.CPUCollabIT;
 import com.example.vasanth.hambutton.itIndividualActivities.CascadingCodeIt;
 import com.example.vasanth.hambutton.itIndividualActivities.CodeMazeIT;
 import com.example.vasanth.hambutton.itIndividualActivities.CodeSinkIT;
+import com.example.vasanth.hambutton.itIndividualActivities.DeadlyHunt;
 import com.example.vasanth.hambutton.itIndividualActivities.MobileAppMockUpIT;
 import com.example.vasanth.hambutton.itIndividualActivities.PaperPresentationIT;
 import com.example.vasanth.hambutton.itIndividualActivities.PosterPresentationIT;
@@ -110,6 +111,8 @@ public class ITCustomListAdapter extends ArrayAdapter<Card> {
                     mContextIT.startActivity(new Intent(mContextIT, CascadingCodeIt.class));
                 else if(position == 6)
                     mContextIT.startActivity(new Intent(mContextIT, CodeSinkIT.class));
+                else if(position == 7)
+                    mContextIT.startActivity(new Intent(mContextIT, DeadlyHunt.class));
             }
 
 

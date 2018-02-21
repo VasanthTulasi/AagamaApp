@@ -39,11 +39,11 @@ private static final String TAG="CseActivity";
 
         list.add(new Card("drawable://"+R.drawable.cse_paper_presentation,"Paper Presentation"));
         list.add(new Card("drawable://"+R.drawable.cse_poster_presentation,"Poster Presentation"));
-        list.add(new Card("drawable://"+R.drawable.cse_web_design,"Web Design"));
+        list.add(new Card("drawable://"+R.drawable.cse_web_design,"Web Club Hackathon"));
         list.add(new Card("drawable://"+R.drawable.idea_presentation_cse,"Idea Presentation"));
         list.add(new Card("drawable://"+R.drawable.cse_project_expo,"Project Expo"));
-        list.add(new Card("drawable://"+R.drawable.cse_bugsmash,"Bugsmash"));
-
+        list.add(new Card("drawable://"+R.drawable.null_club_hackathon_cse,"Null Club Hackathon"));
+        list.add(new Card("drawable://"+R.drawable.code_cup,"Code Cup "));
 
         CSECustomListAdapter adapter=new CSECustomListAdapter(this,R.layout.cse_card,list);
         mListView.setAdapter(adapter);

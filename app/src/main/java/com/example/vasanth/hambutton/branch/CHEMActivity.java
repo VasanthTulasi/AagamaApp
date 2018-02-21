@@ -37,7 +37,10 @@ private static final String TAG="ChemActivity";
 
         listCHEM.add(new Card("drawable://"+R.drawable.project_presentation_civ,"Project Presentation"));
         listCHEM.add(new Card("drawable://"+R.drawable.innovative_idea_presentation_civ,"Innovative Idea Presentation"));
-        listCHEM.add(new Card("drawable://"+R.drawable.it_posterpresentation,"Poster Presentation"));
+        listCHEM.add(new Card("drawable://"+R.drawable.poster_presentation_civil,"Poster Presentation"));
+        listCHEM.add(new Card("drawable://"+R.drawable.three_d_challenge,"3D Challenge"));
+        listCHEM.add(new Card("drawable://"+R.drawable.model_making,"Model Making"));
+
 
 
         CHEMCustomListAdapter adapterCHEM=new CHEMCustomListAdapter(this,R.layout.chem_card,listCHEM);

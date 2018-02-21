@@ -1,21 +1,19 @@
 package com.example.vasanth.hambutton;
 
 import android.content.Intent;
-import android.graphics.Path;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
-import android.widget.Toast;
 
 import com.example.vasanth.hambutton.openZone.BrickChallenge;
 import com.example.vasanth.hambutton.openZone.ClayMoulding;
 import com.example.vasanth.hambutton.openZone.CreativeSelfie;
 import com.example.vasanth.hambutton.openZone.Dandiya;
-import com.example.vasanth.hambutton.openZone.DeadlyHunt;
+import com.example.vasanth.hambutton.itIndividualActivities.DeadlyHunt;
 import com.example.vasanth.hambutton.openZone.Fabulous;
 import com.example.vasanth.hambutton.openZone.KingOfDice;
-import com.example.vasanth.hambutton.openZone.MatlabMania;
+import com.example.vasanth.hambutton.eceBranchIndividualActivities.MatlabMania;
 import com.example.vasanth.hambutton.openZone.MirrorWalk;
 import com.example.vasanth.hambutton.openZone.MockCID;
 import com.example.vasanth.hambutton.openZone.Painting;

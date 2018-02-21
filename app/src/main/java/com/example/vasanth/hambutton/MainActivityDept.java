@@ -12,6 +12,7 @@ import com.example.vasanth.hambutton.branch.EVEActivity;
 import com.example.vasanth.hambutton.branch.EEEActivity;
 import com.example.vasanth.hambutton.branch.ITActivity;
 import com.example.vasanth.hambutton.branch.MECHActivity;
+import com.example.vasanth.hambutton.branch.PHARMActivity;
 
 
 public class MainActivityDept extends AppCompatActivity{
@@ -52,6 +53,11 @@ public class MainActivityDept extends AppCompatActivity{
         Intent i=new Intent(MainActivityDept.this,ITActivity.class);
         startActivity(i);
     }
+    public void pharm(View view){
+        Intent i=new Intent(MainActivityDept.this,PHARMActivity.class);
+        startActivity(i);
+    }
+
 
 
 

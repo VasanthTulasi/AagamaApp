@@ -16,8 +16,10 @@ import android.widget.TextView;
 
 import com.example.vasanth.hambutton.R;
 import com.example.vasanth.hambutton.civilBranchIndividualActivities.InnovativeIdeaPresentationCIV;
+import com.example.vasanth.hambutton.civilBranchIndividualActivities.ModelMaking;
 import com.example.vasanth.hambutton.civilBranchIndividualActivities.PosterPresentationCIV;
 import com.example.vasanth.hambutton.civilBranchIndividualActivities.ProjectPresentationCIV;
+import com.example.vasanth.hambutton.civilBranchIndividualActivities.ThreeDChallenge;
 import com.example.vasanth.hambutton.cseBranchIndividualActivities.CseActivity1;
 import com.example.vasanth.hambutton.cseBranchIndividualActivities.CseActivity2;
 import com.nostra13.universalimageloader.cache.memory.impl.WeakMemoryCache;
@@ -101,6 +103,11 @@ public class CHEMCustomListAdapter extends ArrayAdapter<Card> {
                     mContextCHEM.startActivity(new Intent(mContextCHEM, InnovativeIdeaPresentationCIV.class));
                 else if (position == 2)
                     mContextCHEM.startActivity(new Intent(mContextCHEM, PosterPresentationCIV.class));
+                else if (position == 3)
+                    mContextCHEM.startActivity(new Intent(mContextCHEM, ThreeDChallenge.class));
+                else if (position == 4)
+                    mContextCHEM.startActivity(new Intent(mContextCHEM, ModelMaking.class));
+
 
             }
         });

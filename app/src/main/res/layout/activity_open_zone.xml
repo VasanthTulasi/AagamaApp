@@ -295,7 +295,8 @@
                     android:foreground="?android:attr/selectableItemBackground"
                     android:clickable="true"
                     app:cardBackgroundColor="#78909C"
-                    android:onClick="matlab"
+                    android:id="@+id/ideas_card5_in_op"
+                    android:onClick="virtual"
 
                     >
                     <LinearLayout
@@ -308,8 +309,9 @@
                         <ImageView
                             android:layout_width="80dp"
                             android:layout_height="80dp"
-                            android:background="@drawable/matlabmania"
+                            android:background="@drawable/virtual_job_fair"
                             android:padding="10dp"
+                            android:id="@+id/clickthreeino"
                             />
 
                         <View
@@ -327,7 +329,7 @@
                             android:layout_height="wrap_content"
                             android:textStyle="bold"
                             android:layout_marginTop="10dp"
-                            android:text="Matlab Mania"
+                            android:text="Virtual Job Fair"
                             android:textColor="#ffffff"
                             android:textSize="15dp"
 
@@ -747,119 +749,18 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="center"
                 android:clipToPadding="false"
 
 
 
                 >
 
-                <android.support.v7.widget.CardView
-                    android:layout_width="160dp"
-                    android:layout_height="190dp"
-                    android:layout_margin="10dp"
-                    android:foreground="?android:attr/selectableItemBackground"
-                    android:clickable="true"
-                    app:cardBackgroundColor="#78909C"
-                    android:id="@+id/ideas_card5_in_op"
-                    android:onClick="virtual"
-
-                    >
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical"
-                        android:gravity="center"
-                        >
-
-                        <ImageView
-                            android:layout_width="80dp"
-                            android:layout_height="80dp"
-                            android:background="@drawable/virtual_job_fair"
-                            android:padding="10dp"
-                            android:id="@+id/clickthreeino"
-                            />
-
-                        <View
-                            android:layout_width="match_parent"
-                            android:layout_height="1dp"
-                            android:background="@color/lightgray"
-                            android:layout_margin="10dp"
-
-
-                            />
-
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:textStyle="bold"
-                            android:layout_marginTop="10dp"
-                            android:text="Virtual Job Fair"
-                            android:textColor="#ffffff"
-                            android:textSize="15dp"
-
-                            />
-
-                    </LinearLayout>
-
-
-                </android.support.v7.widget.CardView>
 
 
 
 
 
-                <android.support.v7.widget.CardView
-                    android:layout_width="160dp"
-                    android:layout_height="190dp"
-                    android:layout_margin="10dp"
-                    android:foreground="?android:attr/selectableItemBackground"
-                    android:clickable="true"
-                    app:cardBackgroundColor="#78909C"
-                    android:onClick="deadly"
-                    >
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical"
-                        android:gravity="center"
 
-                        >
-                        <ImageView
-                            android:layout_width="80dp"
-                            android:layout_height="80dp"
-                            android:background="@drawable/deadly_hunt"
-                            android:padding="10dp"
-                            android:id="@+id/clickthreein"
-                            />
-
-                        <View
-                            android:layout_width="match_parent"
-                            android:layout_height="1dp"
-                            android:background="@color/lightgray"
-                            android:layout_margin="10dp"
-
-
-                            />
-
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:textStyle="bold"
-                            android:layout_marginTop="10dp"
-                            android:text="Deadly Hunt"
-                            android:textColor="#ffffff"
-                            android:textSize="15dp"
-
-                            />
-
-
-                    </LinearLayout>
-
-
-                </android.support.v7.widget.CardView>
 
             </LinearLayout>
 

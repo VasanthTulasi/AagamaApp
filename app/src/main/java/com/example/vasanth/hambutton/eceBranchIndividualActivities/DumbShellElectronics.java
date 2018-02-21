@@ -1,4 +1,4 @@
-package com.example.vasanth.hambutton.funZone;
+package com.example.vasanth.hambutton.eceBranchIndividualActivities;
 
 import android.content.ActivityNotFoundException;
 import android.content.ComponentName;

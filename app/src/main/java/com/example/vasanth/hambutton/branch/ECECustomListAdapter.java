@@ -19,7 +19,14 @@ import com.example.vasanth.hambutton.R;
 import com.example.vasanth.hambutton.cseBranchIndividualActivities.CseActivity1;
 import com.example.vasanth.hambutton.cseBranchIndividualActivities.CseActivity2;
 import com.example.vasanth.hambutton.eceBranchIndividualActivities.CircuitrixECE;
+import com.example.vasanth.hambutton.eceBranchIndividualActivities.CodeBreakers;
+import com.example.vasanth.hambutton.eceBranchIndividualActivities.DumbShellElectronics;
+import com.example.vasanth.hambutton.eceBranchIndividualActivities.MatlabMania;
+import com.example.vasanth.hambutton.eceBranchIndividualActivities.PaperPresentationECE;
+import com.example.vasanth.hambutton.eceBranchIndividualActivities.PosterPresentationECE;
+import com.example.vasanth.hambutton.eceBranchIndividualActivities.ProjectPresentationECE;
 import com.example.vasanth.hambutton.eceBranchIndividualActivities.RamAndRomECE;
+import com.example.vasanth.hambutton.eceBranchIndividualActivities.RoboticsECE;
 import com.example.vasanth.hambutton.eceBranchIndividualActivities.TechnicalQuizECE;
 import com.nostra13.universalimageloader.cache.memory.impl.WeakMemoryCache;
 import com.nostra13.universalimageloader.core.DisplayImageOptions;
@@ -101,7 +108,20 @@ public class ECECustomListAdapter extends ArrayAdapter<Card> {
                     mContextECE.startActivity(new Intent(mContextECE, CircuitrixECE.class));
                 else if (position == 2)
                     mContextECE.startActivity(new Intent(mContextECE, RamAndRomECE.class));
-
+                else if (position == 3)
+                    mContextECE.startActivity(new Intent(mContextECE, PaperPresentationECE.class));
+                else if (position == 4)
+                    mContextECE.startActivity(new Intent(mContextECE, PosterPresentationECE.class));
+                else if (position == 5)
+                    mContextECE.startActivity(new Intent(mContextECE, ProjectPresentationECE.class));
+                else if (position == 6)
+                    mContextECE.startActivity(new Intent(mContextECE, RoboticsECE.class));
+                else if (position == 7)
+                    mContextECE.startActivity(new Intent(mContextECE, CodeBreakers.class));
+                else if (position == 8)
+                    mContextECE.startActivity(new Intent(mContextECE, DumbShellElectronics.class));
+                else if (position == 9)
+                    mContextECE.startActivity(new Intent(mContextECE, MatlabMania.class));
             }
         });
         Button registerInECE = (Button) convertView.findViewById(R.id.registerInECE);

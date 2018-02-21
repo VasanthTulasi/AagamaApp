@@ -4,18 +4,17 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.transition.Slide;
 import android.view.View;
 
-import com.example.vasanth.hambutton.skillZone.Circuitrix;
-import com.example.vasanth.hambutton.skillZone.CodeCup;
+import com.example.vasanth.hambutton.eeeBranchIndividualActivities.Circuitrix;
+import com.example.vasanth.hambutton.cseBranchIndividualActivities.CodeCup;
 import com.example.vasanth.hambutton.skillZone.JigsawPuzzle;
 import com.example.vasanth.hambutton.skillZone.LANGaming;
-import com.example.vasanth.hambutton.skillZone.ModelMaking;
+import com.example.vasanth.hambutton.civilBranchIndividualActivities.ModelMaking;
 import com.example.vasanth.hambutton.skillZone.PlayZone;
 import com.example.vasanth.hambutton.skillZone.TechPowerHunt;
 import com.example.vasanth.hambutton.skillZone.TechnicalThambola;
-import com.example.vasanth.hambutton.skillZone.ThreeDChallenge;
+import com.example.vasanth.hambutton.civilBranchIndividualActivities.ThreeDChallenge;
 import com.example.vasanth.hambutton.skillZone.WordWrap;
 
 public class SkillZone extends AppCompatActivity {

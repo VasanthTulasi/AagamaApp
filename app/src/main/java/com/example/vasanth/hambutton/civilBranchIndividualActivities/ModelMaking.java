@@ -1,4 +1,4 @@
-package com.example.vasanth.hambutton.funZone;
+package com.example.vasanth.hambutton.civilBranchIndividualActivities;
 
 import android.content.ActivityNotFoundException;
 import android.content.ComponentName;
@@ -10,15 +10,15 @@ import android.view.View;
 
 import com.example.vasanth.hambutton.R;
 
-public class CodeBreakers extends AppCompatActivity {
+public class ModelMaking extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_code_breakers);
+        setContentView(R.layout.activity_model_making);
     }
-    public void rdumb(View v){
-        String url = "https://docs.google.com/forms/d/e/1FAIpQLSccLcexErAocYDHsxVx-BMZQ64uXr_1_3KwSPFIskECQJt3bQ/viewform?usp=sf_link";
+    public void rcreative(View v){
+        String url = "https://docs.google.com/forms/d/e/1FAIpQLSdcmxoI2__CKanuRWF5T--3zrl_hZaDczd3u6wXvR6s4hE4Tg/viewform?usp=sf_link";
         try {
             Intent i = new Intent("android.intent.action.MAIN");
             i.setComponent(ComponentName.unflattenFromString("com.android.chrome/com.android.chrome.Main"));

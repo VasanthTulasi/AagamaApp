@@ -1,26 +1,24 @@
-package com.example.vasanth.hambutton.skillZone;
+package com.example.vasanth.hambutton.civilBranchIndividualActivities;
 
-import android.content.ActivityNotFoundException;
-import android.content.ComponentName;
-import android.content.Intent;
-import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
 import com.example.vasanth.hambutton.R;
-import com.example.vasanth.hambutton.openZone.BrickChallenge;
 
-public class Circuitrix extends AppCompatActivity {
+public class ThreeDChallenge extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_circuitrix);
+        setContentView(R.layout.activity_three_dchallenge);
     }
     public void rcreative(View v){
-        String url = "https://docs.google.com/forms/d/e/1FAIpQLSeGlyrv3j2_XESPKlw8x41S23qMOnp2x553iJfBR9V8HU13eQ/viewform?usp=sf_link";
+
+        Toast.makeText(ThreeDChallenge.this,"Currently Unavailable",Toast.LENGTH_SHORT).show();
+    /*
+        String url = "";
         try {
             Intent i = new Intent("android.intent.action.MAIN");
             i.setComponent(ComponentName.unflattenFromString("com.android.chrome/com.android.chrome.Main"));
@@ -33,5 +31,7 @@ public class Circuitrix extends AppCompatActivity {
             Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
             startActivity(i);
         }
+        */
     }
+
 }

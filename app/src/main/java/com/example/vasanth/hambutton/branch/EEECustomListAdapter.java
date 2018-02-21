@@ -18,6 +18,7 @@ import android.widget.TextView;
 import com.example.vasanth.hambutton.R;
 import com.example.vasanth.hambutton.cseBranchIndividualActivities.CseActivity1;
 import com.example.vasanth.hambutton.cseBranchIndividualActivities.CseActivity2;
+import com.example.vasanth.hambutton.eeeBranchIndividualActivities.Circuitrix;
 import com.example.vasanth.hambutton.eeeBranchIndividualActivities.PaperPresentationEEE;
 import com.example.vasanth.hambutton.eeeBranchIndividualActivities.PosterPresentationEEE;
 import com.example.vasanth.hambutton.eeeBranchIndividualActivities.ProjectExpoEEE;
@@ -105,6 +106,8 @@ public class EEECustomListAdapter extends ArrayAdapter<Card> {
                     mContextEEE.startActivity(new Intent(mContextEEE, ProjectExpoEEE.class));
                 else if (position == 3)
                     mContextEEE.startActivity(new Intent(mContextEEE, TechnicalQuizEEE.class));
+                else if (position == 4)
+                    mContextEEE.startActivity(new Intent(mContextEEE, Circuitrix.class));
 
             }
         });
@@ -149,9 +152,7 @@ public class EEECustomListAdapter extends ArrayAdapter<Card> {
 
         //download and display image from url
         imageLoader.displayImage(imgUrl, holder.imageEEE, options);
-
         return convertView;
-
 
     }
 

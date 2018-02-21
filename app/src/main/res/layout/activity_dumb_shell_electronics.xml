@@ -45,9 +45,7 @@
                 <LinearLayout
                     android:orientation="horizontal"
                     android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:layout_weight="1.9"
-
+                    android:layout_height="wrap_content"
                     >
 
                     <ImageView
@@ -55,7 +53,7 @@
                         android:src="@drawable/dumbshell_electronics"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:scaleType="centerCrop"
+                        android:scaleType="fitXY"
                         android:layout_marginRight="11dp"
                         android:layout_marginTop="11dp"
                         android:layout_marginLeft="10dp"
@@ -76,11 +74,8 @@
                 <LinearLayout
                     android:orientation="horizontal"
                     android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:layout_weight="6"
+                    android:layout_height="match_parent"
                     android:layout_marginTop="4dp"
-
-
                     >
                     <ScrollView
                         android:layout_width="match_parent"
@@ -100,27 +95,6 @@
                     </ScrollView>
 
                 </LinearLayout>
-
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:layout_weight="1.2"
-                    android:orientation="vertical">
-
-                    <Button
-                        android:layout_marginTop="3dp"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_alignParentTop="true"
-                        android:layout_centerHorizontal="true"
-                        android:background="@drawable/styling_for_register_button_in_zones"
-                        android:textColor="@color/colorAagama"
-                        android:textSize="14.5sp"
-                        android:text="Register"
-                        android:onClick="rdumb"
-                        />
-
-                </RelativeLayout>
 
             </LinearLayout>
 

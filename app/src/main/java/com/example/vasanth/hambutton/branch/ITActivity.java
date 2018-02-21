@@ -42,6 +42,8 @@ private static final String TAG="ItActivity";
         listIT.add(new Card("drawable://"+R.drawable.it_cpucollab,"CPU collab"));
         listIT.add(new Card("drawable://"+R.drawable.cascadingcoding_it,"Cascading Code "));
         listIT.add(new Card("drawable://"+R.drawable.codesink_it,"Code Sink"));
+        listIT.add(new Card("drawable://"+R.drawable.deadly_hunt,"Deadly Hunt"));
+
 
 
 

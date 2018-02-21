@@ -1,4 +1,4 @@
-package com.example.vasanth.hambutton.skillZone;
+package com.example.vasanth.hambutton.eceBranchIndividualActivities;
 
 import android.content.ActivityNotFoundException;
 import android.content.ComponentName;
@@ -10,15 +10,15 @@ import android.view.View;
 
 import com.example.vasanth.hambutton.R;
 
-public class ModelMaking extends AppCompatActivity {
+public class MatlabMania extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_model_making);
+        setContentView(R.layout.activity_matlab_mania);
     }
     public void rcreative(View v){
-        String url = "https://docs.google.com/forms/d/e/1FAIpQLSdcmxoI2__CKanuRWF5T--3zrl_hZaDczd3u6wXvR6s4hE4Tg/viewform?usp=sf_link";
+        String url = "https://docs.google.com/forms/d/e/1FAIpQLSfZ7zWRI0BMGnH3vq3c5m1eNY2dZxx03Y39T6McS70IbJovng/viewform?usp=sf_link";
         try {
             Intent i = new Intent("android.intent.action.MAIN");
             i.setComponent(ComponentName.unflattenFromString("com.android.chrome/com.android.chrome.Main"));

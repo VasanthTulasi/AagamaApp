@@ -38,6 +38,15 @@ private static final String TAG="EceActivity";
         listECE.add(new Card("drawable://"+R.drawable.ece_techquiz2,"Technical Quiz"));
         listECE.add(new Card("drawable://"+R.drawable.circuitrix_ece,"Circuitrix"));
         listECE.add(new Card("drawable://"+R.drawable.ramandrom_ece,"RAM and ROM"));
+        listECE.add(new Card("drawable://"+R.drawable.ramandrom_ece,"Paper Presentation"));
+        listECE.add(new Card("drawable://"+R.drawable.ramandrom_ece,"Poster Presentation"));
+        listECE.add(new Card("drawable://"+R.drawable.ramandrom_ece,"Project Presentation"));
+        listECE.add(new Card("drawable://"+R.drawable.ramandrom_ece,"Robotics"));
+        listECE.add(new Card("drawable://"+R.drawable.ramandrom_ece,"Code Breakers"));
+        listECE.add(new Card("drawable://"+R.drawable.ramandrom_ece,"Dumbshell Electronics"));
+        listECE.add(new Card("drawable://"+R.drawable.ramandrom_ece,"Matlab Mania"));
+
+
 
 
         ECECustomListAdapter adapterECE=new ECECustomListAdapter(this,R.layout.ece_card,listECE);
