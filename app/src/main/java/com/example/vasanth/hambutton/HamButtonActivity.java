@@ -67,6 +67,8 @@ public class HamButtonActivity extends AppCompatActivity{
         setContentView(R.layout.ham_button);
 
 
+
+
         txtTimerDay = (TextView) findViewById(R.id.txtTimerDay);
         txtTimerHour = (TextView) findViewById(R.id.txtTimerHour);
         txtTimerMinute = (TextView) findViewById(R.id.txtTimerMinute);
@@ -89,14 +91,15 @@ public class HamButtonActivity extends AppCompatActivity{
        textInfo = new ArrayList<>();
        setInitialData();
        bmb.setButtonEnum(ButtonEnum.TextOutsideCircle);
-       bmb.setPiecePlaceEnum(PiecePlaceEnum.DOT_7_1);
-       bmb.setButtonPlaceEnum(ButtonPlaceEnum.SC_7_1);
+       bmb.setPiecePlaceEnum(PiecePlaceEnum.DOT_6_1);
+       bmb.setButtonPlaceEnum(ButtonPlaceEnum.SC_6_1);
 
 
         for (int i = 0; i < bmb.getPiecePlaceEnum().pieceNumber(); i++) {
             TextOutsideCircleButton.Builder builder = new TextOutsideCircleButton.Builder();
             builder.normalImageRes(images.get(i));
             builder.normalText(textInfo.get(i));
+            builder.textSize(13);
             builder.normalColor(R.color.colorPrimary);
             builder.pieceColor(Color.WHITE);
             builder.listener(new OnBMClickListener() {
@@ -105,7 +108,7 @@ public class HamButtonActivity extends AppCompatActivity{
 
                 @Override
                 public void onBoomButtonClick(int index) {
-                    if (index == 6) {
+                    if (index == 5) {
                         currentPage = "home";
                         fm.beginTransaction()
                                 .replace(R.id.main_screen,new HomeFragment())
@@ -116,28 +119,31 @@ public class HamButtonActivity extends AppCompatActivity{
                         fm.beginTransaction()
                                 .replace(R.id.main_screen, new About())
                                 .commit();
-                    } else if (index == 1) {
+                    }
+                 /*   else if (index == 1) {
                         currentPage = "nhome";
                         fm.beginTransaction()
                                 .replace(R.id.main_screen, new Gallery())
                                 .commit();
-                    } else if (index == 2) {
+                    }
+                 */
+                    else if (index == 1) {
                         currentPage = "nhome";
                         startActivity(new Intent(HamButtonActivity.this,MainActivityForDev.class));
                         //fm.beginTransaction()
                           //      .replace(R.id.main_screen, new Team())
                             //    .commit();
-                    } else if (index == 3) {
+                    } else if (index == 2) {
                         currentPage = "nhome";
                         fm.beginTransaction()
                                 .replace(R.id.main_screen, new Sponsor())
                                 .commit();
-                    } else if (index == 4) {
+                    } else if (index == 3) {
                         currentPage = "nhome";
                         fm.beginTransaction()
                                 .replace(R.id.main_screen, new Contact())
                                 .commit();
-                    } else if (index == 5) {
+                    } else if (index == 4) {
                         currentPage = "nhome";
 
                         if (appInstalledOrNot("com.google.android.apps.maps")) {
@@ -163,7 +169,7 @@ public class HamButtonActivity extends AppCompatActivity{
 
     private void setInitialData() {
         images.add(R.drawable.about_icon);
-        images.add(R.drawable.gallery_icon);
+       // images.add(R.drawable.gallery_icon);
         images.add(R.drawable.team_icon);
         images.add(R.drawable.sponsor_icon);
         images.add(R.drawable.contact_icon);
@@ -172,8 +178,8 @@ public class HamButtonActivity extends AppCompatActivity{
 
 
         textInfo.add("About");
-        textInfo.add("Gallery");
-        textInfo.add("Team");
+       // textInfo.add("Gallery");
+        textInfo.add("Developer Team");
         textInfo.add("Sponsor");
         textInfo.add("Contact");
         textInfo.add("Location");

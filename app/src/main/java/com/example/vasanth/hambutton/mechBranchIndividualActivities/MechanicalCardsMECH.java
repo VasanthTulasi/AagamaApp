@@ -1,15 +1,15 @@
-package com.anurag.aagama.aagamaapp;
+package com.example.vasanth.hambutton.mechBranchIndividualActivities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.example.vasanth.hambutton.R;
 
-public class SaveME extends AppCompatActivity {
+public class MechanicalCardsMECH extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_save_me);
+        setContentView(R.layout.activity_mechanical_cards_mech);
     }
 }

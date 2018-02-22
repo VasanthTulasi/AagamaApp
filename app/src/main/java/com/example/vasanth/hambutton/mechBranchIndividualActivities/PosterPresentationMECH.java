@@ -1,15 +1,15 @@
-package com.anurag.aagama.aagamaapp;
+package com.example.vasanth.hambutton.mechBranchIndividualActivities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.example.vasanth.hambutton.R;
 
-public class GolGappa extends AppCompatActivity {
+public class PosterPresentationMECH extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_gol_gappa);
+        setContentView(R.layout.activity_poster_presentation_mech);
     }
 }

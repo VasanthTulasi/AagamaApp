@@ -280,6 +280,354 @@
                     </android.support.v7.widget.CardView>
 
                 </LinearLayout>
+                 <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:gravity="center"
+                     android:clipToPadding="false"
+
+
+
+                     >
+
+                     <android.support.v7.widget.CardView
+                         android:layout_width="160dp"
+                         android:layout_height="190dp"
+                         android:layout_margin="10dp"
+                         android:foreground="?android:attr/selectableItemBackground"
+                         android:clickable="true"
+                         app:cardBackgroundColor="#78909C"
+                         android:onClick="dham"
+
+                         >
+                         <LinearLayout
+                             android:layout_width="match_parent"
+                             android:layout_height="match_parent"
+                             android:orientation="vertical"
+                             android:gravity="center"
+                             >
+
+                             <ImageView
+                                 android:layout_width="80dp"
+                                 android:layout_height="80dp"
+                                 android:background="@drawable/dhamlaga"
+                                 android:padding="10dp"
+                                 />
+
+                             <View
+                                 android:layout_width="match_parent"
+                                 android:layout_height="1dp"
+                                 android:background="@color/lightgray"
+                                 android:layout_margin="10dp"
+
+
+                                 />
+
+
+                             <TextView
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"
+                                 android:textStyle="bold"
+                                 android:layout_marginTop="10dp"
+                                 android:text="Dham Laga"
+                                 android:textColor="#ffffff"
+                                 android:textSize="15dp"
+
+                                 />
+
+                         </LinearLayout>
+
+
+                     </android.support.v7.widget.CardView>
+
+
+
+
+
+                     <android.support.v7.widget.CardView
+                         android:layout_width="160dp"
+                         android:layout_height="190dp"
+                         android:layout_margin="10dp"
+                         android:foreground="?android:attr/selectableItemBackground"
+                         android:clickable="true"
+                         app:cardBackgroundColor="#78909C"
+                         android:onClick="giftUnwrapping"
+                         >
+                         <LinearLayout
+                             android:layout_width="match_parent"
+                             android:layout_height="match_parent"
+                             android:orientation="vertical"
+                             android:gravity="center"
+                             >
+                             <ImageView
+                                 android:layout_width="80dp"
+                                 android:layout_height="80dp"
+                                 android:background="@drawable/giftunwrapping"
+                                 android:padding="10dp"
+                                 />
+
+                             <View
+                                 android:layout_width="match_parent"
+                                 android:layout_height="1dp"
+                                 android:background="@color/lightgray"
+                                 android:layout_margin="10dp"
+
+
+                                 />
+
+
+                             <TextView
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"
+                                 android:textStyle="bold"
+                                 android:layout_marginTop="10dp"
+                                 android:text="Gift Unwrapping"
+                                 android:textColor="#ffffff"
+                                 android:textSize="15dp"
+
+                                 />
+
+
+
+
+                         </LinearLayout>
+
+
+                     </android.support.v7.widget.CardView>
+
+                 </LinearLayout>
+                 <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:gravity="center"
+                     android:clipToPadding="false"
+
+
+
+                     >
+
+                     <android.support.v7.widget.CardView
+                         android:layout_width="160dp"
+                         android:layout_height="190dp"
+                         android:layout_margin="10dp"
+                         android:foreground="?android:attr/selectableItemBackground"
+                         android:clickable="true"
+                         app:cardBackgroundColor="#78909C"
+                         android:onClick="golGappa"
+
+                         >
+                         <LinearLayout
+                             android:layout_width="match_parent"
+                             android:layout_height="match_parent"
+                             android:orientation="vertical"
+                             android:gravity="center"
+                             >
+
+                             <ImageView
+                                 android:layout_width="80dp"
+                                 android:layout_height="80dp"
+                                 android:background="@drawable/golgappa"
+                                 android:padding="10dp"
+                                 />
+
+                             <View
+                                 android:layout_width="match_parent"
+                                 android:layout_height="1dp"
+                                 android:background="@color/lightgray"
+                                 android:layout_margin="10dp"
+
+
+                                 />
+
+
+                             <TextView
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"
+                                 android:textStyle="bold"
+                                 android:layout_marginTop="10dp"
+                                 android:text="Gol Gappa"
+                                 android:textColor="#ffffff"
+                                 android:textSize="15dp"
+
+                                 />
+
+                         </LinearLayout>
+
+
+                     </android.support.v7.widget.CardView>
+
+
+
+
+
+                     <android.support.v7.widget.CardView
+                         android:layout_width="160dp"
+                         android:layout_height="190dp"
+                         android:layout_margin="10dp"
+                         android:foreground="?android:attr/selectableItemBackground"
+                         android:clickable="true"
+                         app:cardBackgroundColor="#78909C"
+                         android:onClick="luckyDraw"
+                         >
+                         <LinearLayout
+                             android:layout_width="match_parent"
+                             android:layout_height="match_parent"
+                             android:orientation="vertical"
+                             android:gravity="center"
+                             >
+                             <ImageView
+                                 android:layout_width="80dp"
+                                 android:layout_height="80dp"
+                                 android:background="@drawable/luckydraw"
+                                 android:padding="10dp"
+                                 />
+
+                             <View
+                                 android:layout_width="match_parent"
+                                 android:layout_height="1dp"
+                                 android:background="@color/lightgray"
+                                 android:layout_margin="10dp"
+
+
+                                 />
+
+
+                             <TextView
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"
+                                 android:textStyle="bold"
+                                 android:layout_marginTop="10dp"
+                                 android:text="Lucky Draw"
+                                 android:textColor="#ffffff"
+                                 android:textSize="15dp"
+
+                                 />
+
+
+
+
+                         </LinearLayout>
+
+
+                     </android.support.v7.widget.CardView>
+
+                 </LinearLayout>
+                 <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:gravity="center"
+                     android:clipToPadding="false"
+
+
+
+                     >
+
+                     <android.support.v7.widget.CardView
+                         android:layout_width="160dp"
+                         android:layout_height="190dp"
+                         android:layout_margin="10dp"
+                         android:foreground="?android:attr/selectableItemBackground"
+                         android:clickable="true"
+                         app:cardBackgroundColor="#78909C"
+                         android:onClick="saveMe"
+
+                         >
+                         <LinearLayout
+                             android:layout_width="match_parent"
+                             android:layout_height="match_parent"
+                             android:orientation="vertical"
+                             android:gravity="center"
+                             >
+
+                             <ImageView
+                                 android:layout_width="80dp"
+                                 android:layout_height="80dp"
+                                 android:background="@drawable/saveme"
+                                 android:padding="10dp"
+                                 />
+
+                             <View
+                                 android:layout_width="match_parent"
+                                 android:layout_height="1dp"
+                                 android:background="@color/lightgray"
+                                 android:layout_margin="10dp"
+
+
+                                 />
+
+
+                             <TextView
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"
+                                 android:textStyle="bold"
+                                 android:layout_marginTop="10dp"
+                                 android:text="Save Me"
+                                 android:textColor="#ffffff"
+                                 android:textSize="15dp"
+
+                                 />
+
+                         </LinearLayout>
+
+
+                     </android.support.v7.widget.CardView>
+
+
+
+
+
+                     <android.support.v7.widget.CardView
+                         android:layout_width="160dp"
+                         android:layout_height="190dp"
+                         android:layout_margin="10dp"
+                         android:foreground="?android:attr/selectableItemBackground"
+                         android:clickable="true"
+                         app:cardBackgroundColor="#78909C"
+                         android:onClick="slowCycling"
+                         >
+                         <LinearLayout
+                             android:layout_width="match_parent"
+                             android:layout_height="match_parent"
+                             android:orientation="vertical"
+                             android:gravity="center"
+                             >
+                             <ImageView
+                                 android:layout_width="80dp"
+                                 android:layout_height="80dp"
+                                 android:background="@drawable/slowcycling"
+                                 android:padding="10dp"
+                                 />
+
+                             <View
+                                 android:layout_width="match_parent"
+                                 android:layout_height="1dp"
+                                 android:background="@color/lightgray"
+                                 android:layout_margin="10dp"
+
+
+                                 />
+
+
+                             <TextView
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"
+                                 android:textStyle="bold"
+                                 android:layout_marginTop="10dp"
+                                 android:text="Slow Cycling"
+                                 android:textColor="#ffffff"
+                                 android:textSize="15dp"
+
+                                 />
+
+
+
+
+                         </LinearLayout>
+
+
+                     </android.support.v7.widget.CardView>
+
+                 </LinearLayout>
 
 
 

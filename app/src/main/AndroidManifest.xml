@@ -257,17 +257,19 @@
         <activity android:name=".cseBranchIndividualActivities.CodeKnockoutCSE" />
         <activity android:name=".cseBranchIndividualActivities.IOTHackathonCSE" />
         <activity android:name=".cseBranchIndividualActivities.AnimationClubHackathonCSE" />
-        <activity android:name="com.anurag.aagama.aagamaapp.BestOutOfWaste" />
-        <activity android:name="com.anurag.aagama.aagamaapp.PuzzleBreak" />
-        <activity android:name="com.anurag.aagama.aagamaapp.SaveME" />
-        <activity android:name="com.anurag.aagama.aagamaapp.LuckyDraw" />
-        <activity android:name="com.anurag.aagama.aagamaapp.DhamLaga" />
-        <activity android:name="com.anurag.aagama.aagamaapp.FilmyQuiz" />
-        <activity android:name="com.anurag.aagama.aagamaapp.GiftUnwrapping" />
-        <activity android:name="com.anurag.aagama.aagamaapp.GolGappa" />
-        <activity android:name="com.anurag.aagama.aagamaapp.PharmaTreasureHunt" />
-        <activity android:name="com.anurag.aagama.aagamaapp.RopeTieing" />
-        <activity android:name="com.anurag.aagama.aagamaapp.SlowCycling"></activity>
+        <activity android:name=".skillZone.BestOutOfWaste" />
+        <activity android:name=".skillZone.PuzzleBreak" />
+        <activity android:name=".funZone.SaveME" />
+        <activity android:name=".funZone.LuckyDraw" />
+        <activity android:name=".funZone.DhamLaga" />
+        <activity android:name=".skillZone.FilmyQuiz" />
+        <activity android:name=".funZone.GiftUnwrapping" />
+        <activity android:name=".funZone.GolGappa" />
+        <activity android:name=".skillZone.PharmaTreasureHunt" />
+        <activity android:name=".skillZone.RopeTieing" />
+        <activity android:name=".funZone.SlowCycling" />
+        <activity android:name=".mechBranchIndividualActivities.MechanicalCardsMECH" />
+        <activity android:name=".mechBranchIndividualActivities.PosterPresentationMECH"></activity>
     </application>
 
 </manifest>

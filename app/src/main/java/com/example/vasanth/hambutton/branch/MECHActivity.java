@@ -41,6 +41,8 @@ private static final String TAG="MechActivity";
         listMECH.add(new Card("drawable://"+R.drawable.prayog_mech,"Prayog"));
         listMECH.add(new Card("drawable://"+R.drawable.design_execute_mech,"Dessin Xecute"));
         listMECH.add(new Card("drawable://"+R.drawable.meet_your_thoughts_mech,"Meet Your Thoughts"));
+        listMECH.add(new Card("drawable://"+R.drawable.mech_cards,"Mechanical Cards"));
+        listMECH.add(new Card("drawable://"+R.drawable.poster_presentation_mech,"Poster Presentation"));
 
 
 

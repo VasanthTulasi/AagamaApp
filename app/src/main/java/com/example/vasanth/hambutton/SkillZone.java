@@ -6,15 +6,16 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
-import com.example.vasanth.hambutton.eeeBranchIndividualActivities.Circuitrix;
-import com.example.vasanth.hambutton.cseBranchIndividualActivities.CodeCup;
+import com.example.vasanth.hambutton.skillZone.PharmaTreasureHunt;
+import com.example.vasanth.hambutton.skillZone.BestOutOfWaste;
+import com.example.vasanth.hambutton.skillZone.FilmyQuiz;
 import com.example.vasanth.hambutton.skillZone.JigsawPuzzle;
 import com.example.vasanth.hambutton.skillZone.LANGaming;
-import com.example.vasanth.hambutton.civilBranchIndividualActivities.ModelMaking;
 import com.example.vasanth.hambutton.skillZone.PlayZone;
+import com.example.vasanth.hambutton.skillZone.PuzzleBreak;
+import com.example.vasanth.hambutton.skillZone.RopeTieing;
 import com.example.vasanth.hambutton.skillZone.TechPowerHunt;
 import com.example.vasanth.hambutton.skillZone.TechnicalThambola;
-import com.example.vasanth.hambutton.civilBranchIndividualActivities.ThreeDChallenge;
 import com.example.vasanth.hambutton.skillZone.WordWrap;
 
 public class SkillZone extends AppCompatActivity {
@@ -31,9 +32,6 @@ public class SkillZone extends AppCompatActivity {
         getSupportActionBar().setTitle(R.string.nothing);
     }
 
-    public void cup(View v){
-        startActivity(new Intent(SkillZone.this, CodeCup.class));
-    }
     public void lan(View v){
         startActivity(new Intent(SkillZone.this, LANGaming.class));
     }
@@ -46,21 +44,29 @@ public class SkillZone extends AppCompatActivity {
     public void playz(View v){
         startActivity(new Intent(SkillZone.this, PlayZone.class));
     }
-    public void circuitrix(View v){
-        startActivity(new Intent(SkillZone.this, Circuitrix.class));
-    }
-    public void techPower(View v){
+    public void techPower(View v) {
         startActivity(new Intent(SkillZone.this, TechPowerHunt.class));
-    }
-    public void three(View v){
-        startActivity(new Intent(SkillZone.this, ThreeDChallenge.class));
-    }
-    public void model(View v){
-        startActivity(new Intent(SkillZone.this, ModelMaking.class));
     }
     public void wordWrap(View v){
         startActivity(new Intent(SkillZone.this, WordWrap.class));
     }
+    public void bestOut(View v){
+        startActivity(new Intent(SkillZone.this, BestOutOfWaste.class));
+    }
+    public void filmyQuiz(View v){
+        startActivity(new Intent(SkillZone.this, FilmyQuiz.class));
+    }
+    public void puzzleBreak(View v){
+        startActivity(new Intent(SkillZone.this, PuzzleBreak.class));
+    }
+    public void rope(View v){
+        startActivity(new Intent(SkillZone.this, RopeTieing.class));
+    }
+    public void treasureHunt(View v){
+        startActivity(new Intent(SkillZone.this, PharmaTreasureHunt.class));
+    }
+
+
 
 
 }

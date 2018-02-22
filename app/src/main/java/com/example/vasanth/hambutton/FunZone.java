@@ -10,8 +10,14 @@ import com.example.vasanth.hambutton.funZone.BreakItIfYouCan;
 import com.example.vasanth.hambutton.eceBranchIndividualActivities.CodeBreakers;
 import com.example.vasanth.hambutton.funZone.DevilFollows;
 import com.example.vasanth.hambutton.eceBranchIndividualActivities.DumbShellElectronics;
+import com.example.vasanth.hambutton.funZone.DhamLaga;
 import com.example.vasanth.hambutton.funZone.FunCarnival;
+import com.example.vasanth.hambutton.funZone.GiftUnwrapping;
+import com.example.vasanth.hambutton.funZone.GolGappa;
 import com.example.vasanth.hambutton.funZone.Inversion;
+import com.example.vasanth.hambutton.funZone.LuckyDraw;
+import com.example.vasanth.hambutton.funZone.SaveME;
+import com.example.vasanth.hambutton.funZone.SlowCycling;
 
 public class FunZone extends AppCompatActivity {
 
@@ -27,12 +33,6 @@ public class FunZone extends AppCompatActivity {
         getSupportActionBar().setTitle(R.string.nothing);
     }
 
-    public void dumb(View v){
-        startActivity(new Intent(FunZone.this, DumbShellElectronics.class));
-    }
-    public void breaker(View v){
-        startActivity(new Intent(FunZone.this, CodeBreakers.class));
-    }
     public void devil(View v){
         startActivity(new Intent(FunZone.this, DevilFollows.class));
     }
@@ -45,6 +45,25 @@ public class FunZone extends AppCompatActivity {
     public void carnival(View v){
         startActivity(new Intent(FunZone.this, FunCarnival.class));
     }
+    public void dham(View v){
+        startActivity(new Intent(FunZone.this, DhamLaga.class));
+    }
+    public void giftUnwrapping(View v){
+        startActivity(new Intent(FunZone.this, GiftUnwrapping.class));
+    }
+    public void golGappa(View v){
+        startActivity(new Intent(FunZone.this, GolGappa.class));
+    }
+    public void luckyDraw(View v){
+        startActivity(new Intent(FunZone.this, LuckyDraw.class));
+    }
+    public void saveMe(View v){
+        startActivity(new Intent(FunZone.this, SaveME.class));
+    }
+    public void slowCycling(View v){
+        startActivity(new Intent(FunZone.this, SlowCycling.class));
+    }
+
 
 
 }
