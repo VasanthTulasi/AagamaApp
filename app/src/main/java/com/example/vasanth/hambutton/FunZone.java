@@ -18,6 +18,7 @@ import com.example.vasanth.hambutton.funZone.Inversion;
 import com.example.vasanth.hambutton.funZone.LuckyDraw;
 import com.example.vasanth.hambutton.funZone.SaveME;
 import com.example.vasanth.hambutton.funZone.SlowCycling;
+import com.example.vasanth.hambutton.funZone.SpellBee;
 
 public class FunZone extends AppCompatActivity {
 
@@ -63,6 +64,10 @@ public class FunZone extends AppCompatActivity {
     public void slowCycling(View v){
         startActivity(new Intent(FunZone.this, SlowCycling.class));
     }
+    public void spellBee(View v){
+        startActivity(new Intent(FunZone.this, SpellBee.class));
+    }
+
 
 
 

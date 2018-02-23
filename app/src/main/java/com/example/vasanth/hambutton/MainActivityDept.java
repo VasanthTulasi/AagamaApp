@@ -7,6 +7,7 @@ import android.support.v7.widget.CardView;
 import android.view.View;
 
 import com.example.vasanth.hambutton.branch.CHEMActivity;
+import com.example.vasanth.hambutton.branch.CHEMICALActivity;
 import com.example.vasanth.hambutton.branch.CseActivity;
 import com.example.vasanth.hambutton.branch.EVEActivity;
 import com.example.vasanth.hambutton.branch.EEEActivity;
@@ -57,6 +58,12 @@ public class MainActivityDept extends AppCompatActivity{
         Intent i=new Intent(MainActivityDept.this,PHARMActivity.class);
         startActivity(i);
     }
+    public void chemicalClick(View view){
+        Intent i=new Intent(MainActivityDept.this,CHEMICALActivity.class);
+        startActivity(i);
+    }
+
+
 
 
 

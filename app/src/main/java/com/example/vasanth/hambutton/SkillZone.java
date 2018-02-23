@@ -6,6 +6,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
+import com.example.vasanth.hambutton.skillZone.ChemTreasureHunt;
+import com.example.vasanth.hambutton.skillZone.CompoundPreparation;
+import com.example.vasanth.hambutton.skillZone.FilmQuiz;
 import com.example.vasanth.hambutton.skillZone.PharmaTreasureHunt;
 import com.example.vasanth.hambutton.skillZone.BestOutOfWaste;
 import com.example.vasanth.hambutton.skillZone.FilmyQuiz;
@@ -14,6 +17,7 @@ import com.example.vasanth.hambutton.skillZone.LANGaming;
 import com.example.vasanth.hambutton.skillZone.PlayZone;
 import com.example.vasanth.hambutton.skillZone.PuzzleBreak;
 import com.example.vasanth.hambutton.skillZone.RopeTieing;
+import com.example.vasanth.hambutton.skillZone.RubixCube;
 import com.example.vasanth.hambutton.skillZone.TechPowerHunt;
 import com.example.vasanth.hambutton.skillZone.TechnicalThambola;
 import com.example.vasanth.hambutton.skillZone.WordWrap;
@@ -62,6 +66,22 @@ public class SkillZone extends AppCompatActivity {
     public void rope(View v){
         startActivity(new Intent(SkillZone.this, RopeTieing.class));
     }
+    public void chemTreasureHunt(View v){
+        startActivity(new Intent(SkillZone.this, ChemTreasureHunt.class));
+    }
+
+    public void compound(View v){
+        startActivity(new Intent(SkillZone.this, CompoundPreparation.class));
+    }
+
+    public void filmChem(View v){
+        startActivity(new Intent(SkillZone.this, FilmQuiz.class));
+    }
+
+    public void rubix(View v){
+        startActivity(new Intent(SkillZone.this, RubixCube.class));
+    }
+
     public void treasureHunt(View v){
         startActivity(new Intent(SkillZone.this, PharmaTreasureHunt.class));
     }

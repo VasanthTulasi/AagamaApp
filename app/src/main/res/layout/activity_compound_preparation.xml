@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardBackgroundColor="@android:color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <include layout="@layout/app_bar"
+        android:id="@+id/app_bar"/>
+
+    <RelativeLayout
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingRight="2dp"
+        android:paddingLeft="2dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:layout_below="@id/app_bar"
+        >
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardBackgroundColor="@android:color/black"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="10dp"
+            app:contentPadding="7dp"
+            app:cardMaxElevation="15dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="#ffffff">
+
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1.9"
+                    >
+
+                    <ImageView
+                        android:id="@+id/cardImageInC1"
+                        android:src="@drawable/compound"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:scaleType="centerCrop"
+                        android:layout_marginRight="11dp"
+                        android:layout_marginTop="11dp"
+                        android:layout_marginLeft="10dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="Compound Preparation"
+                        android:textSize="28sp"
+                        android:textColor="@color/colorPrimary"
+                        android:id="@+id/textActivityInC1"
+                        android:layout_marginTop="11dp"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="6"                    android:layout_marginTop="4dp"
+                    >
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="4dp"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/cardTitleInC1"
+                            android:gravity="center_vertical"
+                            android:text="@string/compound_preparation"
+                            android:textSize="19sp"
+                            android:textColor="@android:color/black"
+                            android:layout_marginLeft="10dp"
+                            />
+                    </ScrollView>
+
+                </LinearLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1.2"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:layout_marginTop="3dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/styling_for_register_button_in_zones"
+                        android:textColor="@color/colorAagama"
+                        android:textSize="14.5sp"
+                        android:text="Register"
+                        android:onClick="rcreative"
+                        />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+
+    </RelativeLayout>
+</RelativeLayout>
+

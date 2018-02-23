@@ -29,6 +29,9 @@
             android:name=".branch.CseActivity"
             android:screenOrientation="portrait" />
         <activity
+            android:name=".branch.CHEMICALActivity"
+            android:screenOrientation="portrait" />
+        <activity
             android:name=".HamButtonActivity"
             android:screenOrientation="portrait" />
         <activity
@@ -269,7 +272,15 @@
         <activity android:name=".skillZone.RopeTieing" />
         <activity android:name=".funZone.SlowCycling" />
         <activity android:name=".mechBranchIndividualActivities.MechanicalCardsMECH" />
-        <activity android:name=".mechBranchIndividualActivities.PosterPresentationMECH"></activity>
+        <activity android:name=".mechBranchIndividualActivities.PosterPresentationMECH" />
+        <activity android:name=".chemBranchIndividualActivities.PosterPresentationCHEMICAL" />
+        <activity android:name=".chemBranchIndividualActivities.PaperPresentationCHEMICAL" />
+        <activity android:name=".chemBranchIndividualActivities.TechnicalQuizCHEMICAL" />
+        <activity android:name=".skillZone.CompoundPreparation" />
+        <activity android:name=".skillZone.ChemTreasureHunt" />
+        <activity android:name=".funZone.SpellBee" />
+        <activity android:name=".skillZone.FilmQuiz" />
+        <activity android:name=".skillZone.RubixCube"></activity>
     </application>
 
 </manifest>
