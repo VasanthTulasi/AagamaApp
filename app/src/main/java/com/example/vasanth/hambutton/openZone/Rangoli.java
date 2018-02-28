@@ -18,7 +18,7 @@ public class Rangoli extends AppCompatActivity {
         setContentView(R.layout.activity_rangoli);
     }
     public void rcreative(View v){
-        String url = "https://docs.google.com/forms/d/e/1FAIpQLSf3Q80QxzYK3L6P75UOnkhYS6KMQODcUdp281vr6g5U-9Imog/viewform?usp=sf_link";
+        String url = "https://docs.google.com/forms/d/e/1FAIpQLSeLzBoPCQCQTatiBv7yjw90hiOKYph1ipcVyllp7YdZl5AAZw/viewform?usp=sf_link";
         try {
             Intent i = new Intent("android.intent.action.MAIN");
             i.setComponent(ComponentName.unflattenFromString("com.android.chrome/com.android.chrome.Main"));

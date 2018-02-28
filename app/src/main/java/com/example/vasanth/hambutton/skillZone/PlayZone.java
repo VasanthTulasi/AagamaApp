@@ -18,7 +18,7 @@ public class PlayZone extends AppCompatActivity {
         setContentView(R.layout.activity_play_zone);
     }
     public void rcreative(View v){
-        String url = "https://docs.google.com/forms/d/e/1FAIpQLSdoRYZqDI72ZgdRCxIo8v_cqgSNTVToB2CwK5wl6FoKSp8B5A/viewform?usp=sf_link";
+        String url = "https://docs.google.com/forms/d/e/1FAIpQLSeujNdzJ78PW5KcxbPi24GJRXR2Esbvm6Zik4xEQ87wM5LRSA/viewform";
         try {
             Intent i = new Intent("android.intent.action.MAIN");
             i.setComponent(ComponentName.unflattenFromString("com.android.chrome/com.android.chrome.Main"));

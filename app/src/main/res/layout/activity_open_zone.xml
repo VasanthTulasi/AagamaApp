@@ -60,7 +60,6 @@
                     android:clickable="true"
                     app:cardBackgroundColor="#78909C"
                     android:onClick="clay"
-                    android:id="@+id/ideas_card1_in_open"
 
                     >
                     <LinearLayout
@@ -74,9 +73,7 @@
                             android:layout_width="80dp"
                             android:layout_height="80dp"
                             android:background="@drawable/clay_moulding"
-                            android:padding="10dp"
-                            android:id="@+id/clickoneinopen"
-                            />
+                            android:padding="10dp" />
 
                         <View
                             android:layout_width="match_parent"
@@ -112,7 +109,6 @@
                     android:foreground="?android:attr/selectableItemBackground"
                     android:clickable="true"
                     app:cardBackgroundColor="#78909C"
-                    android:id="@+id/ideas_card2_in_open"
                     android:onClick="paint"
                     >
                     <LinearLayout
@@ -174,7 +170,6 @@
                     android:foreground="?android:attr/selectableItemBackground"
                     android:clickable="true"
                     app:cardBackgroundColor="#78909C"
-                    android:id="@+id/ideas_card3_in_open"
                     android:onClick="rangoli"
 
 
@@ -190,9 +185,7 @@
                             android:layout_width="80dp"
                             android:layout_height="80dp"
                             android:background="@drawable/rangoli"
-                            android:padding="10dp"
-                            android:id="@+id/clickinopen"
-                            />
+                            android:padding="10dp" />
 
                         <View
                             android:layout_width="match_parent"
@@ -231,7 +224,6 @@
                     android:foreground="?android:attr/selectableItemBackground"
                     android:clickable="true"
                     app:cardBackgroundColor="#78909C"
-                    android:id="@+id/ideas_card4_in_open"
                     android:onClick="dandiya"
 
                     >
@@ -294,7 +286,6 @@
                     android:foreground="?android:attr/selectableItemBackground"
                     android:clickable="true"
                     app:cardBackgroundColor="#78909C"
-                    android:id="@+id/ideas_card5_in_op"
                     android:onClick="virtual"
 
                     >
@@ -309,9 +300,7 @@
                             android:layout_width="80dp"
                             android:layout_height="80dp"
                             android:background="@drawable/virtual_job_fair"
-                            android:padding="10dp"
-                            android:id="@+id/clickthreeino"
-                            />
+                            android:padding="10dp" />
 
                         <View
                             android:layout_width="match_parent"
@@ -580,7 +569,6 @@
                     android:foreground="?android:attr/selectableItemBackground"
                     android:clickable="true"
                     app:cardBackgroundColor="#78909C"
-                    android:id="@+id/ideas_card6_in_open"
                     android:onClick="cid"
 
                     >
@@ -643,7 +631,6 @@
                     android:foreground="?android:attr/selectableItemBackground"
                     android:clickable="true"
                     app:cardBackgroundColor="#78909C"
-                    android:id="@+id/ideas_card5_in_open"
                     android:onClick="mirror"
 
                     >
@@ -658,9 +645,7 @@
                             android:layout_width="80dp"
                             android:layout_height="80dp"
                             android:background="@drawable/mirror_walk"
-                            android:padding="10dp"
-                            android:id="@+id/clickthreeinopen"
-                            />
+                            android:padding="10dp" />
 
                         <View
                             android:layout_width="match_parent"
@@ -712,9 +697,7 @@
                             android:layout_width="80dp"
                             android:layout_height="80dp"
                             android:background="@drawable/words_worth"
-                            android:padding="10dp"
-                            android:id="@+id/clickthreeinope"
-                            />
+                            android:padding="10dp" />
 
                         <View
                             android:layout_width="match_parent"

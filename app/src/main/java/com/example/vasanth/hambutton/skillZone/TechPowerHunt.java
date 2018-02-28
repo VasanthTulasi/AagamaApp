@@ -18,7 +18,7 @@ public class TechPowerHunt extends AppCompatActivity {
         setContentView(R.layout.activity_tech_power_hunt);
     }
     public void rcreative(View v){
-        String url = "https://docs.google.com/forms/d/e/1FAIpQLSd_pArY8dajW8ZAnoi0ywDzKGasWOnRbEl9lKkfdIVBkZmgaQ/viewform?usp=sf_link";
+        String url = "https://docs.google.com/forms/d/e/1FAIpQLSfu3Pf5svGIDXjqmt-6Qmei9-4eZa37Kaxfi1Fpu4pHkzwppg/viewform";
         try {
             Intent i = new Intent("android.intent.action.MAIN");
             i.setComponent(ComponentName.unflattenFromString("com.android.chrome/com.android.chrome.Main"));

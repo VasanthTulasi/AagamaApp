@@ -18,7 +18,7 @@ public class TechnicalThambola extends AppCompatActivity {
         setContentView(R.layout.activity_technical_thambola);
     }
     public void rcreative(View v){
-        String url = "https://docs.google.com/forms/d/e/1FAIpQLSdQ-LKS-5CNRtRmBOrjTmIiOz1tNj_D3_210rcAcrFjrU5O-Q/viewform?usp=sf_link";
+        String url = "https://docs.google.com/forms/d/e/1FAIpQLScxA8uVPpfhJvYff3EM6tB7RfpBxDu5wL5vB6DflqUmJt3Rxw/viewform";
         try {
             Intent i = new Intent("android.intent.action.MAIN");
             i.setComponent(ComponentName.unflattenFromString("com.android.chrome/com.android.chrome.Main"));

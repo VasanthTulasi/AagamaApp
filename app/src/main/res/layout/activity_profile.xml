@@ -33,6 +33,7 @@
                 app:popupTheme="@style/AppThemeForDep" />
 
         </android.support.design.widget.CollapsingToolbarLayout>
+
     </android.support.design.widget.AppBarLayout>
 
     <include layout="@layout/content_profile" />

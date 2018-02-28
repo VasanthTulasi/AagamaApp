@@ -115,11 +115,11 @@ public class CHEMICALCustomListAdapter extends ArrayAdapter<Card> {
             @Override
             public void onClick(View view) {
                 if (position == 0) {
-                    goToChrome("https://docs.google.com/forms/d/e/1FAIpQLScf0eJ_uj_xkJyIiJQzrkiuPcjgpQ3gigyepkDDmat63JFuEA/viewform?usp=sf_link");
+                    goToChrome("https://docs.google.com/forms/d/e/1FAIpQLScYft6xAG6Buqvt23vvz1s15FKQ9u3_-1TFAI7OuIUVNWH4lQ/viewform");
                 } else if (position == 1) {
-                    goToChrome("https://docs.google.com/forms/d/e/1FAIpQLSfVKC84CE-9_FIipj93DE8EFaviSaH8ch5_8CQNcg3TnFlakA/viewform?usp=sf_link");
+                    goToChrome("https://docs.google.com/forms/d/e/1FAIpQLScYft6xAG6Buqvt23vvz1s15FKQ9u3_-1TFAI7OuIUVNWH4lQ/viewform");
                 } else if (position == 2) {
-                    goToChrome("https://docs.google.com/forms/d/e/1FAIpQLScg6Rf2lElWPwJ01JtUlkWcqZwBPQ08eD_Q2GqV31jwjq9-xA/viewform?usp=sf_link");
+                    goToChrome("https://docs.google.com/forms/d/e/1FAIpQLScYft6xAG6Buqvt23vvz1s15FKQ9u3_-1TFAI7OuIUVNWH4lQ/viewform");
                 }
             }
         });

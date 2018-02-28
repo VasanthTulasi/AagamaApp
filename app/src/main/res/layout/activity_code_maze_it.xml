@@ -49,7 +49,6 @@
                     >
 
                     <ImageView
-                        android:id="@+id/cardImageInC1"
                         android:src="@drawable/code_maze_it"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
@@ -65,7 +64,6 @@
                         android:text="Code Maze"
                         android:textSize="28sp"
                         android:textColor="@color/colorPrimary"
-                        android:id="@+id/textActivityInC1"
                         android:layout_marginTop="11dp"
                         />
 
@@ -85,7 +83,6 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:id="@+id/cardTitleInC1"
                             android:gravity="center_vertical"
                             android:text="@string/code_maze_it"
                             android:textSize="19sp"

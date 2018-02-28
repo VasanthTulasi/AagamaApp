@@ -21,7 +21,7 @@ public class BrickChallenge extends AppCompatActivity {
 
 
     public void rcreative(View v){
-        String url = "https://docs.google.com/forms/d/e/1FAIpQLSd5qvoCcs0bTkXXqtvIkHQSrIUsFDX2UJJOqaJUnt_qCXOwZA/viewform?usp=sf_link";
+        String url = "https://docs.google.com/forms/d/e/1FAIpQLSd1cX6uMKdfwMbtn9SHAX6Eah_CIWKMEIknovQHcj0C21CGMQ/viewform";
         try {
             Intent i = new Intent("android.intent.action.MAIN");
             i.setComponent(ComponentName.unflattenFromString("com.android.chrome/com.android.chrome.Main"));

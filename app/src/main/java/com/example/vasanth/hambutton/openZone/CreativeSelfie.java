@@ -18,7 +18,7 @@ public class CreativeSelfie extends AppCompatActivity {
         setContentView(R.layout.activity_creative_selfie);
     }
     public void rcreative(View v){
-        String url = "https://docs.google.com/forms/d/e/1FAIpQLSe6tuFf6u_oXxul37BgE_OE3YvLSDEKli3sEFbIssgdDGPTVQ/viewform?usp=sf_link";
+        String url = "https://docs.google.com/forms/d/e/1FAIpQLSd1cX6uMKdfwMbtn9SHAX6Eah_CIWKMEIknovQHcj0C21CGMQ/viewform";
         try {
             Intent i = new Intent("android.intent.action.MAIN");
             i.setComponent(ComponentName.unflattenFromString("com.android.chrome/com.android.chrome.Main"));

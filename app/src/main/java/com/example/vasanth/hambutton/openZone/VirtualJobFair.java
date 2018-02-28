@@ -19,9 +19,7 @@ public class VirtualJobFair extends AppCompatActivity {
         setContentView(R.layout.activity_virtual_job_fair);
     }
     public void rcreative(View v){
-        Toast.makeText(VirtualJobFair.this,"Currently Unavailable",Toast.LENGTH_SHORT).show();
-       /*
-        String url = "";
+        String url = "https://docs.google.com/forms/d/e/1FAIpQLSehiVm2QBCUZ2diSv7pHuje5ANcfg3dipms4lfB1dvaKaKHow/viewform";
         try {
             Intent i = new Intent("android.intent.action.MAIN");
             i.setComponent(ComponentName.unflattenFromString("com.android.chrome/com.android.chrome.Main"));
@@ -34,6 +32,6 @@ public class VirtualJobFair extends AppCompatActivity {
             Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
             startActivity(i);
         }
-        */
+
     }
 }

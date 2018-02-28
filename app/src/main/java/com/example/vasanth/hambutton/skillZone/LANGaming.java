@@ -18,7 +18,7 @@ public class LANGaming extends AppCompatActivity {
         setContentView(R.layout.activity_langaming);
     }
     public void rcreative(View v){
-        String url = "https://docs.google.com/forms/d/e/1FAIpQLSekC3gYh80KeR1fbRR0mmhCIWxO5et-yd-ElJ3Ixszf43T5YA/viewform?usp=sf_link";
+        String url = "https://docs.google.com/forms/d/e/1FAIpQLSeiz4UwvHsCW75EAfBZsdqG0ZqFUSYS6OopGKO2Onwg2R6rEA/viewform?usp=sf_link";
         try {
             Intent i = new Intent("android.intent.action.MAIN");
             i.setComponent(ComponentName.unflattenFromString("com.android.chrome/com.android.chrome.Main"));

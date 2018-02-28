@@ -129,11 +129,25 @@ public class ECECustomListAdapter extends ArrayAdapter<Card> {
             @Override
             public void onClick(View view) {
                 if (position == 0) {
-                    goToChrome("https://docs.google.com/forms/d/e/1FAIpQLScf0eJ_uj_xkJyIiJQzrkiuPcjgpQ3gigyepkDDmat63JFuEA/viewform?usp=sf_link");
+                    goToChrome("https://docs.google.com/forms/d/e/1FAIpQLScxA8uVPpfhJvYff3EM6tB7RfpBxDu5wL5vB6DflqUmJt3Rxw/viewform");
                 } else if (position == 1) {
-                    goToChrome("https://docs.google.com/forms/d/e/1FAIpQLSfVKC84CE-9_FIipj93DE8EFaviSaH8ch5_8CQNcg3TnFlakA/viewform?usp=sf_link");
+                    goToChrome("https://docs.google.com/forms/d/e/1FAIpQLScxA8uVPpfhJvYff3EM6tB7RfpBxDu5wL5vB6DflqUmJt3Rxw/viewform");
                 } else if (position == 2) {
-                    goToChrome("https://docs.google.com/forms/d/e/1FAIpQLScg6Rf2lElWPwJ01JtUlkWcqZwBPQ08eD_Q2GqV31jwjq9-xA/viewform?usp=sf_link");
+                    goToChrome("https://docs.google.com/forms/d/e/1FAIpQLScxA8uVPpfhJvYff3EM6tB7RfpBxDu5wL5vB6DflqUmJt3Rxw/viewform");
+                } else if (position == 3) {
+                goToChrome("https://docs.google.com/forms/d/e/1FAIpQLScxA8uVPpfhJvYff3EM6tB7RfpBxDu5wL5vB6DflqUmJt3Rxw/viewform");
+            }else if (position == 4) {
+                    goToChrome("https://docs.google.com/forms/d/e/1FAIpQLScxA8uVPpfhJvYff3EM6tB7RfpBxDu5wL5vB6DflqUmJt3Rxw/viewform");
+                }else if (position == 5) {
+                    goToChrome("https://docs.google.com/forms/d/e/1FAIpQLScxA8uVPpfhJvYff3EM6tB7RfpBxDu5wL5vB6DflqUmJt3Rxw/viewform");
+                }else if (position == 6) {
+                    goToChrome("https://docs.google.com/forms/d/e/1FAIpQLScxA8uVPpfhJvYff3EM6tB7RfpBxDu5wL5vB6DflqUmJt3Rxw/viewform");
+                }else if (position == 7) {
+                    goToChrome("https://docs.google.com/forms/d/e/1FAIpQLScxA8uVPpfhJvYff3EM6tB7RfpBxDu5wL5vB6DflqUmJt3Rxw/viewform");
+                }else if (position == 8) {
+                    goToChrome("https://docs.google.com/forms/d/e/1FAIpQLScxA8uVPpfhJvYff3EM6tB7RfpBxDu5wL5vB6DflqUmJt3Rxw/viewform");
+                }else if (position == 9) {
+                    goToChrome("https://docs.google.com/forms/d/e/1FAIpQLScxA8uVPpfhJvYff3EM6tB7RfpBxDu5wL5vB6DflqUmJt3Rxw/viewform");
                 }
             }
         });

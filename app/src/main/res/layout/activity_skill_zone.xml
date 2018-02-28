@@ -57,7 +57,6 @@
                         android:foreground="?android:attr/selectableItemBackground"
                         android:clickable="true"
                         app:cardBackgroundColor="#78909C"
-                        android:id="@+id/ideas_card6_in_open"
                         android:onClick="wordWrap"
 
                         >
@@ -69,7 +68,7 @@
                             <ImageView
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
-                                android:background="@drawable/word_wrap"
+                                android:background="@drawable/words_worth_eee"
                                 android:padding="10dp"
                                 />
 
@@ -88,7 +87,7 @@
                                 android:layout_height="wrap_content"
                                 android:textStyle="bold"
                                 android:layout_marginTop="10dp"
-                                android:text="Word Wrap"
+                                android:text="Words Worth"
                                 android:textColor="#ffffff"
                                 android:textSize="15dp"
 
@@ -108,7 +107,6 @@
                         android:foreground="?android:attr/selectableItemBackground"
                         android:clickable="true"
                         app:cardBackgroundColor="#78909C"
-                        android:id="@+id/ideas_card2_in_open"
                         android:onClick="lan"
                         >
                         <LinearLayout
@@ -170,7 +168,6 @@
                         android:foreground="?android:attr/selectableItemBackground"
                         android:clickable="true"
                         app:cardBackgroundColor="#78909C"
-                        android:id="@+id/ideas_card3_in_open"
                         android:onClick="tham"
 
 
@@ -186,9 +183,7 @@
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
                                 android:background="@drawable/technical_thambola"
-                                android:padding="10dp"
-                                android:id="@+id/clickinopen"
-                                />
+                                android:padding="10dp" />
 
                             <View
                                 android:layout_width="match_parent"
@@ -227,7 +222,6 @@
                         android:foreground="?android:attr/selectableItemBackground"
                         android:clickable="true"
                         app:cardBackgroundColor="#78909C"
-                        android:id="@+id/ideas_card4_in_open"
                         android:onClick="puzzle"
 
                         >

@@ -17,19 +17,4 @@ public class CodeCup extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_code_cup);
     }
-    public void rcreative(View v){
-        String url = "https://docs.google.com/forms/d/e/1FAIpQLSefepHt-xWpUz_pJZiL9SJjGGxqEiQlP7n7Btwy8eq9wZVUQw/viewform?usp=sf_link";
-        try {
-            Intent i = new Intent("android.intent.action.MAIN");
-            i.setComponent(ComponentName.unflattenFromString("com.android.chrome/com.android.chrome.Main"));
-            i.addCategory("android.intent.category.LAUNCHER");
-            i.setData(Uri.parse(url));
-            startActivity(i);
-        }
-        catch(ActivityNotFoundException e) {
-            // Chrome is not installed
-            Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
-            startActivity(i);
-        }
-    }
 }

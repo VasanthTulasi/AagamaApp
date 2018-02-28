@@ -124,13 +124,21 @@ public class MECHCustomListAdapter extends ArrayAdapter<Card> {
             @Override
             public void onClick(View view) {
                 if(position == 0)
-                    goToChrome("https://docs.google.com/forms/d/e/1FAIpQLSdErYW-h9D50VlnlfXMlcD91uIF5BjaKKI64dLpDC1Y-P5gqA/viewform?usp=sf_link");
+                    goToChrome("https://docs.google.com/forms/d/e/1FAIpQLSeujNdzJ78PW5KcxbPi24GJRXR2Esbvm6Zik4xEQ87wM5LRSA/viewform");
                 else if (position == 1)
-                    goToChrome("https://docs.google.com/forms/d/e/1FAIpQLSfYYpZ534qSxtkIX48oo7g2evHSiFuuUOJ6KTgBBCGi6Xx9lg/viewform?usp=sf_link");
+                    goToChrome("https://docs.google.com/forms/d/e/1FAIpQLSeujNdzJ78PW5KcxbPi24GJRXR2Esbvm6Zik4xEQ87wM5LRSA/viewform");
                 else if (position == 2)
-                    goToChrome("https://docs.google.com/forms/d/e/1FAIpQLSfPpTlFxFL6LGyK_CQvPPc8I2T-8UoasYNnBi1N38OcCXieXg/viewform?usp=sf_link");
+                    goToChrome("https://docs.google.com/forms/d/e/1FAIpQLSeujNdzJ78PW5KcxbPi24GJRXR2Esbvm6Zik4xEQ87wM5LRSA/viewform");
                 else if (position == 3)
-                    goToChrome("https://docs.google.com/forms/d/e/1FAIpQLSdeI23JttyzlX_tGDAbeH45jrkhlJBUbLlS2oXtgf_vVx4beg/viewform?usp=sf_link");
+                    goToChrome("https://docs.google.com/forms/d/e/1FAIpQLSeujNdzJ78PW5KcxbPi24GJRXR2Esbvm6Zik4xEQ87wM5LRSA/viewform");
+                else if (position == 4)
+                    goToChrome("https://docs.google.com/forms/d/e/1FAIpQLSeujNdzJ78PW5KcxbPi24GJRXR2Esbvm6Zik4xEQ87wM5LRSA/viewform");
+                else if (position == 5)
+                    goToChrome("https://docs.google.com/forms/d/e/1FAIpQLSeujNdzJ78PW5KcxbPi24GJRXR2Esbvm6Zik4xEQ87wM5LRSA/viewform");
+                else if (position == 6)
+                    goToChrome("https://docs.google.com/forms/d/e/1FAIpQLSeujNdzJ78PW5KcxbPi24GJRXR2Esbvm6Zik4xEQ87wM5LRSA/viewform");
+                else if (position == 7)
+                    goToChrome("https://docs.google.com/forms/d/e/1FAIpQLSeujNdzJ78PW5KcxbPi24GJRXR2Esbvm6Zik4xEQ87wM5LRSA/viewform");
 
             }
         });

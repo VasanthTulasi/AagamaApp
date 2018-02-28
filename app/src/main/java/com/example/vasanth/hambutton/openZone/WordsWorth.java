@@ -18,7 +18,7 @@ public class WordsWorth extends AppCompatActivity {
         setContentView(R.layout.activity_words_worth);
     }
     public void rcreative(View v){
-        String url = "https://docs.google.com/forms/d/e/1FAIpQLSfa4I8OpWm2Ll443zeGVCfvZztEnzMJbq_nI6vvVi4utWgL0g/viewform?usp=sf_link";
+        String url = "https://docs.google.com/forms/d/e/1FAIpQLSfftqHiPsPRlG3nE2j4VgEP043GnnQLjVAYxqdn0AZEsnp1hA/viewform";
         try {
             Intent i = new Intent("android.intent.action.MAIN");
             i.setComponent(ComponentName.unflattenFromString("com.android.chrome/com.android.chrome.Main"));

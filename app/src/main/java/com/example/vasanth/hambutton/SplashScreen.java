@@ -39,7 +39,7 @@ public class SplashScreen extends Activity {
 
         setContentView(R.layout.splash_screen);
         cse_department = (TextView)findViewById(R.id.cse_dep);
-        cse_department.setText("@CSE department");
+        cse_department.setText("@CSE Department");
         aagamaLogo = findViewById(R.id.iv);
         aagamaText = findViewById(R.id.changingTextView);
         Animation blinkLogo = AnimationUtils.loadAnimation(this, R.anim.blink_for_logo_in_splash);
@@ -67,7 +67,7 @@ public class SplashScreen extends Activity {
         Thread timer = new Thread(){
             public void run(){
                 try{
-                    sleep(6000);
+                    sleep(5100);
                 }catch (Exception e){
                     e.printStackTrace();
                 }

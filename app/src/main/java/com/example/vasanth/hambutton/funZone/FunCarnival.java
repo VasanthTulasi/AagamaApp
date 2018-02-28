@@ -17,8 +17,8 @@ public class FunCarnival extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fun_carnival);
     }
-    public void rdumb(View v){
-        String url = "https://docs.google.com/forms/d/e/1FAIpQLSc54O8f3XBjwQw1uydQY_fIaTW0QjU-BXnUpQg1m5AuxVJDrA/viewform?usp=sf_link";
+    public void rcreative(View v){
+        String url = "https://docs.google.com/forms/d/e/1FAIpQLSeujNdzJ78PW5KcxbPi24GJRXR2Esbvm6Zik4xEQ87wM5LRSA/viewform";
         try {
             Intent i = new Intent("android.intent.action.MAIN");
             i.setComponent(ComponentName.unflattenFromString("com.android.chrome/com.android.chrome.Main"));

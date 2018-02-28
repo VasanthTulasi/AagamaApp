@@ -8,7 +8,6 @@
     tools:context="com.example.vasanth.hambutton.HamButtonActivity">
 
     <TextView
-        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/textView1"
@@ -30,7 +29,7 @@
         android:text="The clock is ticking.."
         android:fontFamily="cursive"
         android:textColor="#c2bfbf"
-        android:textSize="35dp"
+        android:textSize="35sp"
         android:textStyle="bold" />
 
     <RelativeLayout
@@ -40,7 +39,6 @@
         android:layout_centerHorizontal="true"
         android:id="@+id/relativeLayout">
         <LinearLayout
-            android:id="@+id/LinearLayout"
             android:layout_width="350dp"
             android:layout_height="80dp"
             android:gravity="center"
@@ -78,10 +76,9 @@
                     android:gravity="center"
                     android:textAppearance="?android:attr/textAppearanceLarge"
                     android:textColor="#4a0000"
-                    android:textSize="25dp"
+                    android:textSize="25sp"
                     android:textStyle="bold" />
                 <TextView
-                    android:id="@+id/txt_TimerDay"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -107,10 +104,9 @@
                     android:gravity="center"
                     android:textAppearance="?android:attr/textAppearanceLarge"
                     android:textColor="#4a0000"
-                    android:textSize="25dp"
+                    android:textSize="25sp"
                     android:textStyle="bold" />
                 <TextView
-                    android:id="@+id/txt_TimerHour"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -136,10 +132,9 @@
                     android:gravity="center"
                     android:textAppearance="?android:attr/textAppearanceLarge"
                     android:textColor="#4a0000"
-                    android:textSize="25dp"
+                    android:textSize="25sp"
                     android:textStyle="bold" />
                 <TextView
-                    android:id="@+id/txt_TimerMinute"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -165,10 +160,9 @@
                     android:gravity="center"
                     android:textAppearance="?android:attr/textAppearanceLarge"
                     android:textColor="#4a0000"
-                    android:textSize="25dp"
+                    android:textSize="25sp"
                     android:textStyle="bold" />
                 <TextView
-                    android:id="@+id/txt_TimerSecond"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -201,12 +195,9 @@
         android:layout_height="match_parent">
 
         <Button
-            android:id="@+id/angry_btn"
-
             android:layout_width="170dp"
             android:layout_height="48dp"
             android:layout_marginBottom="8dp"
-
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:background="@drawable/buttonshape"
@@ -216,7 +207,6 @@
             android:shadowDy="0"
             android:shadowRadius="5"
             android:text=" Explore "
-
             android:textColor="#0b0000"
             android:textSize="24sp"
             app:layout_constraintBottom_toBottomOf="parent"

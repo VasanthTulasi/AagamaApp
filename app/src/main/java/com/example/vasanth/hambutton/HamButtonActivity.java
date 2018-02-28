@@ -210,8 +210,7 @@ public class HamButtonActivity extends AppCompatActivity{
             public void run() {
                 handler.postDelayed(this, 1000);
                 try {
-                    SimpleDateFormat dateFormat = new SimpleDateFormat(
-                            "yyyy-MM-dd");
+                    SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
 // Please here set your event date//YYYY-MM-DD
                     Date futureDate = dateFormat.parse("2018-03-16");
                     Date currentDate = new Date();

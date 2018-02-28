@@ -17,8 +17,8 @@ public class Inversion extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_inversion);
     }
-    public void rdumb(View v){
-        String url = "https://docs.google.com/forms/d/e/1FAIpQLSd-DW5yxbvKAiI_VWzCftONNVnD8QNcASR2Jrb2Crb7EoQEvw/viewform?usp=sf_link";
+    public void rcreative(View v){
+        String url = "https://docs.google.com/forms/d/e/1FAIpQLSfu3Pf5svGIDXjqmt-6Qmei9-4eZa37Kaxfi1Fpu4pHkzwppg/viewform";
         try {
             Intent i = new Intent("android.intent.action.MAIN");
             i.setComponent(ComponentName.unflattenFromString("com.android.chrome/com.android.chrome.Main"));

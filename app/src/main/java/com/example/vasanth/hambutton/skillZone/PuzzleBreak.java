@@ -18,7 +18,7 @@ public class PuzzleBreak extends AppCompatActivity {
         setContentView(R.layout.activity_puzzle_break);
     }
     public void rcreative(View v){
-        String url = "https://docs.google.com/forms/d/e/1FAIpQLSfJBoKFCkncVlcD7rQV_KO-4azbFKKrWSqhr8wEs2t1GT8ZEg/viewform?usp=sf_link";
+        String url = "https://docs.google.com/forms/d/e/1FAIpQLSfu3Pf5svGIDXjqmt-6Qmei9-4eZa37Kaxfi1Fpu4pHkzwppg/viewform";
         try {
             Intent i = new Intent("android.intent.action.MAIN");
             i.setComponent(ComponentName.unflattenFromString("com.android.chrome/com.android.chrome.Main"));

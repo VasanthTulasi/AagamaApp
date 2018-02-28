@@ -143,22 +143,34 @@ public class CSECustomListAdapter extends ArrayAdapter<Card> {
             @Override
             public void onClick(View view) {
                 if(position == 0) {
-                    goToChrome("https://docs.google.com/forms/d/e/1FAIpQLSeinuKfAdKY4rFNIbj1Htv85WEIqD32yqRNcTRZtTGqJ9IzJQ/viewform?usp=sf_link");
+                     goToChrome("https://docs.google.com/forms/d/e/1FAIpQLSdcTgl9pA8ErGk28I3Li5b7hhx2AAuejUrME639Fh8RoRGwgg/viewform?usp=sf_link");
                 }
                 else if(position == 1) {
-                    goToChrome("https://docs.google.com/forms/d/e/1FAIpQLSdbtcdp3DVAQTgyeB20-fUouPCKVdPOxtOEeYFpX-crUAzbrw/viewform?usp=sf_link");
+                     goToChrome("https://docs.google.com/forms/d/e/1FAIpQLSeBvzhJijQkg41JfDJZb0sBGdMMG9uRyRf3minP4xZlgi6Fog/viewform?usp=sf_link");
                 }
                 else if(position == 2) {
-                   // goToChrome("https://docs.google.com/forms/d/e/1FAIpQLSfk7GGJBawK7KMxgwxuEyFpdaoRkOQ2_gQYLTEGjvWbYNib_A/viewform?usp=sf_link");
+                   goToChrome("https://docs.google.com/forms/d/e/1FAIpQLSc7iETuNnYhohqZesmQEYW6MFtmoA4P5g1_7EGvVRsPg94KYg/viewform?usp=sf_link");
                 }
                 else if(position == 3) {
-                    goToChrome("https://docs.google.com/forms/d/e/1FAIpQLScBvzS38zGTsDSOhbZD4N7d89mEmMCzjIhCiNXijHeUhDqaKA/viewform?usp=sf_link");
+                     goToChrome("https://docs.google.com/forms/d/e/1FAIpQLSdFrJLBYkP2BUdzz0m97A32SYCYchC-mhvSvF6OovAFmlfWwQ/viewform?usp=sf_link");
                 }
                 else if(position == 4) {
-                    goToChrome("https://docs.google.com/forms/d/e/1FAIpQLSfk7GGJBawK7KMxgwxuEyFpdaoRkOQ2_gQYLTEGjvWbYNib_A/viewform?usp=sf_link");
+                     goToChrome("https://docs.google.com/forms/d/e/1FAIpQLSd96nw3kHNfUyrSaVTUMfdrHJ_zp8LofVMiSnIraxEjY7G-Qw/viewform?usp=sf_link");
                 }
                 else if(position == 5) {
-                    goToChrome("https://docs.google.com/forms/d/e/1FAIpQLSdfRjHCLimMpX1MgkL7CcnauNlTYfFYP03Qozl-9Bfjou2vxQ/viewform?usp=sf_link");
+                     goToChrome("https://docs.google.com/forms/d/e/1FAIpQLSe4xv6D2Vo1PcGG-nybre0SVcSic16TCXQx-CZWhB07jKaWAg/viewform?usp=sf_link");
+                }else if(position == 6) {
+                    goToChrome("https://docs.google.com/forms/d/e/1FAIpQLSeft253VE7YKcd4HwDK1i26DPuFPqFqAzUb2Z7lzrVK3EwACw/viewform?usp=sf_link");
+                }else if(position == 7) {
+                    goToChrome("https://docs.google.com/forms/d/e/1FAIpQLSdf9K6aRoTK2maeUdc83k_U5IW35VgRBMLTAiXWdSqN-kjipw/viewform?usp=sf_link");
+                }else if(position == 8) {
+                    goToChrome("https://docs.google.com/forms/d/e/1FAIpQLSfk6N9mUT-jc5nhCqwMhYcbSdp0guoOVghBcIVj2aoHGdFrbg/viewform?usp=sf_link");
+                }else if(position == 9) {
+                    goToChrome("https://docs.google.com/forms/d/e/1FAIpQLSe_rTxfGHHs94cfoSUh4ZR8ogN22l_l8qRiqlK6OIUNBhItnQ/viewform?usp=sf_link");
+                }else if(position == 10) {
+                    goToChrome("https://docs.google.com/forms/d/e/1FAIpQLSex9zHVa4F97C7RTN9fPdSYufI0N_6UZZaGP6QelsQWBvLI4A/viewform?usp=sf_link");
+                }else if(position == 11) {
+                    goToChrome("https://docs.google.com/forms/d/e/1FAIpQLSez3NvJjaZBdtSvNOdTxe-P6Sk6H_adoPrBE1ubX9xLaNEzzw/viewform?usp=sf_link");
                 }
             }
         });

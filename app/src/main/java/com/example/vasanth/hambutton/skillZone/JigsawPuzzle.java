@@ -18,7 +18,7 @@ public class JigsawPuzzle extends AppCompatActivity {
         setContentView(R.layout.activity_jigsaw_puzzle);
     }
     public void rcreative(View v){
-        String url = "https://docs.google.com/forms/d/e/1FAIpQLSfJBoKFCkncVlcD7rQV_KO-4azbFKKrWSqhr8wEs2t1GT8ZEg/viewform?usp=sf_link";
+        String url = "https://docs.google.com/forms/d/e/1FAIpQLScxA8uVPpfhJvYff3EM6tB7RfpBxDu5wL5vB6DflqUmJt3Rxw/viewform";
         try {
             Intent i = new Intent("android.intent.action.MAIN");
             i.setComponent(ComponentName.unflattenFromString("com.android.chrome/com.android.chrome.Main"));

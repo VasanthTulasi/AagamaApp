@@ -28,6 +28,4 @@ public class HomeFragment extends Fragment {
         return myView;
     }
 
-
-
 }

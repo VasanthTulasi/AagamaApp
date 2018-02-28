@@ -61,7 +61,6 @@
                         android:foreground="?android:attr/selectableItemBackground"
                         android:clickable="true"
                         app:cardBackgroundColor="#78909C"
-                        android:id="@+id/ideas_card3_in_open"
                         android:onClick="devil"
 
 
@@ -77,9 +76,7 @@
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
                                 android:background="@drawable/devil_follows"
-                                android:padding="10dp"
-                                android:id="@+id/clickinopen"
-                                />
+                                android:padding="10dp" />
 
                             <View
                                 android:layout_width="match_parent"
@@ -118,7 +115,6 @@
                         android:foreground="?android:attr/selectableItemBackground"
                         android:clickable="true"
                         app:cardBackgroundColor="#78909C"
-                        android:id="@+id/ideas_card4_in_open"
                         android:onClick="ifYouCan"
 
                         >

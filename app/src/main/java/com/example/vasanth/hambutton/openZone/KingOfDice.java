@@ -18,7 +18,7 @@ public class KingOfDice extends AppCompatActivity {
         setContentView(R.layout.activity_king_of_dice);
     }
     public void rcreative(View v){
-        String url = "https://docs.google.com/forms/d/e/1FAIpQLSeUV9l01rPA344XkxuN3B1coGhRjZZh1_FPb5xmhrqEuwyBqg/viewform?usp=sf_link";
+        String url = "https://docs.google.com/forms/d/e/1FAIpQLSd1cX6uMKdfwMbtn9SHAX6Eah_CIWKMEIknovQHcj0C21CGMQ/viewform";
         try {
             Intent i = new Intent("android.intent.action.MAIN");
             i.setComponent(ComponentName.unflattenFromString("com.android.chrome/com.android.chrome.Main"));

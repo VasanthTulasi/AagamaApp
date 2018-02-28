@@ -13,11 +13,11 @@ import com.example.vasanth.hambutton.R;
 public class BreakItIfYouCan extends AppCompatActivity {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_break_it_if_you_can);
     }
-    public void rdumb(View v){
+    public void rcreative(View v){
         String url = "https://docs.google.com/forms/d/e/1FAIpQLSdYBWMIidi_Ca821UgMjMroYbD1FvxjTUzYeawGS6dTP-es9w/viewform?usp=sf_link";
         try {
             Intent i = new Intent("android.intent.action.MAIN");

@@ -106,13 +106,12 @@ public class PHARMCustomListAdapter extends ArrayAdapter<Card> {
             @Override
             public void onClick(View view) {
                 if(position == 0)
-                    goToChrome("https://docs.google.com/forms/d/e/1FAIpQLSd3XPD1SmJ6lIoXnDWMIGH2eBhOkuIy5lyx6xhaV9UfIg9lMg/viewform?usp=sf_link");
+                    goToChrome("https://docs.google.com/forms/d/e/1FAIpQLScj8tnDtN6zDHOmW-IbSx6KEArOiiG0awMfNsj8ycQX_Tq7Qg/viewform");
          else if (position == 1)
-                    goToChrome("https://docs.google.com/forms/d/e/1FAIpQLSfr3PsEMCwTxJx4ZQlxTU9vETjZ-lRl-o7TJwvo1KHD1wDkRQ/viewform?usp=sf_link");
+                    goToChrome("https://docs.google.com/forms/d/e/1FAIpQLScj8tnDtN6zDHOmW-IbSx6KEArOiiG0awMfNsj8ycQX_Tq7Qg/viewform");
                 else if (position == 2)
-                    goToChrome("https://docs.google.com/forms/d/e/1FAIpQLSfnJ56Ly-wAm07VFzDGMI68q358Da29Hutq4iPI4s71yzIu5g/viewform?usp=sf_link");
-                else if (position == 3)
-                    goToChrome("https://docs.google.com/forms/d/e/1FAIpQLScf0eJ_uj_xkJyIiJQzrkiuPcjgpQ3gigyepkDDmat63JFuEA/viewform?usp=sf_link");
+                    goToChrome("https://docs.google.com/forms/d/e/1FAIpQLScj8tnDtN6zDHOmW-IbSx6KEArOiiG0awMfNsj8ycQX_Tq7Qg/viewform");
+
 
             }
         });

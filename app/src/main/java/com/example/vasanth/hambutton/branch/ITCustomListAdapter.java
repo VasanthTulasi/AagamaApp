@@ -1,7 +1,10 @@
 package com.example.vasanth.hambutton.branch;
 
+import android.content.ActivityNotFoundException;
+import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
+import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -119,6 +122,30 @@ public class ITCustomListAdapter extends ArrayAdapter<Card> {
 
         });
 
+        Button registerInIT = (Button)convertView.findViewById(R.id.registerInIT);
+        registerInIT.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(position == 0)
+                    goToChrome("https://docs.google.com/forms/d/e/1FAIpQLSePMi9KhhAMz58T2CMT37GYbQtUoROuhIblIpoVCAjy0bLs1w/viewform");
+                else if(position == 1)
+                    goToChrome("https://docs.google.com/forms/d/e/1FAIpQLSeTqZR0yPJERE0lDsFdzwceIqQXTmBC26uVjIUt2oOsIsCivA/viewform");
+                else if(position == 2)
+                    goToChrome("https://docs.google.com/forms/d/e/1FAIpQLSdqY8HhSYyLxkmfTL0Y9UwhoBJR80vudBPDQur7-NOjqXTWZQ/viewform");
+                else if(position == 3)
+                    goToChrome("https://docs.google.com/forms/d/e/1FAIpQLScpOjSyQv7F5wvN8eBfjEr0zF3wQLUA-U1I1Rcs1E9vnHA7eA/viewform");
+                else if(position == 4)
+                    goToChrome("https://docs.google.com/forms/d/e/1FAIpQLSfhc3StAFN0iH2-nvQMh0U9A94NAvLimW3pbc9_IkfRlgBU6w/viewform");
+                else if(position == 5)
+                    goToChrome("https://docs.google.com/forms/d/e/1FAIpQLSdNkUaG_i3L5kaLIHrIEJEAqq6QgDpsZ9B7D2wJ2gbNELUJlg/viewform");
+                else if(position == 6)
+                    goToChrome("https://docs.google.com/forms/d/e/1FAIpQLSd2tg1JcIfzM7JCzlHTNXSOc8KeG6-187SeAq2ScsJNIJkTjA/viewform");
+                else if(position == 7)
+                    goToChrome("https://docs.google.com/forms/d/e/1FAIpQLSe3K00iQTXnNlpGbV1-g13O4ea_3VeY1HFzBiGnTCbPaowb6Q/viewform");
+            }
+        });
+
+
 
 
 
@@ -169,4 +196,20 @@ public class ITCustomListAdapter extends ArrayAdapter<Card> {
         ImageLoader.getInstance().init(config);
         // END - UNIVERSAL IMAGE LOADER SETUP
     }
+
+    public void goToChrome(String docsLink){
+        try {
+            Intent i = new Intent("android.intent.action.MAIN");
+            i.setComponent(ComponentName.unflattenFromString("com.android.chrome/com.android.chrome.Main"));
+            i.addCategory("android.intent.category.LAUNCHER");
+            i.setData(Uri.parse(docsLink));
+            mContextIT.startActivity(i);
+        }
+        catch(ActivityNotFoundException e) {
+            // Chrome is not installed
+            Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse(docsLink));
+            mContextIT.startActivity(i);
+        }
+    }
+
 }

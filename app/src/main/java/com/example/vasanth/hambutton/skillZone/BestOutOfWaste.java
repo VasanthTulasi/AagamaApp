@@ -18,7 +18,7 @@ public class BestOutOfWaste extends AppCompatActivity {
         setContentView(R.layout.activity_best_out_of_waste);
     }
     public void rcreative(View v){
-        String url = "https://docs.google.com/forms/d/e/1FAIpQLSfJBoKFCkncVlcD7rQV_KO-4azbFKKrWSqhr8wEs2t1GT8ZEg/viewform?usp=sf_link";
+        String url = "https://docs.google.com/forms/d/e/1FAIpQLSc4LUV2dsC7KT2soQ93z9OBuHJAkaKBP-fW5wg1_j0lOOSktw/viewform?usp=sf_link";
         try {
             Intent i = new Intent("android.intent.action.MAIN");
             i.setComponent(ComponentName.unflattenFromString("com.android.chrome/com.android.chrome.Main"));

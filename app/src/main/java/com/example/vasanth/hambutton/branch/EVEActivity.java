@@ -38,13 +38,13 @@ private static final String TAG="EceActivity";
         listECE.add(new Card("drawable://"+R.drawable.ece_techquiz2,"Technical Quiz"));
         listECE.add(new Card("drawable://"+R.drawable.circuitrix_ece,"Circuitrix"));
         listECE.add(new Card("drawable://"+R.drawable.ramandrom_ece,"RAM and ROM"));
-        listECE.add(new Card("drawable://"+R.drawable.ramandrom_ece,"Paper Presentation"));
-        listECE.add(new Card("drawable://"+R.drawable.ramandrom_ece,"Poster Presentation"));
-        listECE.add(new Card("drawable://"+R.drawable.ramandrom_ece,"Project Presentation"));
-        listECE.add(new Card("drawable://"+R.drawable.ramandrom_ece,"Robotics"));
-        listECE.add(new Card("drawable://"+R.drawable.ramandrom_ece,"Code Breakers"));
-        listECE.add(new Card("drawable://"+R.drawable.ramandrom_ece,"Dumbshell Electronics"));
-        listECE.add(new Card("drawable://"+R.drawable.ramandrom_ece,"Matlab Mania"));
+        listECE.add(new Card("drawable://"+R.drawable.paper_presentation_ece,"Paper Presentation"));
+        listECE.add(new Card("drawable://"+R.drawable.ece_posterpresentation,"Poster Presentation"));
+        listECE.add(new Card("drawable://"+R.drawable.ece_projectpresentation,"Project Presentation"));
+        listECE.add(new Card("drawable://"+R.drawable.robotics_ece,"Robotics"));
+        listECE.add(new Card("drawable://"+R.drawable.code_breaker,"Code Breakers"));
+        listECE.add(new Card("drawable://"+R.drawable.dumbshell_electronics,"Dumbshell Electronics"));
+        listECE.add(new Card("drawable://"+R.drawable.matlabmania,"Matlab Mania"));
 
 
 

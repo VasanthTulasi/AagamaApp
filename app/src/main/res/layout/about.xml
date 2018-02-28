@@ -42,7 +42,6 @@
                 android:layout_weight="16"
                 >
             <me.biubiubiu.justifytext.library.JustifyTextView
-                android:id="@+id/webView"
                 android:text="@string/about"
                 android:layout_weight="16"
                 android:layout_margin="10dp"

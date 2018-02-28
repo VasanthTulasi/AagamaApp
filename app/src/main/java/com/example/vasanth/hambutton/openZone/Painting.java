@@ -18,7 +18,7 @@ public class Painting extends AppCompatActivity {
         setContentView(R.layout.activity_painting);
     }
     public void rcreative(View v){
-        String url = "https://docs.google.com/forms/d/e/1FAIpQLSf0Wutob6OiNa_GW2VqZdhgIQSPaVuAYUo-bKTxZw7USvSeyw/viewform?usp=sf_link";
+        String url = "https://docs.google.com/forms/d/e/1FAIpQLScA7ebuIuopzbP5Ui_TPGRX7EKtY2x7uQNrFY9KeT6XeCsujA/viewform?usp=sf_link";
         try {
             Intent i = new Intent("android.intent.action.MAIN");
             i.setComponent(ComponentName.unflattenFromString("com.android.chrome/com.android.chrome.Main"));

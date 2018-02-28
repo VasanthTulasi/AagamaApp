@@ -17,8 +17,8 @@ public class DevilFollows extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_devil_follows);
     }
-    public void rdumb(View v){
-        String url = "https://docs.google.com/forms/d/e/1FAIpQLSd3Bv2PrghigtcSaypVsbaiQjCBHw3ol7ThHjt8g61rYe4dhQ/viewform?usp=sf_link";
+    public void rcreative(View v){
+        String url = "https://docs.google.com/forms/d/e/1FAIpQLScxA8uVPpfhJvYff3EM6tB7RfpBxDu5wL5vB6DflqUmJt3Rxw/viewform";
         try {
             Intent i = new Intent("android.intent.action.MAIN");
             i.setComponent(ComponentName.unflattenFromString("com.android.chrome/com.android.chrome.Main"));
