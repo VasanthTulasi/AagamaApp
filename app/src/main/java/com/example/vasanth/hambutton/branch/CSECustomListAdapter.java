@@ -56,7 +56,6 @@ public class CSECustomListAdapter extends ArrayAdapter<Card> {
      * Holds variables in a View
      */
     private static class ViewHolder {
-
         TextView title;
         ImageView image;
     }

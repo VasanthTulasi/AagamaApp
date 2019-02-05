@@ -66,9 +66,6 @@ public class HamButtonActivity extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.ham_button);
 
-
-
-
         txtTimerDay = (TextView) findViewById(R.id.txtTimerDay);
         txtTimerHour = (TextView) findViewById(R.id.txtTimerHour);
         txtTimerMinute = (TextView) findViewById(R.id.txtTimerMinute);

@@ -30,7 +30,7 @@ public class SplashScreen extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-           deleteCache(this);
+        deleteCache(this);
           // clearApplicationData();
 
         requestWindowFeature(Window.FEATURE_NO_TITLE);
