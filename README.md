@@ -1,6 +1,6 @@
 # Aagama 2K18
 
-Android companion app for **Aagama 2K18**, the annual technical and cultural fest of Anurag Group of Institutions (March 16–17, 2018). The app lets attendees browse events across all departments, read event rules and coordinator contacts, and register via embedded Google Forms links.
+Android app for **Aagama 2K18**, the annual technical and cultural fest of Anurag Group of Institutions (March 16–17, 2018). The app lets attendees browse events across all departments, read event rules and coordinator contacts, and register via embedded Google Forms links.
 
 ## Features
 
