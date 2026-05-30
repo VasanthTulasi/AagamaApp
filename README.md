@@ -9,9 +9,6 @@ Android companion app for **Aagama 2K18**, the annual technical and cultural fes
 - Department-wise event listings: CSE, ECE, EEE, Civil, MECH, IT, Pharmacy, Chemical
 - Per-event detail screens with description, rules, and coordinator contacts
 - In-app Google Forms registration for every event
-- Open Zone (non-technical events): Clay Moulding, Painting, Rangoli, Dandiya, and more
-- Skill Zone: LAN Gaming, Jigsaw Puzzle, Technical Thambola, Word Wrap, and more
-- Fun Zone: Devil Follows, Inversion, Fun Carnival, and more
 - About section with fest overview
 - One-tap Google Maps directions to the venue
 - BoomMenu floating action button for quick navigation
@@ -63,42 +60,6 @@ Open the project in Android Studio, let Gradle sync, then run on a device or emu
 ```
 
 The generated APK is written to `app/build/outputs/apk/debug/`.
-
-## Project Structure
-
-```
-AagamaApp/
-├── app/
-│   ├── src/main/
-│   │   ├── java/com/example/vasanth/hambutton/
-│   │   │   ├── branch/                          # Department list adapters & activities
-│   │   │   ├── cseBranchIndividualActivities/   # CSE event detail screens
-│   │   │   ├── eceBranchIndividualActivities/   # ECE event detail screens
-│   │   │   ├── eeeBranchIndividualActivities/   # EEE event detail screens
-│   │   │   ├── civilBranchIndividualActivities/ # Civil event detail screens
-│   │   │   ├── mechBranchIndividualActivities/  # MECH event detail screens
-│   │   │   ├── itIndividualActivities/          # IT event detail screens
-│   │   │   ├── pharmaBranchIndividualActivities/# Pharmacy event detail screens
-│   │   │   ├── chemBranchIndividualActivities/  # Chemical event detail screens
-│   │   │   ├── openZone/                        # Open Zone event screens
-│   │   │   ├── skillZone/                       # Skill Zone event screens
-│   │   │   ├── funZone/                         # Fun Zone event screens
-│   │   │   ├── SplashScreen.java                # Entry point & cache clear
-│   │   │   ├── Walkthrough.java                 # First-launch onboarding
-│   │   │   ├── HamButtonActivity.java           # Main screen with countdown & BoomMenu
-│   │   │   ├── MainActivityDept.java            # Department selection screen
-│   │   │   └── ...
-│   │   ├── res/
-│   │   │   ├── layout/   # XML layouts
-│   │   │   ├── drawable/ # Icons and images
-│   │   │   ├── values/   # strings.xml, colors.xml, styles.xml
-│   │   │   └── anim/     # Animation definitions
-│   │   └── AndroidManifest.xml
-│   └── build.gradle      # App-level Gradle config
-├── build.gradle           # Project-level Gradle config
-├── gradle.properties
-└── settings.gradle
-```
 
 ## Available Scripts
 
